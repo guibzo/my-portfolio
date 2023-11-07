@@ -3,7 +3,7 @@ import { technologiesList } from '../data/technologies'
 import * as Tooltip from '@radix-ui/react-tooltip'
 
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import ProfilePicture from '/assets/1695509746252.jpg'
+import ProfilePicture from '/assets/profileImage.jpg'
 
 export const Profile = () => {
 	return (
@@ -57,7 +57,7 @@ export const Profile = () => {
 										key={index}
 										className="flex items-center w-10 h-10"
 									>
-										<img src={item.imagePath} />
+										<img src={item.iconPath} />
 									</i>
 								</Tooltip.Trigger>
 								<Tooltip.Portal>
