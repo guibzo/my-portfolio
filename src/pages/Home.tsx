@@ -2,6 +2,7 @@ import * as Tabs from '@radix-ui/react-tabs'
 import { Profile } from '../components/Profile'
 import { About } from '../components/About'
 import { Certificates } from '../components/Certificates'
+import { Projects } from '../components/Projects'
 
 export const Home = () => {
 	return (
@@ -46,6 +47,12 @@ export const Home = () => {
 									className="mt-6"
 								>
 									<Certificates />
+								</Tabs.Content>
+								<Tabs.Content
+									value="tab3"
+									className="mt-6"
+								>
+									<Projects />
 								</Tabs.Content>
 							</Tabs.Root>
 						</header>

@@ -11,7 +11,7 @@ export const Certificates = () => {
 					<img
 						src={item.imagePath}
 						alt=""
-						className="max-w-full"
+						className="max-w-full rounded"
 					/>
 				</div>
 			))}
