@@ -3,7 +3,7 @@ import { technologiesList } from '../data/technologies'
 import * as Tooltip from '@radix-ui/react-tooltip'
 
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import ProfilePicture from '../../public/assets/1695509746252.jpg'
+import ProfilePicture from '/assets/1695509746252.jpg'
 
 export const Profile = () => {
 	return (
@@ -14,7 +14,7 @@ export const Profile = () => {
 					alt=""
 					className="w-full h-full rounded-lg"
 				/>
-				<strong className="mt-2 text-xl">Guilherme Viana</strong>
+				<strong className="mt-2 text-xl text-white">Guilherme Viana</strong>
 				<span className="text-sm text-gray-500">Front-end Developer</span>
 
 				<div className="flex gap-5 mt-2">
@@ -22,7 +22,7 @@ export const Profile = () => {
 						to="https://github.com/xbozo"
 						target="_blank"
 					>
-						<span className="inline-flex items-center gap-1 transition duration-200 text-sky-600 hover:text-sky-700">
+						<span className="inline-flex items-center gap-1 transition duration-100 text-sky-600 hover:text-sky-700">
 							<i>
 								<AiFillGithub size={20} />
 							</i>
@@ -34,7 +34,7 @@ export const Profile = () => {
 						to="https://www.linkedin.com/in/guilherme-viana-291a20268/"
 						target="_blank"
 					>
-						<span className="inline-flex items-center gap-1 transition duration-200 text-sky-600 hover:text-sky-700">
+						<span className="inline-flex items-center gap-1 transition duration-100 text-sky-600 hover:text-sky-700">
 							<i>
 								<AiFillLinkedin size={20} />
 							</i>
@@ -44,7 +44,7 @@ export const Profile = () => {
 				</div>
 			</aside>
 			<aside className="h-full p-5 border rounded-lg border-zinc-600 bg-zinc-800">
-				<strong className="text-lg">Tecnologias</strong>
+				<strong className="text-lg text-white">Tecnologias</strong>
 				<div className="flex flex-wrap gap-2 mt-2">
 					{technologiesList.map((item, index) => (
 						<Tooltip.Provider

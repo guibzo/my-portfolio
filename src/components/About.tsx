@@ -1,7 +1,34 @@
 export const About = () => {
 	return (
-		<div>
-			👋 Olá, meu nome é <strong>Guilherme Viana</strong>!
+		<div className="flex flex-col gap-5">
+			<h1 className="text-2xl font-bold">👋 Olá, meu nome é Guilherme Viana!</h1>
+			<p className="text-lg ">
+				Sou um desenvolvedor <strong>front-end</strong> apaixonado por tecnologia e atuo no
+				<strong> desenvolvimento web</strong>!
+			</p>
+
+			<h2 className="mt-5 text-2xl font-bold">Sobre mim</h2>
+			<p>
+				Com experiência em tecnologias como <strong>React</strong> e <strong>TypeScript</strong>,
+				estou sempre em busca de novas oportunidades e desafios para aprimorar minhas habilidades.
+				Além disso, sou adepto de metodologias <strong>ágeis</strong> e
+				<strong> colaborativas</strong>, acreditando no poder do trabalho em equipe para alcançar
+				bons resultados.
+			</p>
+			<p>
+				Atualmente estou solidificando meus conhecimentos em <strong>Next.js</strong> e no futuro
+				pretendo atuar como um desenvolvedor <strong>full-stack</strong>, com tecnologias como Node
+				e Java.
+			</p>
+			<p>
+				Minhas principais plataformas de estudo foram a <strong>B7Web</strong>,
+				<strong> Rocketseat</strong> e <strong>Codante.io</strong>, além de estudos independentes.
+			</p>
+			<p>
+				Se você está procurando um profissional <strong>comprometido</strong> e
+				<strong> dedicado</strong>, estou pronto para contribuir com o sucesso do seu projeto. Vamos
+				trabalhar juntos e transformar ideias em realidade!
+			</p>
 		</div>
 	)
 }
