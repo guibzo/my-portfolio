@@ -3,7 +3,7 @@ import { projectsList } from '../data/projects'
 
 export const Projects = () => {
 	return (
-		<div className="flex flex-col gap-5 max-h-[630px] p-3 overflow-x-hidden overflow-y-scroll">
+		<div className="flex flex-col gap-5 max-h-[630px] p-2 md:p-3 overflow-x-hidden overflow-y-scroll">
 			{projectsList.map((project, index) => (
 				<ProjectItem
 					key={index}

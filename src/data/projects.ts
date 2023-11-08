@@ -19,16 +19,20 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Radix',
+				iconPath: Icon.radixIconPath,
+			},
+			{
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/my-portfolio',

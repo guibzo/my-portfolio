@@ -11,7 +11,7 @@ export const Home = () => {
 				<div className="container max-w-6xl mx-auto text-white">
 					<main className="flex flex-col gap-5 md:flex-row">
 						<Profile />
-						<section className="flex-1 min-h-full p-4 border rounded-lg border-zinc-600 bg-zinc-800">
+						<section className="flex-1 min-h-full p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-800">
 							<header className="text-xl">
 								<Tabs.Root defaultValue="tab1">
 									<Tabs.List className="flex gap-3 uppercase">

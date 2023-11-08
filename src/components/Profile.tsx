@@ -17,7 +17,7 @@ export const Profile = () => {
 				<strong className="mt-2 text-xl text-white">Guilherme Viana</strong>
 				<span className="text-sm text-gray-500">Front-end Developer</span>
 
-				<div className="flex gap-5 mt-2">
+				<div className="flex flex-wrap gap-5 mt-2">
 					<Link
 						to="https://github.com/xbozo"
 						target="_blank"

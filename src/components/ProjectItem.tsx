@@ -12,7 +12,7 @@ export const ProjectItem = ({
 	title,
 }: Project) => {
 	return (
-		<div className="relative flex flex-col gap-3 p-3 mx-2 border rounded-lg md:max-h-80 border-zinc-600 md:flex-row">
+		<div className="relative flex flex-col gap-3 p-2 mx-2 border rounded-lg md:p-3 lg:max-h-80 border-zinc-600 md:flex-row">
 			<div className="absolute top-0 left-0 mt-[-10px] ml-[-15px]">
 				<div className="flex items-center justify-center w-10 h-10 text-xl font-bold rounded-full bg-sky-600">
 					<BsFillPinAngleFill />
@@ -26,7 +26,7 @@ export const ProjectItem = ({
 			<div className="flex flex-col flex-1 gap-3 p-3">
 				<div className="flex flex-col gap-2">
 					<h2 className="text-xl font-bold truncate">{title}</h2>
-					<p className="text-base text-gray-400 font-secondary line-clamp-3">{description}</p>
+					<p className="flex-wrap text-base text-gray-400 font-secondary">{description}</p>
 				</div>
 				<div className="mt-3 text-base">
 					<h4 className="text-lg font-bold">Tecnologias utilizadas</h4>
@@ -40,7 +40,7 @@ export const ProjectItem = ({
 									<img
 										src={technology.iconPath}
 										alt={technology.name}
-										className="w-8 h-8"
+										className="w-full h-full"
 									/>
 								</i>
 							</li>
