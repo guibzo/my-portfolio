@@ -7,11 +7,9 @@ import { Projects } from '../components/Projects'
 export const Home = () => {
 	return (
 		<>
-			<div
-				className={`flex items-center w-screen min-h-screen p-5 mx-auto bg-zinc-900 bg-[url('/assets/circlesBG.png')] bg-center bg-cover bg-no-repeat`}
-			>
+			<div className="flex items-center w-screen min-h-screen p-4 mx-auto bg-zinc-900 bg-[url('/assets/circlesBG.png')] bg-center bg-cover bg-no-repeat">
 				<div className="container max-w-6xl mx-auto text-white">
-					<main className="flex gap-5">
+					<main className="flex flex-col gap-5 md:flex-row">
 						<Profile />
 						<section className="flex-1 min-h-full p-4 border rounded-lg border-zinc-600 bg-zinc-800">
 							<header className="text-xl">
@@ -29,14 +27,14 @@ export const Home = () => {
 											className="text-sm font-semibold text-gray-300 uppercase border-b-2 border-transparent transition duration-100 font-secondary hover:border-sky-500
 										data-[state=active]:border-sky-500 data-[state=active]:hover:border-sky-600 data-[state=active]:hover:text-sky-600 data-[state=active]:text-sky-500"
 										>
-											Certificados
+											Projetos
 										</Tabs.Trigger>
 										<Tabs.Trigger
 											value="tab3"
 											className="text-sm font-semibold text-gray-300 uppercase border-b-2 border-transparent transition duration-100 font-secondary hover:border-sky-500
 										data-[state=active]:border-sky-500 data-[state=active]:hover:border-sky-600 data-[state=active]:hover:text-sky-600 data-[state=active]:text-sky-500"
 										>
-											Projetos
+											Certificados
 										</Tabs.Trigger>
 									</Tabs.List>
 									<Tabs.Content
@@ -49,13 +47,13 @@ export const Home = () => {
 										value="tab2"
 										className="mt-6"
 									>
-										<Certificates />
+										<Projects />
 									</Tabs.Content>
 									<Tabs.Content
 										value="tab3"
 										className="mt-6"
 									>
-										<Projects />
+										<Certificates />
 									</Tabs.Content>
 								</Tabs.Root>
 							</header>

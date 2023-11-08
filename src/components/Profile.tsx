@@ -7,12 +7,12 @@ import ProfilePicture from '/assets/profileImage.jpg'
 
 export const Profile = () => {
 	return (
-		<div className="flex flex-col w-3/12 gap-5">
+		<div className="flex flex-col w-full gap-5 md:w-3/12">
 			<aside className="flex flex-col h-full p-5 border rounded-lg border-zinc-600 bg-zinc-800">
 				<img
 					src={ProfilePicture}
 					alt=""
-					className="w-full h-full rounded-lg"
+					className="h-auto max-w-full rounded-lg"
 				/>
 				<strong className="mt-2 text-xl text-white">Guilherme Viana</strong>
 				<span className="text-sm text-gray-500">Front-end Developer</span>
@@ -21,25 +21,23 @@ export const Profile = () => {
 					<Link
 						to="https://github.com/xbozo"
 						target="_blank"
+						className="inline-flex items-center gap-1 transition duration-100 text-sky-600 hover:text-sky-700"
 					>
-						<span className="inline-flex items-center gap-1 transition duration-100 text-sky-600 hover:text-sky-700">
-							<i>
-								<AiFillGithub size={20} />
-							</i>
-							GitHub
-						</span>
+						<i>
+							<AiFillGithub size={20} />
+						</i>
+						GitHub
 					</Link>
 
 					<Link
 						to="https://www.linkedin.com/in/guilherme-viana-291a20268/"
 						target="_blank"
+						className="inline-flex items-center gap-1 transition duration-100 text-sky-600 hover:text-sky-700"
 					>
-						<span className="inline-flex items-center gap-1 transition duration-100 text-sky-600 hover:text-sky-700">
-							<i>
-								<AiFillLinkedin size={20} />
-							</i>
-							LinkedIn
-						</span>
+						<i>
+							<AiFillLinkedin size={20} />
+						</i>
+						LinkedIn
 					</Link>
 				</div>
 			</aside>
