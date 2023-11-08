@@ -7,7 +7,9 @@ import { Projects } from '../components/Projects'
 export const Home = () => {
 	return (
 		<>
-			<div className="flex items-center w-screen min-h-screen p-5 mx-auto bg-zinc-900 bg-[url('assets/circlesBG.png')] bg-center bg-cover bg-no-repeat">
+			<div
+				className={`flex items-center w-screen min-h-screen p-5 mx-auto bg-zinc-900 bg-[url('/assets/circlesBG.png')] bg-center bg-cover bg-no-repeat`}
+			>
 				<div className="container max-w-6xl mx-auto text-white">
 					<main className="flex gap-5">
 						<Profile />
