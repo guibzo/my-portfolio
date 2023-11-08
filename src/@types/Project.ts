@@ -7,7 +7,7 @@ export type Project = {
 	title: string
 	description: string
 	technologies: Technology[]
-	repositoryLink: string
-	deployLink: string
+	repository: string
+	deploy: string
 	imagePath: string
 }

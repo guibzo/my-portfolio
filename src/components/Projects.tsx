@@ -10,8 +10,8 @@ export const Projects = () => {
 					title={project.title}
 					description={project.description}
 					technologies={project.technologies}
-					repositoryLink={project.repositoryLink}
-					deployLink={project.deployLink}
+					repository={project.repository}
+					deploy={project.deploy}
 					imagePath={project.imagePath}
 				/>
 			))}

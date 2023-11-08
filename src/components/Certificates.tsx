@@ -5,7 +5,7 @@ export const Certificates = () => {
 		<div className="flex flex-col max-h-[630px] overflow-x-hidden overflow-y-scroll">
 			{certificatesList.map((item, index) => (
 				<div
-					className="flex flex-col items-center p-4"
+					className="flex flex-col items-center p-2 m-4 my-2 border rounded-lg border-zinc-600"
 					key={index}
 				>
 					<img
