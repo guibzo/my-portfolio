@@ -7,7 +7,7 @@ export const projectsList: Project[] = [
 		description: 'Meu portfólio como desenvolvedor front-end.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -45,7 +45,7 @@ export const projectsList: Project[] = [
 			'Projeto focado em exibir as issues de um repositório do GitHub em formato de blog. Construído consumindo a GitHub API.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -79,7 +79,7 @@ export const projectsList: Project[] = [
 			'Projeto de uma loja de cafés virtual, desde a seleção do café até o checkout e a confirmação do pedido. (incompleto)',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -109,10 +109,10 @@ export const projectsList: Project[] = [
 	},
 	{
 		title: 'Gespol',
-		description: 'Sistema de gerenciamento policial para internos da corporação.',
+		description: 'Sistema de gerenciamento policial para internos da corporação. (incompleto)',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -131,13 +131,9 @@ export const projectsList: Project[] = [
 				name: 'GitHub',
 				iconPath: Icon.githubIconPath,
 			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
-			},
 		],
 		repository: 'https://github.com/xbozo/gespol-system',
-		deploy: '',
+		deploy: 'https://gespol-system.vercel.app',
 		imagePath: 'assets/projects/gespol.png',
 	},
 	{
@@ -146,7 +142,7 @@ export const projectsList: Project[] = [
 			'Um video player para vídeos de algum curso. Feito com Redux, Zustand e outros conceitos avançados.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -158,16 +154,24 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Redux',
+				iconPath: Icon.reduxIconPath,
+			},
+			{
+				name: 'Zustand',
+				iconPath: Icon.zustandIconPath,
+			},
+			{
+				name: 'Radix',
+				iconPath: Icon.radixIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/course-video-player',
@@ -180,7 +184,7 @@ export const projectsList: Project[] = [
 			'Um site de apresentação para um grupo fictício de um determinado servidor de um jogo em roleplay.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -196,12 +200,12 @@ export const projectsList: Project[] = [
 				iconPath: Icon.styledComponentsIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
 			},
 		],
 		repository: '',
@@ -209,11 +213,53 @@ export const projectsList: Project[] = [
 		imagePath: 'assets/projects/hamc.png',
 	},
 	{
+		title: 'Design System',
+		description:
+			'Um design system com padrão de elementos, cores, tipografia, etc. Criado usando Storybook.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'Storybook',
+				iconPath: Icon.storybookIconPath,
+			},
+			{
+				name: 'Radix',
+				iconPath: Icon.radixIconPath,
+			},
+			{
+				name: 'HTML 5 Semântico',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Stitches',
+				iconPath: Icon.stitchesIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/design-system',
+		deploy: '',
+		imagePath: 'assets/projects/storybook project.png',
+	},
+	{
 		title: 'Pomodoro',
 		description: 'Um timer em estilo Pomodoro, com histórico.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -229,12 +275,8 @@ export const projectsList: Project[] = [
 				iconPath: Icon.styledComponentsIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/pomodoro',
@@ -246,7 +288,7 @@ export const projectsList: Project[] = [
 		description: 'Um projeto de uma rede social, com feed e perfis individuais.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -258,16 +300,8 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/ignite-feed',
@@ -280,8 +314,8 @@ export const projectsList: Project[] = [
 			'Projeto de um E-Commerce de roupas, com integração ao Stripe, página de checkout e confirmação de compra.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
 			},
 			{
 				name: 'TypeScript',
@@ -292,20 +326,16 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
+				name: 'Stitches',
+				iconPath: Icon.stitchesIconPath,
 			},
 			{
 				name: 'GitHub',
 				iconPath: Icon.githubIconPath,
 			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
-			},
 		],
 		repository: 'https://github.com/xbozo/ignite-shop',
-		deploy: '',
+		deploy: 'https://ignite-shop-three-snowy.vercel.app',
 		imagePath: 'assets/projects/igniteShop.png',
 	},
 	{
@@ -313,7 +343,7 @@ export const projectsList: Project[] = [
 		description: 'Um banco de transações, com histórico de operações.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -329,12 +359,8 @@ export const projectsList: Project[] = [
 				iconPath: Icon.styledComponentsIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/dt-money',
@@ -346,28 +372,16 @@ export const projectsList: Project[] = [
 		description: 'Uma loja de pizzas virtual, com carrinho e seleção de pizzas.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/pizza-store',
@@ -380,7 +394,7 @@ export const projectsList: Project[] = [
 			'Um calculador de IMC, onde permite o usuário inserir a altura e o peso e indica um resultado com feedback.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -392,16 +406,8 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/bmi-calculator',
@@ -413,7 +419,7 @@ export const projectsList: Project[] = [
 		description: 'Um painel de cadastro de veículos, com processo de CRUD completo.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -425,16 +431,8 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/car-store',
@@ -447,7 +445,7 @@ export const projectsList: Project[] = [
 			'Um jogo da memória com diferentes cards e sempre com rodadas e posições aleatórias.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -461,14 +459,6 @@ export const projectsList: Project[] = [
 			{
 				name: 'Styled Components',
 				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/memory-game',
@@ -481,7 +471,7 @@ export const projectsList: Project[] = [
 			'Uma lista em formato "to-do", com suas tarefas. Permite adicionar novas tarefas, marcar atuais como concluídas, etc.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -497,12 +487,8 @@ export const projectsList: Project[] = [
 				iconPath: Icon.styledComponentsIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/c-todo-list',
@@ -514,8 +500,8 @@ export const projectsList: Project[] = [
 		description: 'Outro projeto de uma lista "to-do" distinto.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
 			},
 			{
 				name: 'TypeScript',
@@ -526,16 +512,12 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/todo-list',
@@ -548,12 +530,12 @@ export const projectsList: Project[] = [
 			'Projeto de uma plataforma de anotações, com perfis individuais, manipulação das anotações, etc.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
@@ -562,14 +544,6 @@ export const projectsList: Project[] = [
 			{
 				name: 'Styled Components',
 				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/rocket-notes',
@@ -581,8 +555,8 @@ export const projectsList: Project[] = [
 		description: 'Uma simples lista de posts, que permite a manipulação dos posts em formato CRUD.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
 			},
 			{
 				name: 'TypeScript',
@@ -593,16 +567,12 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/post-list',
@@ -614,28 +584,12 @@ export const projectsList: Project[] = [
 		description: 'Uma landing page de uma academia.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/train-me',
@@ -647,7 +601,7 @@ export const projectsList: Project[] = [
 		description: 'Um interface com formulário para receber notificações de uma newsletter.',
 		technologies: [
 			{
-				name: 'React',
+				name: 'React.js',
 				iconPath: Icon.reactIconPath,
 			},
 			{
@@ -659,16 +613,12 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/newsletter-form',
@@ -680,28 +630,12 @@ export const projectsList: Project[] = [
 		description: 'Uma simples interface com um QR Code.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/qr-code',
@@ -709,32 +643,20 @@ export const projectsList: Project[] = [
 		imagePath: 'assets/projects/qrCodeComponent.png',
 	},
 	{
-		title: 'Urna Digital',
+		title: 'Urna Eletrônica',
 		description: 'Uma urna digital falsa.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/electronic-urn',
@@ -746,28 +668,12 @@ export const projectsList: Project[] = [
 		description: 'Interface de um painel de login (apenas visual).',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: '',
@@ -779,28 +685,16 @@ export const projectsList: Project[] = [
 		description: 'Um jogo de RPG local simples.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/fight-game',
@@ -812,8 +706,8 @@ export const projectsList: Project[] = [
 		description: 'Um chat que permite definir o nome de usuário e enviar mensagens localmente.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
 			},
 			{
 				name: 'TypeScript',
@@ -824,16 +718,12 @@ export const projectsList: Project[] = [
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
 			},
 			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/e-simple-chat',
@@ -846,28 +736,16 @@ export const projectsList: Project[] = [
 			'Um visualizador do clima, que usa uma API e permite o usuário inserir o local que deseja ver o clima.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/climate-project',
@@ -879,28 +757,16 @@ export const projectsList: Project[] = [
 		description: 'Um jogo da velha onde os jogadores podem jogar localmente.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/tic-tac-toe',
@@ -912,28 +778,16 @@ export const projectsList: Project[] = [
 		description: 'Uma tela de desenho canvas funcional.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/Canvas-Project',
@@ -946,28 +800,16 @@ export const projectsList: Project[] = [
 			'Um jogo quiz, com perguntas e respostas pré-definidas e com um feedback do resultado no final do jogo.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/quiz-game',
@@ -980,28 +822,16 @@ export const projectsList: Project[] = [
 			'Um tocador de bateria funcional, com áudios, sequência de sons, ativação por teclado, etc.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/Drums-Project',
@@ -1014,28 +844,16 @@ export const projectsList: Project[] = [
 			'Um projeto de drag and drop (arrastar e soltar), que permite arrastar objetos do ponto X para o ponto Y.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: 'https://github.com/xbozo/Drag-and-Drop',
@@ -1047,28 +865,16 @@ export const projectsList: Project[] = [
 		description: 'Um relógio analógico funcional e com ponteiros dinâmicos.',
 		technologies: [
 			{
-				name: 'React',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
 			},
 			{
 				name: 'HTML 5 Semântico',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
+				name: 'CSS 3',
+				iconPath: Icon.cssIconPath,
 			},
 		],
 		repository: '',

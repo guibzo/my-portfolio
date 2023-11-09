@@ -16,6 +16,7 @@ export const technologiesList = [
 	{ name: 'GitHub', iconPath: Icon.githubIconPath },
 	{ name: 'Redux', iconPath: Icon.reduxIconPath },
 	{ name: 'Zustand', iconPath: Icon.zustandIconPath },
+	{ name: 'Storybook', iconPath: Icon.storybookIconPath },
 	{ name: 'React Hook Form', iconPath: Icon.reactHookFormIconPath },
 	{ name: 'Zod', iconPath: Icon.zodIconPath },
 	{ name: 'React Query (TanStack)', iconPath: Icon.reactQueryIconPath },

@@ -43,7 +43,7 @@ export const Profile = () => {
 			</aside>
 			<aside className="h-full p-5 border rounded-lg border-zinc-600 bg-zinc-800">
 				<strong className="text-lg text-white">Tecnologias</strong>
-				<div className="flex flex-wrap gap-2 mt-2">
+				<ul className="flex flex-wrap gap-2 mt-2">
 					{technologiesList.map((item, index) => (
 						<Tooltip.Provider
 							delayDuration={0}
@@ -51,15 +51,21 @@ export const Profile = () => {
 						>
 							<Tooltip.Root>
 								<Tooltip.Trigger asChild>
-									<i
-										key={index}
-										className="flex items-center w-10 h-10"
-									>
-										<img src={item.iconPath} />
-									</i>
+									<li>
+										<i
+											key={index}
+											className="flex items-center w-10 h-10"
+										>
+											<img
+												src={item.iconPath}
+												alt={item.name}
+												className="max-h-full"
+											/>
+										</i>
+									</li>
 								</Tooltip.Trigger>
 								<Tooltip.Portal>
-									<Tooltip.Content className="px-3 py-1 font-medium text-gray-800 bg-white rounded">
+									<Tooltip.Content className="px-3 py-1 font-medium text-gray-800 bg-white rounded select-none">
 										{item.name}
 										<Tooltip.Arrow className="mb-2 fill-white" />
 									</Tooltip.Content>
@@ -67,7 +73,7 @@ export const Profile = () => {
 							</Tooltip.Root>
 						</Tooltip.Provider>
 					))}
-				</div>
+				</ul>
 			</aside>
 		</div>
 	)
