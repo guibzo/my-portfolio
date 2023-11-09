@@ -42,7 +42,7 @@ export const Profile = () => {
 				</div>
 			</aside>
 			<aside className="h-full p-5 border rounded-lg border-zinc-600 bg-zinc-800">
-				<strong className="text-lg text-white">Tecnologias</strong>
+				<strong className="text-lg text-white">Habilidades</strong>
 				<ul className="flex flex-wrap gap-2 mt-2">
 					{technologiesList.map((item, index) => (
 						<Tooltip.Provider
