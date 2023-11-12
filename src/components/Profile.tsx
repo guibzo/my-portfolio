@@ -3,7 +3,7 @@ import { technologiesList } from '../data/technologies'
 import * as Tooltip from '@radix-ui/react-tooltip'
 
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import ProfilePicture from '/assets/profileImage.jpg'
+import ProfilePicture from '/assets/profileImage3.png'
 
 export const Profile = () => {
 	return (

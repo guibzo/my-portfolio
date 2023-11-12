@@ -1,7 +1,7 @@
 export const typescriptIconPath = 'assets/technologies/typescript.1d9e662c.svg'
 export const reactIconPath = 'assets/technologies/react-logo-2OJ3K26H.svg'
 export const javascriptIconPath = 'assets/technologies/javascript.b13c588f.svg'
-export const nextjsIconPath = 'assets/technologies/next.1b2b52c0.svg'
+export const nextjsIconPath = 'assets/technologies/nextjs.png'
 export const htmlIconPath = 'assets/technologies/html.8c11e1a8.svg'
 export const cssIconPath = 'assets/technologies/css.b3c0acbf.svg'
 export const tailwindCSSIconPath = 'assets/technologies/tailwind-css-icon-512x307-1v56l8ed.png'
