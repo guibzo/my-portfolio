@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 strong {
-	color: #3faa68;
+	/* color: #3faa68; */
+	color: rgb(171, 120, 253);
 }
 
 /** Scroll Bar */
