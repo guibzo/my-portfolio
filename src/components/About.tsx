@@ -33,7 +33,7 @@ export const About = () => {
 			</div>
 			<div className="flex items-end justify-center mt-auto">
 				<footer className="max-w-lg mt-16 text-sm text-center text-gray-500">
-					Atualizado pela última vez em: 07/11/2023
+					Atualizado pela última vez em: 13/11/2023
 				</footer>
 			</div>
 		</>

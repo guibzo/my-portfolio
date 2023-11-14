@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export const Header = () => {
 	return (
-		<header className="flex items-center justify-between w-full p-6 px-10 font-bold text-gray-100 bg-zinc-800">
+		<header className="flex items-center justify-between w-full p-6 px-10 font-bold text-gray-100 bg-zinc-900">
 			<span className="text-lg uppercase font-secondary">Guilherme Viana</span>
 			<nav>
 				<ul className="flex gap-6 text-md ">

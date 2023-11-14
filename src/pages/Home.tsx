@@ -7,11 +7,11 @@ import { Projects } from '../components/Projects'
 export const Home = () => {
 	return (
 		<>
-			<div className="flex items-center w-screen min-h-screen p-4 mx-auto bg-zinc-900 bg-[url('/assets/circlesBG.png')] bg-center bg-cover bg-no-repeat">
+			<div className="flex items-center w-screen min-h-screen p-4 mx-auto bg-zinc-950 bg-[url('/assets/spaceBG.png')] bg-cover">
 				<div className="container max-w-6xl mx-auto text-white">
 					<main className="flex flex-col gap-5 md:flex-row">
 						<Profile />
-						<section className="flex-1 min-h-full p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-800">
+						<section className="flex-1 min-h-full p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-900">
 							<header className="text-xl">
 								<Tabs.Root defaultValue="tab1">
 									<Tabs.List className="flex gap-3 uppercase">
