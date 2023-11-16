@@ -9,7 +9,7 @@ export const Home = () => {
 		<>
 			<div className="flex items-center w-screen min-h-screen p-4 mx-auto bg-zinc-950 bg-[url('/assets/spaceBG.png')] bg-cover">
 				<div className="container max-w-6xl mx-auto text-white">
-					<main className="flex flex-col h-full gap-5 md:flex-row">
+					<main className="flex flex-col h-full gap-5 lg:flex-row">
 						<Profile />
 						<section className="flex-1 p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-900 h-[710px]">
 							<header className="text-xl">

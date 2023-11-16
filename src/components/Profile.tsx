@@ -7,7 +7,7 @@ import ProfilePicture from '/assets/profileImage3.png'
 
 export const Profile = () => {
 	return (
-		<div className="flex flex-col w-full gap-5 md:w-3/12">
+		<div className="flex flex-col w-full gap-5 md:flex-row lg:flex-col lg:w-3/12">
 			<aside className="flex flex-col h-full p-5 border rounded-lg border-zinc-600 bg-zinc-900">
 				<img
 					src={ProfilePicture}
@@ -41,7 +41,7 @@ export const Profile = () => {
 					</Link>
 				</div>
 			</aside>
-			<aside className="h-full p-5 border rounded-lg border-zinc-600 bg-zinc-900">
+			<aside className="h-full p-5 border rounded-lg border-zinc-600 bg-zinc-900 md:h-auto">
 				<strong className="text-lg text-white">Habilidades</strong>
 				<ul className="flex flex-wrap gap-2 mt-2">
 					{technologiesList.map((item, index) => (
