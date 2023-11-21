@@ -1,5 +1,5 @@
-import { Project } from '../@types/Project'
-import * as Icon from '../utils/iconsPath'
+import { Project } from '../@types/Project';
+import * as Icon from '../utils/iconsPath';
 
 export const projectsList: Project[] = [
 	{
@@ -881,4 +881,4 @@ export const projectsList: Project[] = [
 		deploy: '',
 		imagePath: 'assets/projects/digitalWatch.png',
 	},
-]
+];

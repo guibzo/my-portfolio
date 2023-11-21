@@ -1,4 +1,4 @@
-import * as Icon from '../utils/iconsPath'
+import * as Icon from '../utils/iconsPath';
 
 export const technologiesList = [
 	{ name: 'React.js', iconPath: Icon.reactIconPath },
@@ -24,4 +24,4 @@ export const technologiesList = [
 	{ name: 'VSCode', iconPath: Icon.vscodeIconPath },
 	{ name: 'npm', iconPath: Icon.npmIconPath },
 	{ name: 'Responsividade', iconPath: Icon.responsiveIconPath },
-]
+];
