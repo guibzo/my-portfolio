@@ -5,7 +5,7 @@ import { certificatesList } from '../data/certificates'
 export const Certificates = () => {
 	return (
 		<motion.div
-			initial={{ opacity: 0, x: 20 }}
+			initial={{ opacity: 0, x: -30 }}
 			animate={{ opacity: 1, x: 0 }}
 			transition={{ duration: 0.4 }}
 			className='flex flex-col max-h-[630px] overflow-x-hidden overflow-y-scroll'
