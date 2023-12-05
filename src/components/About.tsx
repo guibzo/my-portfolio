@@ -1,6 +1,12 @@
+import { motion } from 'framer-motion'
+
 export const About = () => {
 	return (
-		<>
+		<motion.div
+			initial={{ opacity: 0, y: -50 }}
+			animate={{ opacity: 1, y: 0 }}
+			transition={{ duration: 0.5 }}
+		>
 			<div className='flex flex-col gap-5'>
 				<h1 className='text-2xl font-bold'>👋 Olá, meu nome é Guilherme Viana!</h1>
 				<p className='text-lg '>
@@ -35,6 +41,6 @@ export const About = () => {
 					Atualizado pela última vez em: 13/11/2023
 				</footer>
 			</div>
-		</>
-	);
-};
+		</motion.div>
+	)
+}

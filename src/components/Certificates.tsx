@@ -1,8 +1,15 @@
-import { certificatesList } from '../data/certificates';
+import { motion } from 'framer-motion'
+
+import { certificatesList } from '../data/certificates'
 
 export const Certificates = () => {
 	return (
-		<div className='flex flex-col max-h-[630px] overflow-x-hidden overflow-y-scroll'>
+		<motion.div
+			initial={{ opacity: 0, x: 20 }}
+			animate={{ opacity: 1, x: 0 }}
+			transition={{ duration: 0.4 }}
+			className='flex flex-col max-h-[630px] overflow-x-hidden overflow-y-scroll'
+		>
 			{certificatesList.map((item, index) => (
 				<div
 					className='flex flex-col items-center p-2 m-4 my-2 border rounded-lg border-zinc-600'
@@ -22,6 +29,6 @@ export const Certificates = () => {
 					aulas referente ao curso para solicitar.
 				</footer>
 			</div>
-		</div>
-	);
-};
+		</motion.div>
+	)
+}
