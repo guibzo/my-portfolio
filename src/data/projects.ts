@@ -74,6 +74,51 @@ export const projectsList: Project[] = [
 		imagePath: 'assets/projects/githubBlog2.png',
 	},
 	{
+		title: 'Console Revamp',
+		description: 'Um console para operações internas de uma equipe de um servidor de Roleplay.',
+		technologies: [
+			{
+				name: 'Next.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'shadcn/ui',
+				iconPath: Icon.shadcnIconPath,
+			},
+			{
+				name: 'HTML 5 Semântico',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+			{
+				name: 'Zod',
+				iconPath: Icon.zodIconPath,
+			},
+			{
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
+			},
+		],
+		repository: '',
+		deploy: 'https://console-revamp-two.vercel.app',
+		imagePath: 'assets/projects/consolerevamp.png',
+	},
+	{
 		title: 'Coffee Delivery',
 		description:
 			'Projeto de uma loja de cafés virtual, desde a seleção do café até o checkout e a confirmação do pedido. (incompleto)',
