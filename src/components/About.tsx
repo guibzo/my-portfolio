@@ -24,12 +24,12 @@ export const About = () => {
 						que tento trazer ao meu dia a dia.
 					</p>
 					<p>
-						Possúo experiência em <strong>React</strong> & <strong>Next.js</strong> (App & Pages
+						Possuo experiência em <strong>React</strong> & <strong>Next.js</strong> (App & Pages
 						router), além de trabalhar com <strong>TypeScript</strong>.
 					</p>
 					<p>
 						Atualmente possuo cerca de 2 anos de estudos e cerca de 1 ano de experiência em projetos
-						reais.
+						reais focado na stack citada acima.
 					</p>
 					<p>
 						Estudei em plataformas como <strong>B7Web</strong>, <strong>Rocketseat</strong>,{' '}
