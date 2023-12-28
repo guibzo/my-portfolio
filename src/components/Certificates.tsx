@@ -22,13 +22,6 @@ export const Certificates = () => {
 					/>
 				</div>
 			))}
-
-			<div className='max-w-lg mx-auto mt-4'>
-				<footer className='text-sm text-center text-gray-500 '>
-					Demais certificados estão em processo de emissão ou ainda não foram concluídas 100% das
-					aulas referente ao curso para solicitar.
-				</footer>
-			</div>
 		</motion.div>
 	)
 }
