@@ -1,9 +1,13 @@
-import { Link } from 'react-router-dom';
-import { Project } from '../@types/Project';
-import * as Tooltip from '@radix-ui/react-tooltip';
+import * as Dialog from '@radix-ui/react-dialog'
+import * as Tooltip from '@radix-ui/react-tooltip'
+import { motion } from 'framer-motion'
 
-import { BsFillPinAngleFill } from 'react-icons/bs';
-import { AiFillGithub, AiOutlineRightCircle } from 'react-icons/ai';
+import { Link } from 'react-router-dom'
+import { Project } from '../@types/Project'
+
+import { AiFillGithub, AiOutlineRightCircle } from 'react-icons/ai'
+import { BsFillPinAngleFill } from 'react-icons/bs'
+import { IoMdClose } from 'react-icons/io'
 
 export const ProjectItem = ({
 	deploy,
@@ -20,11 +24,51 @@ export const ProjectItem = ({
 					<BsFillPinAngleFill />
 				</div>
 			</div>
-			<img
-				src={imagePath}
-				alt=''
-				className='object-contain w-full max-h-72 md:w-1/2 rounded-xl'
-			/>
+
+			<Dialog.Root>
+				<Dialog.Trigger asChild>
+					<img
+						src={imagePath}
+						alt=''
+						className='object-contain w-full max-h-72 md:w-1/2 rounded-xl hover:cursor-zoom-in'
+					/>
+				</Dialog.Trigger>
+				<Dialog.Portal>
+					<Dialog.Overlay className='fixed inset-0 bg-black/60' />
+					<motion.div
+						initial={{ opacity: 0, y: 0 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.25 }}
+					>
+						<Dialog.Content className='data-[state=open]:animate-contentShow w-full md:w-auto p-4 fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-[6px]  shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none'>
+							<div className='flex flex-col w-full gap-4 p-4 text-white rounded-lg bg-neutral-900'>
+								<Dialog.Title className='m-0 text-xl font-medium tracking-tight text-center text-white md:text-2xl'>
+									{title}
+								</Dialog.Title>
+								<img
+									src={imagePath}
+									alt=''
+									className='object-contain w-full h-full rounded-xl'
+								/>
+
+								<Dialog.Description className='px-10 text-sm leading-normal text-center text-gray-400 md:text-base'>
+									{description}
+								</Dialog.Description>
+
+								<Dialog.Close asChild>
+									<button
+										className='text-violet11 hover:bg-violet4 focus:shadow-violet7 absolute right-[30px] inline-flex h-[25px] w-[25px] appearance-none items-center justify-center rounded-full focus:outline-none'
+										aria-label='Close'
+									>
+										<IoMdClose className='w-5 h-5' />
+									</button>
+								</Dialog.Close>
+							</div>
+						</Dialog.Content>
+					</motion.div>
+				</Dialog.Portal>
+			</Dialog.Root>
+
 			<div className='flex flex-col flex-1 gap-3 p-3'>
 				<div className='flex flex-col gap-2'>
 					<h2 className='text-xl font-bold truncate'>{title}</h2>
@@ -106,5 +150,5 @@ export const ProjectItem = ({
 				</span>
 			</div>
 		</div>
-	);
-};
+	)
+}

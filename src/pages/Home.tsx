@@ -1,9 +1,9 @@
 import * as Tabs from '@radix-ui/react-tabs'
 import { motion } from 'framer-motion'
 
-import { Profile } from '../components/Profile'
 import { About } from '../components/About'
 import { Certificates } from '../components/Certificates'
+import { Profile } from '../components/Profile'
 import { Projects } from '../components/Projects'
 
 export const Home = () => {
@@ -66,6 +66,9 @@ export const Home = () => {
 					</section>
 				</main>
 			</motion.div>
+			<footer className='absolute bottom-3 left-[50%] text-sm text-center text-gray-500'>
+				&copy; Atualizado pela última vez em: 28/12/2023
+			</footer>
 		</div>
 	)
 }

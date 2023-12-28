@@ -1,4 +1,4 @@
-import * as Icon from '../utils/iconsPath';
+import * as Icon from '../utils/iconsPath'
 
 export const technologiesList = [
 	{ name: 'React.js', iconPath: Icon.reactIconPath },
@@ -11,7 +11,8 @@ export const technologiesList = [
 	{ name: 'Sass', iconPath: Icon.sassIconPath },
 	{ name: 'Styled Components', iconPath: Icon.styledComponentsIconPath },
 	{ name: 'Stitches', iconPath: Icon.stitchesIconPath },
-	{ name: 'Radix', iconPath: Icon.radixIconPath },
+	{ name: 'shadcn/ui', iconPath: Icon.shadcnIconPath },
+	{ name: 'Radix UI', iconPath: Icon.radixIconPath },
 	{ name: 'Git', iconPath: Icon.gitIconPath },
 	{ name: 'GitHub', iconPath: Icon.githubIconPath },
 	{ name: 'Redux', iconPath: Icon.reduxIconPath },
@@ -24,4 +25,4 @@ export const technologiesList = [
 	{ name: 'VSCode', iconPath: Icon.vscodeIconPath },
 	{ name: 'npm', iconPath: Icon.npmIconPath },
 	{ name: 'Responsividade', iconPath: Icon.responsiveIconPath },
-];
+]
