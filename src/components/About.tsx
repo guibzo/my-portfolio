@@ -28,14 +28,6 @@ export const About = () => {
 						router), além de trabalhar com <strong>TypeScript</strong>.
 					</p>
 					<p>
-						Gosto muito de me desafiar e minha maior metodologia é tentar sempre dar passo a passo,
-						uma coisa de cada vez.
-					</p>
-					<p>
-						Pretendo experimentar outras áreas da programação no futuro, como back-end e outros
-						escopos além do desenvolvimento web.
-					</p>
-					<p>
 						Atualmente possuo cerca de 2 anos de estudos e cerca de 1 ano de experiência em projetos
 						reais.
 					</p>
@@ -43,6 +35,14 @@ export const About = () => {
 						Estudei em plataformas como <strong>B7Web</strong>, <strong>Rocketseat</strong>,{' '}
 						<strong>Codante.io</strong>, dentre outras. Além de consumir muita documentação das
 						próprias tecnologias.
+					</p>
+					<p>
+						Gosto muito de me desafiar e minha maior metodologia é tentar sempre dar passo a passo,
+						uma coisa de cada vez.
+					</p>
+					<p>
+						Pretendo experimentar outras áreas da programação no futuro, como back-end e outros
+						escopos além do desenvolvimento web.
 					</p>
 				</div>
 			</div>
