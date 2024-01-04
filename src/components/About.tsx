@@ -20,29 +20,34 @@ export const About = () => {
 				<div className='flex flex-col gap-6'>
 					<h2 className='mt-5 text-2xl font-bold'>Sobre mim</h2>
 					<p>
-						Amo apresentações e soluções <strong>simples</strong> que cumpram seu propósito, e é o
-						que tento trazer ao meu dia a dia.
+						Possuo experiência em <strong>React</strong> & <strong>Next.js</strong>, além de
+						trabalhar com <strong>TypeScript</strong>.
 					</p>
-					<p>
-						Possuo experiência em <strong>React</strong> & <strong>Next.js</strong> (App & Pages
-						router), além de trabalhar com <strong>TypeScript</strong>.
-					</p>
+
 					<p>
 						Atualmente possuo cerca de 2 anos de estudos e cerca de 1 ano de experiência em projetos
 						reais focado na stack citada acima.
 					</p>
+
+					<p>
+						Gosto de apresentações e soluções <strong>simples</strong> que cumpram seu propósito, e
+						é o que tento trazer ao meu dia a dia.
+					</p>
+
+					<p>
+						Também gosto de me desafiar e minha maior metodologia é tentar sempre dar passo a passo,
+						uma coisa de cada vez.
+					</p>
+
 					<p>
 						Estudei em plataformas como <strong>B7Web</strong>, <strong>Rocketseat</strong>,{' '}
 						<strong>Codante.io</strong>, dentre outras. Além de consumir muita documentação das
 						próprias tecnologias.
 					</p>
+
 					<p>
-						Gosto muito de me desafiar e minha maior metodologia é tentar sempre dar passo a passo,
-						uma coisa de cada vez.
-					</p>
-					<p>
-						Pretendo experimentar outras áreas da programação no futuro, como back-end e outros
-						escopos além do desenvolvimento web.
+						No futuro, pretendo experimentar outras áreas da programação no futuro, como back-end e
+						outros escopos além do desenvolvimento web.
 					</p>
 				</div>
 			</div>
