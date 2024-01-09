@@ -79,7 +79,7 @@ export const projectsList: Project[] = [
 		technologies: [
 			{
 				name: 'Next.js',
-				iconPath: Icon.reactIconPath,
+				iconPath: Icon.nextjsIconPath,
 			},
 			{
 				name: 'TypeScript',
