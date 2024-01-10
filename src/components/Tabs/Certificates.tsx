@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-import { certificatesList } from '../data/certificates'
+import { certificatesList } from '../../data/certificates'
 
 export const Certificates = () => {
 	return (

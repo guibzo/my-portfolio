@@ -1,10 +1,10 @@
 import * as Tabs from '@radix-ui/react-tabs'
 import { motion } from 'framer-motion'
 
-import { About } from '../components/About'
-import { Certificates } from '../components/Certificates'
 import { Profile } from '../components/Profile'
-import { Projects } from '../components/Projects'
+import { About } from '../components/Tabs/About'
+import { Certificates } from '../components/Tabs/Certificates'
+import { Projects } from '../components/Tabs/Projects/Projects'
 
 export const Home = () => {
 	return (
@@ -18,7 +18,7 @@ export const Home = () => {
 				>
 					<main className='flex flex-col h-full gap-5 lg:flex-row'>
 						<Profile />
-						<section className='flex-1 p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-900 h-[710px]'>
+						<section className='flex-1 p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-900 min-h-[710px] h-full'>
 							<header className='text-xl'>
 								<Tabs.Root defaultValue='tab1'>
 									<Tabs.List className='flex gap-3 uppercase'>
@@ -29,6 +29,7 @@ export const Home = () => {
 										>
 											Sobre
 										</Tabs.Trigger>
+
 										<Tabs.Trigger
 											value='tab2'
 											className='text-sm font-semibold text-gray-300 uppercase border-b-2 border-transparent transition duration-100 font-secondary hover:border-sky-500
@@ -36,6 +37,7 @@ export const Home = () => {
 										>
 											Projetos
 										</Tabs.Trigger>
+
 										<Tabs.Trigger
 											value='tab3'
 											className='text-sm font-semibold text-gray-300 uppercase border-b-2 border-transparent transition duration-100 font-secondary hover:border-sky-500
@@ -44,18 +46,21 @@ export const Home = () => {
 											Certificados
 										</Tabs.Trigger>
 									</Tabs.List>
+
 									<Tabs.Content
 										value='tab1'
-										className='mt-6'
+										className='mt-6 '
 									>
 										<About />
 									</Tabs.Content>
+
 									<Tabs.Content
 										value='tab2'
 										className='mt-6'
 									>
 										<Projects />
 									</Tabs.Content>
+
 									<Tabs.Content
 										value='tab3'
 										className='mt-6'

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
+import { projectsList } from '../../../data/projects'
 import { ProjectItem } from './ProjectItem'
-import { projectsList } from '../data/projects'
 
 export const Projects = () => {
 	return (
@@ -9,7 +9,7 @@ export const Projects = () => {
 			initial={{ opacity: 0, x: -30 }}
 			animate={{ opacity: 1, x: 0 }}
 			transition={{ duration: 0.5 }}
-			className='flex flex-col gap-5 max-h-[630px] p-2 md:p-3 overflow-x-hidden overflow-y-scroll'
+			className='flex flex-col gap-5 max-h-[630px] p-2 overflow-x-hidden overflow-y-scroll'
 		>
 			{projectsList.map((project, index) => (
 				<ProjectItem

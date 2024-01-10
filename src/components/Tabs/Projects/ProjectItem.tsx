@@ -1,13 +1,12 @@
 import * as Dialog from '@radix-ui/react-dialog'
 import * as Tooltip from '@radix-ui/react-tooltip'
 import { motion } from 'framer-motion'
-
 import { Link } from 'react-router-dom'
-import { Project } from '../@types/Project'
 
 import { AiFillGithub, AiOutlineRightCircle } from 'react-icons/ai'
 import { BsFillPinAngleFill } from 'react-icons/bs'
 import { IoMdClose } from 'react-icons/io'
+import { Project } from '../../../@types/Project'
 
 export const ProjectItem = ({
 	deploy,
