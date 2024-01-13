@@ -116,7 +116,7 @@ export const projectsList: Project[] = [
 		],
 		repository: '',
 		deploy: 'https://console-revamp-two.vercel.app',
-		imagePath: 'assets/projects/consolerevamp2.png',
+		imagePath: 'assets/projects/consol-revamp.png',
 	},
 	{
 		title: 'Coffee Delivery',

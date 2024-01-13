@@ -39,29 +39,32 @@ export const ProjectItem = ({
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.25 }}
 					>
-						<Dialog.Content className='data-[state=open]:animate-contentShow w-full md:w-auto p-4 fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-[6px]  shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none'>
-							<div className='flex flex-col w-full gap-4 p-4 text-white rounded-lg bg-neutral-900'>
-								<Dialog.Title className='m-0 text-xl font-medium tracking-tight text-center text-white md:text-2xl'>
-									{title}
-								</Dialog.Title>
+						<Dialog.Content className='data-[state=open]:animate-contentShow w-full flex h-full  p-8 items-center justify-center fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-[6px]  shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none'>
+							<div className='flex flex-col gap-8 p-4 max-h-full text-white rounded-lg bg-neutral-900'>
+								<div className='flex justify-between'>
+									<Dialog.Title className='m-0 flex-1 text-xl tracking-tight text-center text-white font-bold md:text-3xl'>
+										~ {title}
+									</Dialog.Title>
+
+									<Dialog.Close asChild>
+										<button
+											className='text-violet11 hover:bg-violet4 focus:shadow-violet7 inline-flex h-10 w-10 appearance-none items-center justify-center rounded-full focus:outline-none'
+											aria-label='Close'
+										>
+											<IoMdClose className='w-6 h-6' />
+										</button>
+									</Dialog.Close>
+								</div>
+
 								<img
 									src={imagePath}
 									alt=''
-									className='object-contain w-full h-full rounded-xl'
+									className='object-contain w-full max-h-full overflow-hidden rounded-xl'
 								/>
 
-								<Dialog.Description className='px-10 text-sm leading-normal text-center text-gray-400 md:text-base'>
-									{description}
+								<Dialog.Description className='px-2 md:px-10 text-sm leading-normal text-center text-gray-400 md:text-base'>
+									<p className='border-b border-zinc-600 inline-flex pb-1'>{description}</p>
 								</Dialog.Description>
-
-								<Dialog.Close asChild>
-									<button
-										className='text-violet11 hover:bg-violet4 focus:shadow-violet7 absolute right-[30px] inline-flex h-[25px] w-[25px] appearance-none items-center justify-center rounded-full focus:outline-none'
-										aria-label='Close'
-									>
-										<IoMdClose className='w-5 h-5' />
-									</button>
-								</Dialog.Close>
 							</div>
 						</Dialog.Content>
 					</motion.div>
@@ -69,9 +72,9 @@ export const ProjectItem = ({
 			</Dialog.Root>
 
 			<div className='flex flex-col flex-1 gap-3 p-3'>
-				<div className='flex flex-col gap-2'>
+				<div className='flex flex-col gap-2 flex-wrap'>
 					<h2 className='text-xl font-bold truncate'>{title}</h2>
-					<p className='flex-wrap text-base text-gray-400 font-secondary'>{description}</p>
+					<p className='text-base text-gray-400 font-secondary'>{description}</p>
 				</div>
 				<div className='mt-3 text-base'>
 					<h4 className='text-lg font-bold'>Tecnologias utilizadas</h4>
@@ -105,7 +108,7 @@ export const ProjectItem = ({
 					</ul>
 				</div>
 
-				<span className='flex gap-3 pt-5 mt-auto'>
+				<span className='flex gap-3 pt-5 mt-auto flex-wrap'>
 					{/* If deploy or repository isn't available its link is an empty string */}
 					{repository.trim() ? (
 						<Link
