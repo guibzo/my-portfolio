@@ -5,7 +5,7 @@ export const technologiesList = [
 	{ name: 'TypeScript', iconPath: Icon.typescriptIconPath },
 	{ name: 'JavaScript', iconPath: Icon.javascriptIconPath },
 	{ name: 'Next.js', iconPath: Icon.nextjsIconPath },
-	{ name: 'HTML 5 Semântico', iconPath: Icon.htmlIconPath },
+	{ name: 'HTML 5', iconPath: Icon.htmlIconPath },
 	{ name: 'CSS 3', iconPath: Icon.cssIconPath },
 	{ name: 'TailwindCSS', iconPath: Icon.tailwindCSSIconPath },
 	{ name: 'Sass', iconPath: Icon.sassIconPath },

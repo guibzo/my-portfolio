@@ -37,8 +37,9 @@ export const About = () => {
 					<p>Sou mente aberta quanto ao aprendizado e busco aprender um pouco mais a cada dia.</p>
 
 					<p>
-						No futuro, pretendo experimentar outras áreas da programação no futuro, como back-end e
-						outros escopos além do desenvolvimento web.
+						Atualmente estou estudando <strong>Node.js</strong> e no futuro pretendo experimentar
+						outras áreas da programação, como ampliar meus conhecimentos nos ecossistemas que já
+						conheço e também atuar em outros escopos além do desenvolvimento web.
 					</p>
 				</div>
 			</div>

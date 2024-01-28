@@ -15,7 +15,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -53,7 +53,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -90,7 +90,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.shadcnIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -132,7 +132,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -165,7 +165,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -195,7 +195,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -237,7 +237,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -279,7 +279,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.radixIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -312,7 +312,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -341,7 +341,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -367,7 +367,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -396,7 +396,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -421,7 +421,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -447,7 +447,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -472,7 +472,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -498,7 +498,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -524,7 +524,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -553,7 +553,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -583,7 +583,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -608,7 +608,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -629,7 +629,7 @@ export const projectsList: Project[] = [
 		description: 'Uma landing page de uma academia.',
 		technologies: [
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -654,7 +654,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -675,7 +675,7 @@ export const projectsList: Project[] = [
 		description: 'Uma simples interface com um QR Code.',
 		technologies: [
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -696,7 +696,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -713,7 +713,7 @@ export const projectsList: Project[] = [
 		description: 'Interface de um painel de login (apenas visual).',
 		technologies: [
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -734,7 +734,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -759,7 +759,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.typescriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -785,7 +785,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -806,7 +806,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -827,7 +827,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -849,7 +849,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -871,7 +871,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -893,7 +893,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{
@@ -914,7 +914,7 @@ export const projectsList: Project[] = [
 				iconPath: Icon.javascriptIconPath,
 			},
 			{
-				name: 'HTML 5 Semântico',
+				name: 'HTML 5',
 				iconPath: Icon.htmlIconPath,
 			},
 			{

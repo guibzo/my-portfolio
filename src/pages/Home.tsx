@@ -76,7 +76,7 @@ export const Home = () => {
 
 			<div className='h-full'>
 				<footer className='text-sm py-4 lg:absolute left-[50%] bottom-0 text-center text-gray-500'>
-					&copy; Atualizado pela última vez em: 13/01/2024
+					&copy; Atualizado pela última vez em: 28/01/2024
 				</footer>
 			</div>
 		</div>
