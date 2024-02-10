@@ -8,7 +8,7 @@ export const Certificates = () => {
 			initial={{ opacity: 0, x: -30 }}
 			animate={{ opacity: 1, x: 0 }}
 			transition={{ duration: 0.4 }}
-			className='flex flex-col max-h-[630px] overflow-x-hidden overflow-y-scroll'
+			className='flex flex-col h-[596px] lg:h-[660px] overflow-x-hidden overflow-y-scroll'
 		>
 			{certificatesList.map((item, index) => (
 				<div

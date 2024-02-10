@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { AiFillGithub, AiOutlineRightCircle } from 'react-icons/ai'
 import { BsFillPinAngleFill } from 'react-icons/bs'
 import { IoMdClose } from 'react-icons/io'
-import { Project } from '../../../@types/Project'
+import { Project } from '../../../@types/project'
 
 export const ProjectItem = ({
 	deploy,
@@ -39,8 +39,8 @@ export const ProjectItem = ({
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.25 }}
 					>
-						<Dialog.Content className='data-[state=open]:animate-contentShow w-full flex h-full  p-8 items-center justify-center fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-[6px]  shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none'>
-							<div className='flex flex-col gap-8 p-4 max-h-full text-white rounded-lg bg-neutral-900'>
+						<Dialog.Content className='data-[state=open]:animate-contentShow w-full flex p-8 items-center justify-center fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-[6px]  shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none'>
+							<div className='flex flex-col gap-8 p-4 max text-white rounded-lg bg-neutral-900'>
 								<div className='flex justify-between'>
 									<Dialog.Title className='m-0 flex-1 text-xl tracking-tight text-center text-white font-bold md:text-3xl'>
 										~ {title}
@@ -59,7 +59,7 @@ export const ProjectItem = ({
 								<img
 									src={imagePath}
 									alt=''
-									className='object-contain w-full max-h-full overflow-hidden rounded-xl'
+									className='object-contain w-full max overflow-hidden rounded-xl'
 								/>
 
 								<Dialog.Description className='px-2 md:px-10 text-sm leading-normal text-center text-gray-400 md:text-base'>
@@ -91,7 +91,7 @@ export const ProjectItem = ({
 												<img
 													src={item.iconPath}
 													alt={item.name}
-													className='w-full h-full'
+													className='w-full'
 												/>
 											</i>
 										</li>

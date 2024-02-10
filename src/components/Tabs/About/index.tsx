@@ -8,7 +8,7 @@ export const About = () => {
 			animate={{ opacity: 1, x: 0 }}
 			transition={{ duration: 0.4 }}
 		>
-			<div className='flex flex-col justify-between h-full gap-20 p-2 text-base md:text-lg bg-[url("/assets/circlesBG.png")] bg-center bg-cover bg-no-repeat'>
+			<div className='flex flex-col justify-between gap-20 p-2 text-base md:text-lg bg-[url("/assets/circlesBG.png")] bg-center bg-cover bg-no-repeat'>
 				<div className='flex flex-col gap-4'>
 					<h1 className='text-2xl font-bold flex gap-2'>
 						<span className='waving'>👋</span>

@@ -1,10 +1,10 @@
 import * as Tabs from '@radix-ui/react-tabs'
 import { motion } from 'framer-motion'
 
-import { Profile } from '../components/Profile'
-import { About } from '../components/Tabs/About'
-import { Certificates } from '../components/Tabs/Certificates'
-import { Projects } from '../components/Tabs/Projects'
+import { Profile } from '../components/profile'
+import { About } from '../components/tabs/about'
+import { Certificates } from '../components/tabs/certificates'
+import { Projects } from '../components/tabs/projects'
 
 export const Home = () => {
 	return (
@@ -14,11 +14,11 @@ export const Home = () => {
 					initial={{ opacity: 0, y: -50 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 1 }}
-					className='container max-w-6xl mx-auto text-white'
+					className='lg:container max-w-6xl mx-auto text-white'
 				>
-					<main className='flex flex-col h-full gap-5 lg:flex-row'>
+					<main className='flex flex-col gap-5 lg:flex-row'>
 						<Profile />
-						<section className='flex-1 p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-900 min-h-[710px] h-full'>
+						<section className='flex-1 p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-900'>
 							<header className='text-xl'>
 								<Tabs.Root defaultValue='tab1'>
 									<Tabs.List className='flex gap-3 uppercase'>
@@ -74,7 +74,7 @@ export const Home = () => {
 				</motion.div>
 			</div>
 
-			<div className='h-full'>
+			<div>
 				<footer className='text-sm py-4 lg:absolute left-[50%] bottom-0 text-center text-gray-500'>
 					&copy; Atualizado pela última vez em: 28/01/2024
 				</footer>

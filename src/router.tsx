@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
 import { Home } from './pages/Home'
 
 export const RouterList = () => {
@@ -7,7 +6,7 @@ export const RouterList = () => {
 		<BrowserRouter>
 			<Routes>
 				<Route
-					path="/"
+					path='/'
 					element={<Home />}
 				/>
 			</Routes>

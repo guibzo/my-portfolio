@@ -1,33 +1,37 @@
 import * as Tooltip from '@radix-ui/react-tooltip'
 import { technologiesList } from '../data/technologies'
+import ProfilePicture from '/assets/profileImage3.png'
 
 import { AiFillLinkedin } from 'react-icons/ai'
 import { BsDiscord } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
-import ProfilePicture from '/assets/profileImage3.png'
 
 export const Profile = () => {
 	return (
-		<div className='flex flex-col w-full md:flex-row lg:flex-col lg:w-3/12 gap-5'>
-			<aside className='flex flex-col h-full p-5 border rounded-lg border-zinc-600 bg-zinc-900'>
+		<div className='flex flex-col w-full lg:w-3/12 gap-5 md:flex-row lg:flex-col'>
+			<aside className='flex flex-col p-5 border rounded-lg border-zinc-600 bg-zinc-900 h-full w-full md:w-2/3 lg:w-auto'>
 				<div className='relative'>
 					<img
 						src={ProfilePicture}
 						alt=''
-						className='h-auto max-w-full rounded-lg'
+						className='max-h-[302px] lg:h-auto w-full object-contain rounded-lg'
 					/>
-					<div className='absolute flex justify-end bottom-0 right-0'>
+					<div className='absolute flex justify-end bottom-0 md:right-16 lg:right-0'>
 						<span className='relative flex items-center h-3 w-3'>
-							<span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-green-200 opacity-75' />
+							<span className='animate-ping absolute inline-flex h-3 w-3 rounded-full bg-green-200 opacity-75' />
 							<span className='relative inline-flex rounded-full h-3 w-3 bg-green-400' />
 						</span>
 					</div>
 				</div>
 
-				<strong className='mt-2 text-xl text-white'>Guilherme Viana</strong>
-				<span className='text-sm text-gray-500'>Front-end Developer</span>
+				<strong className='mt-2 text-xl text-white md:text-center lg:text-start'>
+					Guilherme Viana
+				</strong>
+				<span className='text-sm text-gray-500  md:text-center lg:text-start'>
+					Front-end Developer
+				</span>
 
-				<div className='flex flex-wrap gap-3 mt-2'>
+				<div className='flex flex-wrap gap-3 mt-2 md:justify-center lg:justify-start'>
 					<Link
 						to='https://discord.com/users/474056096693223425'
 						target='_blank'
@@ -52,38 +56,45 @@ export const Profile = () => {
 				</div>
 			</aside>
 
-			<aside className='h-full p-5 border rounded-lg border-zinc-600 bg-zinc-900 md:h-auto'>
+			<aside className='p-5 border rounded-lg border-zinc-600 bg-zinc-900 md:w-1/3 lg:w-auto'>
 				<strong className='text-lg text-white'>Habilidades</strong>
-				<ul className='flex flex-wrap gap-2 mt-2'>
-					{technologiesList.map((item, index) => (
-						<Tooltip.Provider
-							delayDuration={0}
-							key={index}
-						>
-							<Tooltip.Root>
-								<Tooltip.Trigger asChild>
-									<li>
-										<i
-											key={index}
-											className='flex items-center w-10 h-10'
-										>
-											<img
-												src={item.iconPath}
-												alt={item.name}
-												className='max-h-full'
-											/>
-										</i>
-									</li>
-								</Tooltip.Trigger>
-								<Tooltip.Portal>
-									<Tooltip.Content className='px-3 py-1 font-medium text-gray-800 bg-white rounded select-none'>
-										{item.name}
-										<Tooltip.Arrow className='mb-2 fill-white' />
-									</Tooltip.Content>
-								</Tooltip.Portal>
-							</Tooltip.Root>
-						</Tooltip.Provider>
-					))}
+				<ul
+					className='
+						grid grid-cols-6 items-center h-[248px] justify-center gap-2 mt-2 overflow-x-hidden pr-4 pt-4 
+						md:h-[358px] md:p-0 md:grid-cols-4 lg:grid-cols-5 lg:h-[248px] lg:overflow-y-scroll lg:pr-2 lg:pt-2
+					'
+				>
+					{technologiesList.map((item, index) => {
+						return (
+							<Tooltip.Provider
+								delayDuration={0}
+								key={index}
+							>
+								<Tooltip.Root>
+									<Tooltip.Trigger asChild>
+										<li className='mx-auto'>
+											<i
+												key={index}
+												className='flex items-center w-7 h-7 lg:w-9 lg:h-9'
+											>
+												<img
+													src={item.iconPath}
+													alt={item.name}
+													className='max-'
+												/>
+											</i>
+										</li>
+									</Tooltip.Trigger>
+									<Tooltip.Portal>
+										<Tooltip.Content className='px-3 py-1 font-medium text-gray-800 bg-white rounded select-none'>
+											{item.name}
+											<Tooltip.Arrow className='mb-2 fill-white' />
+										</Tooltip.Content>
+									</Tooltip.Portal>
+								</Tooltip.Root>
+							</Tooltip.Provider>
+						)
+					})}
 				</ul>
 			</aside>
 		</div>
