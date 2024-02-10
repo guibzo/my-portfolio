@@ -1,10 +1,10 @@
 import * as Tabs from '@radix-ui/react-tabs'
 import { motion } from 'framer-motion'
 
-import { Profile } from '../components/profile'
-import { About } from '../components/tabs/about'
-import { Certificates } from '../components/tabs/certificates'
-import { Projects } from '../components/tabs/projects'
+import { Profile } from '@/components/profile'
+import { About } from '@/components/tabs/about'
+import { Certificates } from '@/components/tabs/certificates'
+import { Projects } from '@/components/tabs/projects'
 
 export const Home = () => {
 	return (

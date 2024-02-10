@@ -3,10 +3,10 @@ import * as Tooltip from '@radix-ui/react-tooltip'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
+import { Project } from '@/@types/project'
 import { AiFillGithub, AiOutlineRightCircle } from 'react-icons/ai'
 import { BsFillPinAngleFill } from 'react-icons/bs'
 import { IoMdClose } from 'react-icons/io'
-import { Project } from '../../../@types/project'
 
 export const ProjectItem = ({
 	deploy,
