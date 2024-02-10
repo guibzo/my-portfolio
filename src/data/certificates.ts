@@ -4,4 +4,6 @@ export const certificatesList = [
 	{ imagePath: 'assets/certificates/certificado_2210655.jpg' },
 	{ imagePath: 'assets/certificates/certificado_8565815.jpg' },
 	{ imagePath: 'assets/certificates/certificado_2621896.jpg' },
-];
+	{ imagePath: 'assets/certificates/nlw-react.png' },
+	{ imagePath: 'assets/certificates/nlw-node.png' },
+]

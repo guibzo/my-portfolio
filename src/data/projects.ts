@@ -258,6 +258,57 @@ export const projectsList: Project[] = [
 		imagePath: 'assets/projects/hamc.png',
 	},
 	{
+		title: 'Bozo Sass',
+		description:
+			'Projeto boilerplate de microserviços SaaS. Sistemas de gerenciamento de notas com um plano de inscrição, tema configurável e mais.',
+		technologies: [
+			{
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Prisma',
+				iconPath: Icon.prismaIconPath,
+			},
+			{
+				name: 'PostgreSQL',
+				iconPath: Icon.postgreSqlIconPath,
+			},
+			{
+				name: 'Tailwind CSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'Shadcn UI',
+				iconPath: Icon.shadcnIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+
+			{
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
+			},
+		],
+		repository: '',
+		deploy: 'https://xbozo-sass-project.vercel.app',
+		imagePath: 'assets/projects/bozo-sass.png',
+	},
+	{
 		title: 'Design System',
 		description:
 			'Um design system com padrão de elementos, cores, tipografia, etc. Criado usando Storybook.',
@@ -300,6 +351,182 @@ export const projectsList: Project[] = [
 		imagePath: 'assets/projects/storybook project.png',
 	},
 	{
+		title: 'Ignite Call',
+		description:
+			'Sistema de agendamentos integrado com o Google Calendar para prestadores de serviços. (Incompleto)',
+		technologies: [
+			{
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'Radix UI',
+				iconPath: Icon.radixIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Tailwind CSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'Prisma',
+				iconPath: Icon.prismaIconPath,
+			},
+			{
+				name: 'PostgreSQL',
+				iconPath: Icon.postgreSqlIconPath,
+			},
+			{
+				name: 'TanStack Query',
+				iconPath: Icon.reactQueryIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+			{
+				name: 'Next Auth',
+				iconPath: Icon.authJsIconPath,
+			},
+			{
+				name: 'React Hook Form',
+				iconPath: Icon.reactHookFormIconPath,
+			},
+			{
+				name: 'Zod',
+				iconPath: Icon.zodIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/ignite-call',
+		deploy: '',
+		imagePath: 'assets/projects/ignite-call.png',
+	},
+	{
+		title: 'Pizza Shop',
+		description:
+			'Uma loja de pizzas com tabela de pedidos, manipulação de status dos pedidos, gráficos da loja e mais.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Tailwind CSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'Shadcn UI',
+				iconPath: Icon.shadcnIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+			{
+				name: 'TanStack Query',
+				iconPath: Icon.reactQueryIconPath,
+			},
+			{
+				name: 'Vitest',
+				iconPath: Icon.vitestIconPath,
+			},
+			{
+				name: 'Playwright',
+				iconPath: Icon.playwrightIconPath,
+			},
+			{
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/pizza-shop',
+		deploy: '',
+		imagePath: 'assets/projects/pizza-shop.png',
+	},
+	{
+		title: 'Rocket Notes API',
+		description:
+			'Back-end em Node da aplicação Rocket Notes. Abrange fluxo de autenticação e armazenamento em banco de notas, usuários e suas configurações.',
+		technologies: [
+			{
+				name: 'Node.js',
+				iconPath: Icon.nodejsIconPath,
+			},
+			{
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
+			},
+			{
+				name: 'SQLite',
+				iconPath: Icon.sqliteIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/rocket-notes-api',
+		deploy: '',
+		imagePath: 'assets/projects/api-image-generic.png',
+	},
+	{
+		title: 'Rocket Notes',
+		description:
+			'Projeto de uma plataforma de anotações, com perfis individuais, manipulação das anotações, etc.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'JavaScript',
+				iconPath: Icon.javascriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Styled Components',
+				iconPath: Icon.styledComponentsIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/rocket-notes',
+		deploy: 'https://main--genuine-youtiao-3dd2d1.netlify.app',
+		imagePath: 'assets/projects/rocketNotes.png',
+	},
+	{
 		title: 'Pomodoro',
 		description: 'Um timer em estilo Pomodoro, com histórico.',
 		technologies: [
@@ -327,6 +554,119 @@ export const projectsList: Project[] = [
 		repository: 'https://github.com/xbozo/pomodoro',
 		deploy: 'https://pomodoro-timer-seven-ochre.vercel.app',
 		imagePath: 'assets/projects/pomodoro.png',
+	},
+	{
+		title: 'devstore',
+		description:
+			'Um mini e-commerce de roupas. Projeto atualmente superficial e sem integração de pagamentos.',
+		technologies: [
+			{
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Tailwind CSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+			{
+				name: 'Cypress',
+				iconPath: Icon.cypressIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/devstore',
+		deploy: 'https://devstore-nu.vercel.app',
+		imagePath: 'assets/projects/devstore.png',
+	},
+	{
+		title: 'Expert Notes',
+		description: 'Uma aplicação de manipulação de notas com opção de Text-to-Speech.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'TailwindCSS',
+				iconPath: Icon.styledComponentsIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/expert-notes',
+		deploy: '',
+		imagePath: 'assets/projects/expert-notes.png',
+	},
+	{
+		title: 'Polls',
+		description:
+			'Back-end de um sistema de enquetes. Permite a votação em opções de enquetes e consulta dos votos.',
+		technologies: [
+			{
+				name: 'Node.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'Prisma',
+				iconPath: Icon.prismaIconPath,
+			},
+			{
+				name: 'PostgreSQL',
+				iconPath: Icon.postgreSqlIconPath,
+			},
+			{
+				name: 'Redis',
+				iconPath: Icon.redisIconPath,
+			},
+			{
+				name: 'Docker',
+				iconPath: Icon.dockerIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/polls',
+		deploy: '',
+		imagePath: 'assets/projects/api-image-generic.png',
 	},
 	{
 		title: 'Ignite Feed',
@@ -568,32 +908,6 @@ export const projectsList: Project[] = [
 		repository: 'https://github.com/xbozo/todo-list',
 		deploy: '',
 		imagePath: 'assets/projects/todoList2.png',
-	},
-	{
-		title: 'Rocket Notes',
-		description:
-			'Projeto de uma plataforma de anotações, com perfis individuais, manipulação das anotações, etc.',
-		technologies: [
-			{
-				name: 'React.js',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'JavaScript',
-				iconPath: Icon.javascriptIconPath,
-			},
-			{
-				name: 'HTML 5',
-				iconPath: Icon.htmlIconPath,
-			},
-			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-		],
-		repository: 'https://github.com/xbozo/rocket-notes',
-		deploy: '',
-		imagePath: 'assets/projects/rocketNotes.png',
 	},
 	{
 		title: 'Post List',
