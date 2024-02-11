@@ -39,8 +39,8 @@ export const ProjectItem = ({
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.25 }}
 					>
-						<Dialog.Content className='data-[state=open]:animate-contentShow w-full flex p-8 items-center justify-center fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-[6px]  shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none'>
-							<div className='flex flex-col gap-8 p-4 max text-white rounded-lg bg-neutral-900'>
+						<Dialog.Content className='data-[state=open]:animate-contentShow w-full h-full flex p-8 items-center justify-center fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-[6px]  shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none'>
+							<div className='flex flex-col gap-8 p-4 max text-white rounded-lg h-full bg-neutral-900'>
 								<div className='flex justify-between'>
 									<Dialog.Title className='m-0 flex-1 text-xl tracking-tight text-center text-white font-bold md:text-3xl'>
 										~ {title}
