@@ -1,4 +1,4 @@
-import * as Icon from '@/utils/icons-path'
+import * as Icon from '@/utils/iconsPath'
 
 export const technologiesList = [
 	{ name: 'React.js', iconPath: Icon.reactIconPath },
