@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-import { projectsList } from '../../../data/projects'
+import { projectsList } from '@/data/projects'
 import { ProjectItem } from './project-item'
 
 export const Projects = () => {

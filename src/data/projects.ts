@@ -1,5 +1,5 @@
-import { Project } from '../@types/project'
-import * as Icon from '../utils/icons-path'
+import { Project } from '@/@types/project'
+import * as Icon from '@/utils/icons-path'
 
 export const projectsList: Project[] = [
 	{

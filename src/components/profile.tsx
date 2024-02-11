@@ -1,7 +1,7 @@
 import * as Tooltip from '@radix-ui/react-tooltip'
-import { technologiesList } from '../data/technologies'
 import ProfilePicture from '/assets/profileImage3.png'
 
+import { technologiesList } from '@/data/technologies'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { BsDiscord } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
