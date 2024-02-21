@@ -73,13 +73,13 @@ export const Home = () => {
 							</header>
 						</section>
 					</main>
-				</motion.div>
-			</div>
 
-			<div>
-				<footer className='text-sm py-4 lg:absolute left-[50%] bottom-0 text-center text-gray-500'>
-					&copy; Atualizado pela última vez em: 28/01/2024
-				</footer>
+					<div>
+						<footer className='lg:ml-[calc(25%+20px)] text-sm py-4 text-center text-gray-500'>
+							&copy; Atualizado pela última vez em: 28/01/2024
+						</footer>
+					</div>
+				</motion.div>
 			</div>
 		</div>
 	)
