@@ -8,6 +8,10 @@ import { AiFillGithub, AiOutlineRightCircle } from 'react-icons/ai'
 import { BsFillPinAngleFill } from 'react-icons/bs'
 import { IoMdClose } from 'react-icons/io'
 
+interface ProjectItemProps extends Project {
+	gridSize: number
+}
+
 export const ProjectItem = ({
 	deploy,
 	description,
@@ -15,9 +19,14 @@ export const ProjectItem = ({
 	repository,
 	technologies,
 	title,
-}: Project) => {
+	gridSize,
+}: ProjectItemProps) => {
 	return (
-		<div className='relative flex flex-col gap-3 p-2 mx-2 border rounded-lg md:p-3 border-zinc-600 md:flex-row'>
+		<li
+			className={`relative flex flex-col gap-3 p-2 mx-2 border rounded-lg md:p-3 border-zinc-600 transition-all ${
+				gridSize === 1 ? 'md:flex-row' : ''
+			}`}
+		>
 			<div className='absolute top-0 left-0 mt-[-10px] ml-[-15px]'>
 				<div className='flex items-center justify-center w-10 h-10 text-xl font-bold rounded-full bg-sky-600'>
 					<BsFillPinAngleFill />
@@ -29,7 +38,9 @@ export const ProjectItem = ({
 					<img
 						src={imagePath}
 						alt=''
-						className='object-contain w-full max-h-72 md:w-1/2 rounded-xl hover:cursor-zoom-in'
+						className={`object-contain w-full max-h-72 rounded-xl hover:cursor-zoom-in transition-all ${
+							gridSize === 1 ? 'md:w-1/2' : ''
+						}`}
 					/>
 				</Dialog.Trigger>
 				<Dialog.Portal>
@@ -40,10 +51,10 @@ export const ProjectItem = ({
 						transition={{ duration: 0.25 }}
 					>
 						<Dialog.Content className='data-[state=open]:animate-contentShow w-full h-full flex p-8 items-center justify-center fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-[6px]  shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none'>
-							<div className='flex flex-col gap-8 p-4 max text-white rounded-lg h-full bg-neutral-900'>
+							<div className='flex flex-col gap-8 p-4 max text-white rounded-lg w-full h-full bg-neutral-900 justify-center'>
 								<div className='flex justify-between'>
 									<Dialog.Title className='m-0 flex-1 text-xl tracking-tight text-center text-white font-bold md:text-3xl'>
-										~ {title}
+										{title}
 									</Dialog.Title>
 
 									<Dialog.Close asChild>
@@ -71,7 +82,7 @@ export const ProjectItem = ({
 				</Dialog.Portal>
 			</Dialog.Root>
 
-			<div className='flex flex-col flex-1 gap-3 p-3'>
+			<div className={`flex flex-col flex-1 gap-3 p-3 ${gridSize === 1 ? 'gap-3' : 'gap-6'}`}>
 				<div className='flex flex-col gap-2 flex-wrap'>
 					<h2 className='text-xl font-bold truncate'>{title}</h2>
 					<p className='text-base text-gray-400 font-secondary'>{description}</p>
@@ -151,6 +162,6 @@ export const ProjectItem = ({
 					)}
 				</span>
 			</div>
-		</div>
+		</li>
 	)
 }
