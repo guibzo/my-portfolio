@@ -7,7 +7,7 @@ import { CiGrid2H, CiGrid41 } from 'react-icons/ci'
 import { ProjectItem } from './ProjectItem'
 
 export const Projects = () => {
-	const [gridSize, setGridSize] = useState(2)
+	const [gridSize, setGridSize] = useState(1)
 
 	return (
 		<>
