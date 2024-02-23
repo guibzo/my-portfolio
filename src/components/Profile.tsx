@@ -10,13 +10,13 @@ export const Profile = () => {
 	return (
 		<div className='flex flex-col w-full lg:w-3/12 gap-5 md:flex-row lg:flex-col'>
 			<aside className='flex flex-col p-5 border rounded-lg border-zinc-600 bg-zinc-900 h-full w-full md:w-2/3 lg:w-auto'>
-				<div className='relative'>
+				<div>
 					<img
 						src={ProfilePicture}
 						alt=''
 						className='max-h-[302px] lg:h-auto w-full object-contain rounded-lg'
 					/>
-					<div className='absolute flex justify-end bottom-0 md:right-16 lg:right-0'>
+					<div className='flex justify-end md:mr-16 lg:mr-0 -mt-3'>
 						<span className='relative flex items-center h-3 w-3'>
 							<span className='animate-ping absolute inline-flex h-3 w-3 rounded-full bg-green-200 opacity-75' />
 							<span className='relative inline-flex rounded-full h-3 w-3 bg-green-400' />
@@ -60,8 +60,8 @@ export const Profile = () => {
 				<strong className='text-lg text-white'>Habilidades</strong>
 				<ul
 					className='
-						grid grid-cols-6 items-center h-[248px] justify-center gap-2 mt-2 overflow-x-hidden pr-4 pt-4 
-						md:h-[358px] md:p-0 md:grid-cols-4 lg:grid-cols-5 lg:h-[248px] lg:overflow-y-scroll lg:pr-2 lg:pt-2
+						flex flex-wrap h-[266px] gap-y-2 gap-x-3 mt-2 overflow-x-hidden pr-4 pt-4 justify-center items-center
+						md:h-[358px] md:p-0 lg:h-[266px] lg:overflow-y-scroll lg:pr-2 lg:pt-2
 					'
 				>
 					{technologiesList.map((item, index) => {
@@ -72,7 +72,7 @@ export const Profile = () => {
 							>
 								<Tooltip.Root>
 									<Tooltip.Trigger asChild>
-										<li className='mx-auto'>
+										<li>
 											<i
 												key={index}
 												className='flex items-center w-7 h-7 lg:w-9 lg:h-9'
@@ -80,7 +80,6 @@ export const Profile = () => {
 												<img
 													src={item.iconPath}
 													alt={item.name}
-													className='max-'
 												/>
 											</i>
 										</li>
