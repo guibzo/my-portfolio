@@ -32,3 +32,8 @@ export const playwrightIconPath = 'assets/technologies/playwright-logo.png'
 export const vitestIconPath = 'assets/technologies/vitest-logo.png'
 export const dockerIconPath = 'assets/technologies/docker-logo.png'
 export const authJsIconPath = 'assets/technologies/authjs-logo.webp'
+
+export const kindeAuthIconPath = 'assets/technologies/kinde-auth-logo.png'
+export const aceternityUiIconPath = 'assets/technologies/aceternity-logo.webp'
+export const framerMotionIconPath = 'assets/technologies/framer-motion-logo.png'
+export const fastifyIconPath = 'assets/technologies/fastify-logo.png'

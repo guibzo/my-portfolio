@@ -29,17 +29,21 @@ export const About = () => {
 					</p>
 
 					<p>
-						Atualmente possuo cerca de 2 anos de estudos e cerca de 1 ano de experiência em projetos
-						reais focado na stack citada acima. Tento trazer soluções e apresentações{' '}
-						<strong>simples</strong> no meu dia a dia.
+						Cerca de 2 anos de estudos e cerca de 1 ano de experiência em projetos reais focado na
+						stack citada acima. Tento trazer soluções e apresentações <strong>simples</strong> no
+						meu dia a dia.
 					</p>
 
-					<p>Sou mente aberta quanto ao aprendizado e busco aprender um pouco mais a cada dia.</p>
+					<p>
+						Sou mente aberta quanto ao aprendizado e busco tento manter a consistência aprendendo um
+						pouco mais a cada dia.
+					</p>
 
 					<p>
-						Atualmente estou estudando <strong>Node.js</strong> e no futuro pretendo experimentar
-						outras áreas da programação, como ampliar meus conhecimentos nos ecossistemas que já
-						conheço e também atuar em outros escopos além do desenvolvimento web.
+						Atualmente estudando <strong>Node.js</strong> e <strong>C#</strong>. No futuro pretendo
+						experimentar outras áreas da programação, como ampliar meus conhecimentos nos
+						ecossistemas que já conheço e também atuar em outros escopos além do desenvolvimento
+						web.
 					</p>
 				</div>
 			</div>

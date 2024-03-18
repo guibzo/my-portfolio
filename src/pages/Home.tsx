@@ -76,7 +76,7 @@ export const Home = () => {
 
 					<div>
 						<footer className='lg:ml-[calc(25%+20px)] text-sm py-4 text-center text-gray-500'>
-							&copy; Atualizado pela última vez em: 28/01/2024
+							&copy; Atualizado pela última vez em: 18/03/2024
 						</footer>
 					</div>
 				</motion.div>

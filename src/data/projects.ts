@@ -1,5 +1,6 @@
 import { Project } from '@/@types/Project'
 import * as Icon from '@/utils/iconsPath'
+// imagePath: 'assets/projects/api-image-generic.png',
 
 export const projectsList: Project[] = [
 	{
@@ -38,40 +39,6 @@ export const projectsList: Project[] = [
 		repository: 'https://github.com/xbozo/my-portfolio',
 		deploy: 'https://my-portfolio-eight-rho-38.vercel.app',
 		imagePath: 'assets/projects/portfolio.png',
-	},
-	{
-		title: 'GitHub Blog',
-		description:
-			'Projeto focado em exibir as issues de um repositório do GitHub em formato de blog. Construído consumindo a GitHub API.',
-		technologies: [
-			{
-				name: 'React.js',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
-				name: 'HTML 5',
-				iconPath: Icon.htmlIconPath,
-			},
-			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
-			},
-		],
-		repository: 'https://github.com/xbozo/github-blog',
-		deploy: 'https://github-blog-xbozo.vercel.app',
-		imagePath: 'assets/projects/githubBlog2.png',
 	},
 	{
 		title: 'Console Revamp',
@@ -117,145 +84,6 @@ export const projectsList: Project[] = [
 		repository: '',
 		deploy: 'https://console-revamp-two.vercel.app',
 		imagePath: 'assets/projects/consol-revamp.png',
-	},
-	{
-		title: 'Coffee Delivery',
-		description:
-			'Projeto de uma loja de cafés virtual, desde a seleção do café até o checkout e a confirmação do pedido. (incompleto)',
-		technologies: [
-			{
-				name: 'React.js',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
-				name: 'HTML 5',
-				iconPath: Icon.htmlIconPath,
-			},
-			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
-			},
-		],
-		repository: 'https://github.com/xbozo/coffee-delivery',
-		deploy: 'https://coffee-delivery-iota-nine.vercel.app/checkout',
-		imagePath: 'assets/projects/coffeeDelivery.png',
-	},
-	{
-		title: 'Gespol',
-		description: 'Sistema de gerenciamento policial para internos da corporação. (incompleto)',
-		technologies: [
-			{
-				name: 'React.js',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
-				name: 'HTML 5',
-				iconPath: Icon.htmlIconPath,
-			},
-			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-		],
-		repository: 'https://github.com/xbozo/gespol-system',
-		deploy: 'https://gespol-system.vercel.app',
-		imagePath: 'assets/projects/gespol.png',
-	},
-	{
-		title: 'Course Player',
-		description:
-			'Um video player para vídeos de algum curso. Feito com Redux, Zustand e outros conceitos avançados.',
-		technologies: [
-			{
-				name: 'React.js',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
-				name: 'HTML 5',
-				iconPath: Icon.htmlIconPath,
-			},
-			{
-				name: 'TailwindCSS',
-				iconPath: Icon.tailwindCSSIconPath,
-			},
-			{
-				name: 'Git',
-				iconPath: Icon.gitIconPath,
-			},
-			{
-				name: 'Redux',
-				iconPath: Icon.reduxIconPath,
-			},
-			{
-				name: 'Zustand',
-				iconPath: Icon.zustandIconPath,
-			},
-			{
-				name: 'Radix UI',
-				iconPath: Icon.radixIconPath,
-			},
-		],
-		repository: 'https://github.com/xbozo/course-video-player',
-		deploy: '',
-		imagePath: 'assets/projects/coursePlayer.png',
-	},
-	{
-		title: 'Hells Angels MW',
-		description:
-			'Um site de apresentação para um grupo fictício de um determinado servidor de um jogo em roleplay.',
-		technologies: [
-			{
-				name: 'React.js',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
-				name: 'HTML 5',
-				iconPath: Icon.htmlIconPath,
-			},
-			{
-				name: 'Styled Components',
-				iconPath: Icon.styledComponentsIconPath,
-			},
-			{
-				name: 'Git',
-				iconPath: Icon.gitIconPath,
-			},
-			{
-				name: 'Responsividade',
-				iconPath: Icon.responsiveIconPath,
-			},
-		],
-		repository: '',
-		deploy: 'https://81mc-rocket.vercel.app',
-		imagePath: 'assets/projects/hamc.png',
 	},
 	{
 		title: 'Bozo Sass',
@@ -309,6 +137,393 @@ export const projectsList: Project[] = [
 		imagePath: 'assets/projects/bozo-sass.png',
 	},
 	{
+		title: 'Clown Honk',
+		description: 'Um projeto pessoal de um blog simples e moderno full-stack. (Em desenvolvimento)',
+		technologies: [
+			{
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'shadcn/ui',
+				iconPath: Icon.shadcnIconPath,
+			},
+			{
+				name: 'Aceternity UI',
+				iconPath: Icon.aceternityUiIconPath,
+			},
+			{
+				name: 'Kinde Auth',
+				iconPath: Icon.kindeAuthIconPath,
+			},
+			{
+				name: 'Prisma',
+				iconPath: Icon.prismaIconPath,
+			},
+			{
+				name: 'Zod',
+				iconPath: Icon.zodIconPath,
+			},
+			{
+				name: 'TanStack Query',
+				iconPath: Icon.reactQueryIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+			{
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/clown-honk',
+		deploy: '',
+		imagePath: 'assets/projects/clown-honk.png',
+	},
+	{
+		title: 'Bookwise',
+		description: 'Uma plataforma para avaliação de livros. Challenge de uma aplicação full-stack.',
+		technologies: [
+			{
+				name: 'Next.js',
+				iconPath: Icon.nextjsIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'Next Auth',
+				iconPath: Icon.authJsIconPath,
+			},
+			{
+				name: 'Prisma',
+				iconPath: Icon.prismaIconPath,
+			},
+			{
+				name: 'Zod',
+				iconPath: Icon.zodIconPath,
+			},
+			{
+				name: 'TanStack Query',
+				iconPath: Icon.reactQueryIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+			{
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/bookwise',
+		deploy: '',
+		imagePath: 'assets/projects/bookwise.png',
+	},
+	{
+		title: 'Gespol',
+		description: 'Sistema de gerenciamento policial para internos da corporação.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Styled Components',
+				iconPath: Icon.styledComponentsIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/gespol-system',
+		deploy: 'https://gespol-system.vercel.app',
+		imagePath: 'assets/projects/gespol.png',
+	},
+	{
+		title: 'Hells Angels MW',
+		description:
+			'Um site de apresentação para um grupo fictício de um determinado servidor de um jogo em roleplay.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Styled Components',
+				iconPath: Icon.styledComponentsIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
+			},
+		],
+		repository: '',
+		deploy: 'https://81mc-rocket.vercel.app',
+		imagePath: 'assets/projects/hamc.png',
+	},
+	{
+		title: 'Pizza Shop',
+		description:
+			'Uma loja de pizzas com tabela de pedidos, manipulação de status dos pedidos, gráficos da loja e mais.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Tailwind CSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'Shadcn UI',
+				iconPath: Icon.shadcnIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+			{
+				name: 'TanStack Query',
+				iconPath: Icon.reactQueryIconPath,
+			},
+			{
+				name: 'Vitest',
+				iconPath: Icon.vitestIconPath,
+			},
+			{
+				name: 'Playwright',
+				iconPath: Icon.playwrightIconPath,
+			},
+			{
+				name: 'Responsividade',
+				iconPath: Icon.responsiveIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/pizza-shop',
+		deploy: '',
+		imagePath: 'assets/projects/pizza-shop.png',
+	},
+
+	{
+		title: 'Course Player',
+		description:
+			'Um video player para vídeos de algum curso. Feito com Redux, Zustand e outros conceitos avançados.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'Redux',
+				iconPath: Icon.reduxIconPath,
+			},
+			{
+				name: 'Zustand',
+				iconPath: Icon.zustandIconPath,
+			},
+			{
+				name: 'Radix UI',
+				iconPath: Icon.radixIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/course-video-player',
+		deploy: '',
+		imagePath: 'assets/projects/coursePlayer.png',
+	},
+	{
+		title: 'GitHub Blog',
+		description:
+			'Projeto focado em exibir as issues de um repositório do GitHub em formato de blog. Construído consumindo a GitHub API.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Styled Components',
+				iconPath: Icon.styledComponentsIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/github-blog',
+		deploy: 'https://github-blog-xbozo.vercel.app',
+		imagePath: 'assets/projects/githubBlog2.png',
+	},
+	{
+		title: 'Diet API',
+		description: 'Challenge de criação de uma API para gerenciamento de dietas.',
+		technologies: [
+			{
+				name: 'Node.js',
+				iconPath: Icon.nodejsIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'Zod',
+				iconPath: Icon.zodIconPath,
+			},
+			{
+				name: 'Fastify',
+				iconPath: Icon.fastifyIconPath,
+			},
+			{
+				name: 'Git',
+				iconPath: Icon.gitIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/diet-api',
+		deploy: '',
+		imagePath: 'assets/projects/api-image-generic.png',
+	},
+	{
+		title: 'Coffee Delivery',
+		description:
+			'Projeto de uma loja de cafés virtual, desde a seleção do café até o checkout e a confirmação do pedido.',
+		technologies: [
+			{
+				name: 'React.js',
+				iconPath: Icon.reactIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'Styled Components',
+				iconPath: Icon.styledComponentsIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+			{
+				name: 'Axios',
+				iconPath: Icon.axiosIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/coffee-delivery',
+		deploy: 'https://coffee-delivery-iota-nine.vercel.app/checkout',
+		imagePath: 'assets/projects/coffeeDelivery.png',
+	},
+	{
 		title: 'Design System',
 		description:
 			'Um design system com padrão de elementos, cores, tipografia, etc. Criado usando Storybook.',
@@ -351,9 +566,38 @@ export const projectsList: Project[] = [
 		imagePath: 'assets/projects/storybook project.png',
 	},
 	{
+		title: 'Tabela de transações',
+		description: 'Um challenge simples de criação de uma tabela com transações.',
+		technologies: [
+			{
+				name: 'Nex.tjs',
+				iconPath: Icon.nextjsIconPath,
+			},
+			{
+				name: 'TypeScript',
+				iconPath: Icon.typescriptIconPath,
+			},
+			{
+				name: 'TailwindCSS',
+				iconPath: Icon.tailwindCSSIconPath,
+			},
+			{
+				name: 'HTML 5',
+				iconPath: Icon.htmlIconPath,
+			},
+			{
+				name: 'GitHub',
+				iconPath: Icon.githubIconPath,
+			},
+		],
+		repository: 'https://github.com/xbozo/challenge-nextjs',
+		deploy: '',
+		imagePath: 'assets/projects/challenge-transactions.png',
+	},
+	{
 		title: 'Ignite Call',
 		description:
-			'Sistema de agendamentos integrado com o Google Calendar para prestadores de serviços. (Incompleto)',
+			'Sistema de agendamentos integrado com o Google Calendar para prestadores de serviços.',
 		technologies: [
 			{
 				name: 'Next.js',
@@ -415,64 +659,6 @@ export const projectsList: Project[] = [
 		repository: 'https://github.com/xbozo/ignite-call',
 		deploy: '',
 		imagePath: 'assets/projects/ignite-call.png',
-	},
-	{
-		title: 'Pizza Shop',
-		description:
-			'Uma loja de pizzas com tabela de pedidos, manipulação de status dos pedidos, gráficos da loja e mais.',
-		technologies: [
-			{
-				name: 'React.js',
-				iconPath: Icon.reactIconPath,
-			},
-			{
-				name: 'TypeScript',
-				iconPath: Icon.typescriptIconPath,
-			},
-			{
-				name: 'HTML 5',
-				iconPath: Icon.htmlIconPath,
-			},
-			{
-				name: 'Tailwind CSS',
-				iconPath: Icon.tailwindCSSIconPath,
-			},
-			{
-				name: 'Shadcn UI',
-				iconPath: Icon.shadcnIconPath,
-			},
-			{
-				name: 'Git',
-				iconPath: Icon.gitIconPath,
-			},
-			{
-				name: 'GitHub',
-				iconPath: Icon.githubIconPath,
-			},
-			{
-				name: 'Axios',
-				iconPath: Icon.axiosIconPath,
-			},
-			{
-				name: 'TanStack Query',
-				iconPath: Icon.reactQueryIconPath,
-			},
-			{
-				name: 'Vitest',
-				iconPath: Icon.vitestIconPath,
-			},
-			{
-				name: 'Playwright',
-				iconPath: Icon.playwrightIconPath,
-			},
-			{
-				name: 'Responsividade',
-				iconPath: Icon.responsiveIconPath,
-			},
-		],
-		repository: 'https://github.com/xbozo/pizza-shop',
-		deploy: '',
-		imagePath: 'assets/projects/pizza-shop.png',
 	},
 	{
 		title: 'Rocket Notes API',
