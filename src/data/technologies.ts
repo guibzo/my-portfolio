@@ -1,4 +1,5 @@
 import * as Icon from '@/utils/iconsPath'
+// RECHARTS
 
 export const technologiesList = [
 	{ name: 'React.js', iconPath: Icon.reactIconPath },

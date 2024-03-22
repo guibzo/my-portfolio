@@ -137,7 +137,7 @@ export const projectsList: Project[] = [
 		imagePath: 'assets/projects/bozo-sass.png',
 	},
 	{
-		title: 'Clown Honk',
+		title: 'Thoughts',
 		description: 'Um projeto pessoal de um blog simples e moderno full-stack. (Em desenvolvimento)',
 		technologies: [
 			{
@@ -197,9 +197,9 @@ export const projectsList: Project[] = [
 				iconPath: Icon.responsiveIconPath,
 			},
 		],
-		repository: 'https://github.com/xbozo/clown-honk',
+		repository: 'https://github.com/xbozo/thoughts',
 		deploy: '',
-		imagePath: 'assets/projects/clown-honk.png',
+		imagePath: 'assets/projects/thoughts.png',
 	},
 	{
 		title: 'Bookwise',
