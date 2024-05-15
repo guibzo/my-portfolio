@@ -86,7 +86,7 @@ export const projectsList: Project[] = [
     imagePath: 'assets/projects/consol-revamp.png',
   },
   {
-    title: 'Bozo Sass',
+    title: 'Template SaaS',
     description:
       'Projeto boilerplate de microserviços SaaS. Sistemas de gerenciamento de notas com um plano de inscrição, tema configurável e mais.',
     technologies: [
