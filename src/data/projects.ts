@@ -37,7 +37,7 @@ export const projectsList: Project[] = [
       },
     ],
     repository: 'https://github.com/xbozo/my-portfolio',
-    deploy: 'https://my-portfolio-eight-rho-38.vercel.app',
+    deploy: 'https://portfolio-guilherme-viana.vercel.app',
     imagePath: 'assets/projects/portfolio.png',
   },
   {
