@@ -29,9 +29,8 @@ export const About = () => {
           </p>
 
           <p>
-            Cerca de 3 anos de estudos e cerca de 1 ano de experiência em projetos profissionais e
-            em produção focado na stack citada acima. Tento trazer soluções e apresentações{' '}
-            <strong>simples</strong> no meu dia a dia.
+            Cerca de 2 anos de experiência trabalhando com a stack acima. Tento trazer soluções e
+            apresentações <strong>simples</strong> no meu dia a dia.
           </p>
 
           <p>
@@ -40,9 +39,10 @@ export const About = () => {
           </p>
 
           <p>
-            Atualmente estudando <strong>Node.js</strong> e <strong>React Native</strong>. Pretendo
-            estudar PHP em um futuro próximo e também pretendo buscar expandir meu escopo além do
-            desenvolvimento web.
+            Atualmente me aprofundando em <strong>Node.js</strong> e <strong>React Native</strong>.
+            <br />
+            Pretendo expandir meu escopo além do desenvolvimento web no futuro, enquanto também
+            amplio as ferramentas que conheço na stack JS.
           </p>
         </div>
       </div>

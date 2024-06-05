@@ -202,6 +202,48 @@ export const projectsList: Project[] = [
     imagePath: 'assets/projects/thoughts.png',
   },
   {
+    title: 'Space Gym',
+    description:
+      'Um projeto voltado para academia e musculação. Conta com listagem de exercícios com imagens, vídeos e gifs, histórico de exercícios, perfís próprios, etc.',
+    technologies: [
+      {
+        name: 'React Native',
+        iconPath: Icon.reactNativeIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Expo',
+        iconPath: Icon.expoIconPath,
+      },
+      {
+        name: 'Axios',
+        iconPath: Icon.axiosIconPath,
+      },
+      {
+        name: 'RN Reusables',
+        iconPath: Icon.rnReusablesIconPath,
+      },
+      {
+        name: 'Native Wind',
+        iconPath: Icon.nativeWindIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: 'https://github.com/xbozo/space-gym',
+    deploy: '',
+    imagePath: 'assets/projects/space-gym-1.png',
+  },
+  {
     title: 'Ignite Teams',
     description: 'App voltado para gerenciamento de grupos e times.',
     technologies: [
@@ -214,12 +256,16 @@ export const projectsList: Project[] = [
         iconPath: Icon.typescriptIconPath,
       },
       {
-        name: 'TailwindCSS',
-        iconPath: Icon.tailwindCSSIconPath,
+        name: 'Expo',
+        iconPath: Icon.expoIconPath,
       },
       {
-        name: 'shadcn/ui',
-        iconPath: Icon.shadcnIconPath,
+        name: 'Native Wind',
+        iconPath: Icon.nativeWindIconPath,
+      },
+      {
+        name: 'RN Reusables',
+        iconPath: Icon.rnReusablesIconPath,
       },
       {
         name: 'Git',
@@ -228,10 +274,6 @@ export const projectsList: Project[] = [
       {
         name: 'GitHub',
         iconPath: Icon.githubIconPath,
-      },
-      {
-        name: 'Responsividade',
-        iconPath: Icon.responsiveIconPath,
       },
     ],
     repository: 'https://github.com/xbozo/ignite-teams',
@@ -557,7 +599,7 @@ export const projectsList: Project[] = [
       },
     ],
     repository: 'https://github.com/xbozo/coffee-delivery',
-    deploy: 'https://coffee-delivery-iota-nine.vercel.app/checkout',
+    deploy: 'https://coffee-delivery-iota-nine.vercel.app',
     imagePath: 'assets/projects/coffeeDelivery.png',
   },
   {
@@ -850,13 +892,13 @@ export const projectsList: Project[] = [
     imagePath: 'assets/projects/expert-notes.png',
   },
   {
-    title: 'Polls',
+    title: 'Polls API',
     description:
       'Back-end de um sistema de enquetes. Permite a votação em opções de enquetes e consulta dos votos.',
     technologies: [
       {
         name: 'Node.js',
-        iconPath: Icon.reactIconPath,
+        iconPath: Icon.nodejsIconPath,
       },
       {
         name: 'TypeScript',
