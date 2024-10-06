@@ -17,7 +17,7 @@ export const Home = () => {
         >
           <main className='flex flex-col gap-5 lg:flex-row'>
             <Profile />
-            <section className='flex-1 p-3 border rounded-lg md:p-4 border-zinc-600 bg-zinc-900'>
+            <section className='flex-1 p-3 bg-[url("/assets/circlesBG.png")] bg-center bg-no-repeat border rounded-lg md:p-4 border-zinc-600 bg-zinc-900'>
               <header className='flex gap-2 text-xl jusify-between'>
                 <Tabs.Root defaultValue='tab1'>
                   <div className='flex items-center justify-between gap-2'>

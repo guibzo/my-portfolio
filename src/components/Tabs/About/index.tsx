@@ -9,7 +9,7 @@ export const About = () => {
       transition={{ duration: 0.4 }}
       style={{ height: '100%' }}
     >
-      <div className='flex flex-col justify-between gap-10 h-full lg:gap-20 p-2 text-base md:text-lg bg-[url("/assets/circlesBG.png")] bg-center bg-cover bg-no-repeat'>
+      <div className='flex flex-col justify-between h-full gap-10 p-2 text-base bg-center bg-no-repeat bg-cover lg:gap-20 md:text-lg'>
         <div className='flex flex-col gap-4'>
           <h1 className='flex gap-2 text-xl font-bold lg:text-2xl'>
             <span className='waving'>👋</span>
