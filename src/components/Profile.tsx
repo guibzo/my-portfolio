@@ -8,35 +8,35 @@ import { Link } from 'react-router-dom'
 
 export const Profile = () => {
   return (
-    <div className='flex flex-col w-full lg:w-3/12 gap-5 md:flex-row lg:flex-col'>
-      <aside className='flex flex-col p-5 border rounded-lg border-zinc-600 bg-zinc-900 h-full w-full md:w-2/3 lg:w-auto'>
+    <div className='flex flex-col w-full gap-5 lg:w-3/12 md:flex-row lg:flex-col'>
+      <aside className='flex flex-col w-full p-5 border rounded-lg border-zinc-600 bg-zinc-900 lg:w-auto'>
         <div>
           <img
             src={ProfilePicture}
-            alt=''
-            className='max-h-[302px] lg:h-auto w-full object-contain rounded-lg'
+            alt='Foto de perfil'
+            className='object-contain mx-auto rounded-lg lg:w-full lg:h-auto'
           />
 
-          <div className='flex justify-end md:mr-16 lg:mr-0 -mt-3'>
-            <span className='relative flex items-center h-3 w-3'>
-              <span className='animate-ping absolute inline-flex h-3 w-3 rounded-full bg-green-200 opacity-75' />
-              <span className='relative inline-flex rounded-full h-3 w-3 bg-green-400' />
+          <div className='justify-end hidden -mt-3 lg:flex'>
+            <span className='flex items-center w-3 h-3'>
+              <span className='absolute inline-flex w-3 h-3 bg-green-200 rounded-full opacity-75 animate-ping' />
+              <span className='inline-flex w-3 h-3 bg-green-400 rounded-full' />
             </span>
           </div>
         </div>
 
-        <strong className='mt-2 text-xl text-white md:text-center lg:text-start'>
+        <strong className='mx-auto mt-2 text-xl text-white lg:mx-0 md:text-center lg:text-start'>
           Guilherme Viana
         </strong>
-        <span className='text-sm text-gray-500  md:text-center lg:text-start'>
+        <span className='mx-auto text-sm text-gray-500 lg:mx-0 md:text-center lg:text-start'>
           Front-end Developer
         </span>
 
-        <div className='flex flex-wrap gap-3 mt-2 md:justify-center lg:justify-start'>
+        <div className='flex flex-wrap gap-3 mx-auto mt-2 lg:mx-0 md:justify-center lg:justify-start'>
           <Link
             to='https://discord.com/users/474056096693223425'
             target='_blank'
-            className='text-base inline-flex items-center gap-1 transition duration-100 text-sky-600 hover:text-sky-700'
+            className='inline-flex items-center gap-1 text-base transition duration-100 text-sky-600 hover:text-sky-700'
           >
             <i className='flex items-center'>
               <BsDiscord size={15} />
@@ -47,7 +47,7 @@ export const Profile = () => {
           <Link
             to='https://www.linkedin.com/in/guilherme-viana-291a20268/'
             target='_blank'
-            className='text-base inline-flex items-center gap-1 transition duration-100 text-sky-600 hover:text-sky-700'
+            className='inline-flex items-center gap-1 text-base transition duration-100 text-sky-600 hover:text-sky-700'
           >
             <i>
               <AiFillLinkedin size={15} />
@@ -57,31 +57,17 @@ export const Profile = () => {
         </div>
       </aside>
 
-      <aside className='p-5 border rounded-lg border-zinc-600 bg-zinc-900 md:w-1/3 lg:w-auto'>
+      <aside className='p-5 border rounded-lg border-zinc-600 bg-zinc-900 lg:w-auto'>
         <strong className='text-lg text-white'>Habilidades</strong>
-        <ul
-          className='
-						flex flex-wrap h-[266px] gap-y-2 gap-x-3 mt-2 overflow-x-hidden pr-4 pt-4 justify-center items-center
-						md:h-[358px] md:p-0 lg:h-[266px] lg:overflow-y-scroll lg:pr-2 lg:pt-2
-					'
-        >
+        <ul className='flex flex-wrap items-center justify-center max-h-[220px] lg:max-h-[260px] pt-4 pr-4 mt-2 overflow-x-hidden overflow-y-scroll gap-4 lg:gap-y-2 lg:gap-x-3 md:p-0 lg:pr-2 lg:pt-2'>
           {technologiesList.map((item, index) => {
             return (
-              <Tooltip.Provider
-                delayDuration={0}
-                key={index}
-              >
+              <Tooltip.Provider delayDuration={0} key={index}>
                 <Tooltip.Root>
                   <Tooltip.Trigger asChild>
                     <li>
-                      <i
-                        key={index}
-                        className='flex items-center w-7 h-7 lg:w-9 lg:h-9'
-                      >
-                        <img
-                          src={item.iconPath}
-                          alt={item.name}
-                        />
+                      <i key={index} className='flex items-center w-7 h-7 lg:w-9 lg:h-9'>
+                        <img src={item.iconPath} alt={item.name} />
                       </i>
                     </li>
                   </Tooltip.Trigger>
