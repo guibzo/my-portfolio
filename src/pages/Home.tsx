@@ -13,7 +13,7 @@ export const Home = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className='container mx-auto text-white'
+          className='mx-auto text-white sm:container'
         >
           <main className='flex flex-col gap-5 lg:flex-row'>
             <Profile />

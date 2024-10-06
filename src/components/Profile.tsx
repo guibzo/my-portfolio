@@ -44,16 +44,15 @@ export const Profile = () => {
             Discord
           </Link>
 
-          <Link
-            to='https://www.linkedin.com/in/guilherme-viana-291a20268/'
-            target='_blank'
-            className='inline-flex items-center gap-1 text-base transition duration-100 text-sky-600 hover:text-sky-700'
+          <div
+            className='inline-flex items-center gap-1 text-base text-gray-500 transition duration-100 hover:cursor-not-allowed'
+            aria-disabled='true'
           >
             <i>
               <AiFillLinkedin size={15} />
             </i>
             LinkedIn
-          </Link>
+          </div>
         </div>
       </aside>
 

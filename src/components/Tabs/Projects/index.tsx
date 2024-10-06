@@ -29,7 +29,7 @@ export const Projects = () => {
             technologies={project.technologies}
             repository={project.repository}
             deploy={project.deploy}
-            imagePath={project.imagePath}
+            imagesPath={project.imagesPath}
             gridSize={gridSize}
           />
         ))}

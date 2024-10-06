@@ -1,6 +1,6 @@
 import { Project } from '@/@types/Project'
 import * as Icon from '@/utils/iconsPath'
-// imagePath: 'assets/projects/api-image-generic.png',
+// i[magePath: 'assets/projects/api-image-generic.png'],
 
 export const projectsList: Project[] = [
   {
@@ -24,8 +24,20 @@ export const projectsList: Project[] = [
         iconPath: Icon.tailwindCSSIconPath,
       },
       {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Framer Motion',
+        iconPath: Icon.framerMotionIconPath,
+      },
+      {
         name: 'Git',
         iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
       },
       {
         name: 'Radix UI',
@@ -38,7 +50,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/my-portfolio',
     deploy: 'https://portfolio-guilherme-viana.vercel.app',
-    imagePath: 'assets/projects/portfolio.png',
+    imagesPath: ['assets/projects/portfolio.png'],
   },
   {
     title: 'Console Revamp',
@@ -83,7 +95,85 @@ export const projectsList: Project[] = [
     ],
     repository: '',
     deploy: 'https://console-revamp-two.vercel.app',
-    imagePath: 'assets/projects/consol-revamp.png',
+    imagesPath: ['assets/projects/consol-revamp.png'],
+  },
+  {
+    title: 'Boilerplate SaaS Next + Node ',
+    description:
+      'Boilerplate setup de um multi-tenant SaaS, com RBAC, autorização e etc feito em Next (v15, R19) + Node (Monorepo).',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'Node.js',
+        iconPath: Icon.nodejsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Turborepo',
+        iconPath: Icon.turborepoIconPath,
+      },
+      {
+        name: 'Docker',
+        iconPath: Icon.dockerIconPath,
+      },
+      {
+        name: 'Ky',
+        iconPath: Icon.kyIconPath,
+      },
+      {
+        name: 'Fastify',
+        iconPath: Icon.fastifyIconPath,
+      },
+      {
+        name: 'Prisma',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'TanStack Query',
+        iconPath: Icon.reactQueryIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Swagger',
+        iconPath: Icon.swaggerIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/next-saas-rbac',
+    deploy: 'https://next-saas-rbac-web.vercel.app',
+    imagesPath: [
+      'assets/projects/saas-rbac-3.png',
+      'assets/projects/saas-rbac-1.png',
+      'assets/projects/saas-rbac-2.png',
+    ],
   },
   {
     title: 'Template SaaS',
@@ -134,7 +224,7 @@ export const projectsList: Project[] = [
     ],
     repository: '',
     deploy: 'https://guibzo-sass-project.vercel.app',
-    imagePath: 'assets/projects/bozo-sass.png',
+    imagesPath: ['assets/projects/bozo-sass.png'],
   },
   {
     title: 'Thoughts',
@@ -199,7 +289,66 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/thoughts',
     deploy: '',
-    imagePath: 'assets/projects/thoughts.png',
+    imagesPath: ['assets/projects/thoughts.png'],
+  },
+
+  {
+    title: 'Chama no Var',
+    description:
+      'Um challenge de recriar e adaptar uma página inspirada na landing page da Varsel Agency.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Aceternity UI',
+        iconPath: Icon.aceternityUiIconPath,
+      },
+      {
+        name: 'Framer Motion',
+        iconPath: Icon.framerMotionIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/chama-no-var',
+    deploy: 'https://chama-no-var.vercel.app/',
+    imagesPath: ['assets/projects/chama-no-var.png', 'assets/projects/chama-no-var-2.png'],
   },
   {
     title: 'Space Gym',
@@ -241,8 +390,141 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/space-gym',
     deploy: '',
-    imagePath: 'assets/projects/space-gym-1.png',
+    imagesPath: ['assets/projects/space-gym-1.png'],
   },
+  {
+    title: 'Easy Transfer',
+    description:
+      'Freelance de uma landing page com contato sob demanda feito para empresa Easy Transfer. (Deploy de preview não integrado)',
+    technologies: [
+      {
+        name: 'React',
+        iconPath: Icon.reactIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'React Router Dom',
+        iconPath: Icon.reactRouterDomIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'Axios',
+        iconPath: Icon.axiosIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: '',
+    deploy: 'https://easy-transfer.vercel.app/',
+    imagesPath: ['assets/projects/easy-transfer.png', 'assets/projects/easy-transfer-2.png'],
+  },
+  {
+    title: 'Constancy',
+    description: 'Um app de metas pessoais.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/constancy-app',
+    deploy: '',
+    imagesPath: ['assets/projects/constancy-1.png', 'assets/projects/constancy-2.png'],
+  },
+  {
+    title: 'Constancy API',
+    description: 'API do app de metas pessoais (Constancy).',
+    technologies: [
+      {
+        name: 'Node.js',
+        iconPath: Icon.nodejsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Fastify',
+        iconPath: Icon.fastifyIconPath,
+      },
+      {
+        name: 'Drizzle ORM',
+        iconPath: Icon.drizzleORMIconPath,
+      },
+      {
+        name: 'PostgreSQL',
+        iconPath: Icon.postgreSqlIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/constancy-api',
+    deploy: '',
+    imagesPath: ['assets/projects/api-image-generic.png'],
+  },
+
   {
     title: 'Ignite Teams',
     description: 'App voltado para gerenciamento de grupos e times.',
@@ -278,7 +560,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/ignite-teams',
     deploy: '',
-    imagePath: 'assets/projects/ignite-teams.png',
+    imagesPath: ['assets/projects/ignite-teams.png'],
   },
   {
     title: 'Bookwise',
@@ -335,7 +617,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/bookwise',
     deploy: '',
-    imagePath: 'assets/projects/bookwise.png',
+    imagesPath: ['assets/projects/bookwise.png'],
   },
   {
     title: 'Gespol',
@@ -364,7 +646,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/gespol-system',
     deploy: 'https://gespol-system.vercel.app',
-    imagePath: 'assets/projects/gespol.png',
+    imagesPath: ['assets/projects/gespol.png'],
   },
   {
     title: 'Hells Angels MW',
@@ -398,7 +680,7 @@ export const projectsList: Project[] = [
     ],
     repository: '',
     deploy: 'https://81mc-rocket.vercel.app',
-    imagePath: 'assets/projects/hamc.png',
+    imagesPath: ['assets/projects/hamc.png'],
   },
   {
     title: 'Pizza Shop',
@@ -456,7 +738,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/pizza-shop',
     deploy: '',
-    imagePath: 'assets/projects/pizza-shop.png',
+    imagesPath: ['assets/projects/pizza-shop.png'],
   },
 
   {
@@ -499,7 +781,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/course-video-player',
     deploy: '',
-    imagePath: 'assets/projects/coursePlayer.png',
+    imagesPath: ['assets/projects/coursePlayer.png'],
   },
   {
     title: 'GitHub Blog',
@@ -533,7 +815,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/github-blog',
     deploy: 'https://github-blog-guibzo.vercel.app',
-    imagePath: 'assets/projects/githubBlog2.png',
+    imagesPath: ['assets/projects/githubBlog2.png'],
   },
   {
     title: 'Diet API',
@@ -566,7 +848,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/diet-api',
     deploy: '',
-    imagePath: 'assets/projects/api-image-generic.png',
+    imagesPath: ['assets/projects/api-image-generic.png'],
   },
   {
     title: 'Coffee Delivery',
@@ -600,7 +882,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/coffee-delivery',
     deploy: 'https://coffee-delivery-iota-nine.vercel.app',
-    imagePath: 'assets/projects/coffeeDelivery.png',
+    imagesPath: ['assets/projects/coffeeDelivery.png'],
   },
   {
     title: 'Design System',
@@ -642,7 +924,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/design-system',
     deploy: '',
-    imagePath: 'assets/projects/storybook project.png',
+    imagesPath: ['assets/projects/storybook project.png'],
   },
   {
     title: 'Tabela de transações',
@@ -671,7 +953,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/challenge-nextjs',
     deploy: '',
-    imagePath: 'assets/projects/challenge-transactions.png',
+    imagesPath: ['assets/projects/challenge-transactions.png'],
   },
   {
     title: 'Ignite Call',
@@ -737,7 +1019,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/ignite-call',
     deploy: '',
-    imagePath: 'assets/projects/ignite-call.png',
+    imagesPath: ['assets/projects/ignite-call.png'],
   },
   {
     title: 'Rocket Notes API',
@@ -759,7 +1041,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/rocket-notes-api',
     deploy: '',
-    imagePath: 'assets/projects/api-image-generic.png',
+    imagesPath: ['assets/projects/api-image-generic.png'],
   },
   {
     title: 'Rocket Notes',
@@ -789,7 +1071,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/rocket-notes',
     deploy: 'https://main--genuine-youtiao-3dd2d1.netlify.app',
-    imagePath: 'assets/projects/rocketNotes.png',
+    imagesPath: ['assets/projects/rocketNotes.png'],
   },
   {
     title: 'Pomodoro',
@@ -818,7 +1100,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/pomodoro',
     deploy: 'https://pomodoro-timer-seven-ochre.vercel.app',
-    imagePath: 'assets/projects/pomodoro.png',
+    imagesPath: ['assets/projects/pomodoro.png'],
   },
   {
     title: 'devstore',
@@ -856,7 +1138,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/devstore',
     deploy: 'https://devstore-nu.vercel.app',
-    imagePath: 'assets/projects/devstore.png',
+    imagesPath: ['assets/projects/devstore.png'],
   },
   {
     title: 'Expert Notes',
@@ -889,7 +1171,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/expert-notes',
     deploy: '',
-    imagePath: 'assets/projects/expert-notes.png',
+    imagesPath: ['assets/projects/expert-notes.png'],
   },
   {
     title: 'Polls API',
@@ -931,7 +1213,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/polls',
     deploy: '',
-    imagePath: 'assets/projects/api-image-generic.png',
+    imagesPath: ['assets/projects/api-image-generic.png'],
   },
   {
     title: 'Ignite Feed',
@@ -956,7 +1238,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/ignite-feed',
     deploy: '',
-    imagePath: 'assets/projects/igniteFeed.png',
+    imagesPath: ['assets/projects/igniteFeed.png'],
   },
   {
     title: 'Ignite Shop',
@@ -986,7 +1268,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/ignite-shop',
     deploy: 'https://ignite-shop-three-snowy.vercel.app',
-    imagePath: 'assets/projects/igniteShop.png',
+    imagesPath: ['assets/projects/igniteShop.png'],
   },
   {
     title: 'DT Money',
@@ -1015,7 +1297,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/dt-money',
     deploy: '',
-    imagePath: 'assets/projects/dtMoney.png',
+    imagesPath: ['assets/projects/dtMoney.png'],
   },
   {
     title: 'Pizza Shop',
@@ -1036,7 +1318,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/pizza-store',
     deploy: '',
-    imagePath: 'assets/projects/pizzas.png',
+    imagesPath: ['assets/projects/pizzas.png'],
   },
   {
     title: 'BMI Calculator',
@@ -1062,7 +1344,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/bmi-calculator',
     deploy: '',
-    imagePath: 'assets/projects/bmiCalculator.png',
+    imagesPath: ['assets/projects/bmiCalculator.png'],
   },
   {
     title: 'Cardastro',
@@ -1087,7 +1369,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/car-store',
     deploy: '',
-    imagePath: 'assets/projects/cardastro.png',
+    imagesPath: ['assets/projects/cardastro.png'],
   },
   {
     title: 'Dev Memory',
@@ -1113,7 +1395,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/memory-game',
     deploy: '',
-    imagePath: 'assets/projects/devmemory.png',
+    imagesPath: ['assets/projects/devmemory.png'],
   },
   {
     title: 'To-do List',
@@ -1143,7 +1425,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/c-todo-list',
     deploy: '',
-    imagePath: 'assets/projects/todoList.png',
+    imagesPath: ['assets/projects/todoList.png'],
   },
   {
     title: 'To-do List 2',
@@ -1172,7 +1454,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/todo-list',
     deploy: '',
-    imagePath: 'assets/projects/todoList2.png',
+    imagesPath: ['assets/projects/todoList2.png'],
   },
   {
     title: 'Post List',
@@ -1201,7 +1483,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/post-list',
     deploy: '',
-    imagePath: 'assets/projects/postList.png',
+    imagesPath: ['assets/projects/postList.png'],
   },
   {
     title: 'Train Me',
@@ -1218,7 +1500,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/train-me',
     deploy: '',
-    imagePath: 'assets/projects/trainme2.png',
+    imagesPath: ['assets/projects/trainme2.png'],
   },
   {
     title: 'Newsletter Form',
@@ -1247,7 +1529,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/newsletter-form',
     deploy: '',
-    imagePath: 'assets/projects/newsletterForm.png',
+    imagesPath: ['assets/projects/newsletterForm.png'],
   },
   {
     title: 'QR Code Component',
@@ -1264,7 +1546,20 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/qr-code',
     deploy: '',
-    imagePath: 'assets/projects/qrCodeComponent.png',
+    imagesPath: ['assets/projects/qrCodeComponent.png'],
+  },
+  {
+    title: 'Jogo de Sorteio',
+    description: 'Um jogo de sorteio extremamente simples de terminal.',
+    technologies: [
+      {
+        name: 'Go',
+        iconPath: Icon.goLangIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/first-go',
+    deploy: '',
+    imagesPath: ['assets/projects/terminal-go.png'],
   },
   {
     title: 'Urna Eletrônica',
@@ -1285,7 +1580,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/electronic-urn',
     deploy: '',
-    imagePath: 'assets/projects/urna.png',
+    imagesPath: ['assets/projects/urna.png'],
   },
   {
     title: 'Login Panel',
@@ -1302,7 +1597,7 @@ export const projectsList: Project[] = [
     ],
     repository: '',
     deploy: '',
-    imagePath: 'assets/projects/loginInterface.png',
+    imagesPath: ['assets/projects/loginInterface.png'],
   },
   {
     title: 'RPG Game',
@@ -1323,7 +1618,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/fight-game',
     deploy: '',
-    imagePath: 'assets/projects/rpgGame.png',
+    imagesPath: ['assets/projects/rpgGame.png'],
   },
   {
     title: 'Simple Chat',
@@ -1352,7 +1647,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/e-simple-chat',
     deploy: '',
-    imagePath: 'assets/projects/simpleChat1.png',
+    imagesPath: ['assets/projects/simpleChat1.png'],
   },
   {
     title: 'Clime Visualizer',
@@ -1374,7 +1669,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/climate-project',
     deploy: '',
-    imagePath: 'assets/projects/clime.png',
+    imagesPath: ['assets/projects/clime.png'],
   },
   {
     title: 'Tic Tac Toe',
@@ -1395,7 +1690,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/tic-tac-toe',
     deploy: '',
-    imagePath: 'assets/projects/ticTacToe.png',
+    imagesPath: ['assets/projects/ticTacToe.png'],
   },
   {
     title: 'Canvas Screen',
@@ -1416,7 +1711,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/Canvas-Project',
     deploy: '',
-    imagePath: 'assets/projects/canvas.png',
+    imagesPath: ['assets/projects/canvas.png'],
   },
   {
     title: 'Quiz Game',
@@ -1438,7 +1733,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/quiz-game',
     deploy: '',
-    imagePath: 'assets/projects/quiz.png',
+    imagesPath: ['assets/projects/quiz.png'],
   },
   {
     title: 'Battery Play',
@@ -1460,7 +1755,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/Drums-Project',
     deploy: '',
-    imagePath: 'assets/projects/battery.png',
+    imagesPath: ['assets/projects/battery.png'],
   },
   {
     title: 'Drag & Drop',
@@ -1482,7 +1777,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/Drag-and-Drop',
     deploy: '',
-    imagePath: 'assets/projects/dragdrop.png',
+    imagesPath: ['assets/projects/dragdrop.png'],
   },
   {
     title: 'Analogical Watch',
@@ -1503,6 +1798,6 @@ export const projectsList: Project[] = [
     ],
     repository: '',
     deploy: '',
-    imagePath: 'assets/projects/digitalWatch.png',
+    imagesPath: ['assets/projects/digitalWatch.png'],
   },
 ]
