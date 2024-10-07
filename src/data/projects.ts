@@ -444,7 +444,7 @@ export const projectsList: Project[] = [
     ],
     repository: '',
     deploy: 'https://easy-transfer.vercel.app/',
-    imagesPath: ['assets/projects/easy-transfer.png', 'assets/projects/easy-transfer-2.png'],
+    imagesPath: ['assets/projects/easy-transfer-2.png', 'assets/projects/easy-transfer.png'],
   },
   {
     title: 'Constancy',
