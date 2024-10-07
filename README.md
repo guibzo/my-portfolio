@@ -1,10 +1,9 @@
 # Portfólio -
 
-Meu portfólio como desenvolvedor front-end.
+Meu portfólio como desenvolvedor.
 Apresenta:
-- Projetos; 
-- Sobre Mim;
-- Certificados.
+- Projetos
+- Sobre Mim
 
 Busquei criar um design moderno, limpo e direto.
-A interface suporta responsividade para que a exibição seja consistente em diferentes resoluções de tela.
+Suporte a responsividade em diversos tamanhos de tela.
