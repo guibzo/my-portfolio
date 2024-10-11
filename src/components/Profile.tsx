@@ -35,43 +35,58 @@ export const Profile = () => {
         </span>
 
         <div className='flex flex-wrap gap-3 mx-auto mt-2 lg:mx-0 md:justify-center lg:justify-start'>
-          <HoverCard openDelay={0}>
-            <HoverCardTrigger asChild>
-              <div className='flex items-center gap-2 hover:cursor-help'>
-                <span className='transition duration-75 text-sky-600 hover:text-sky-700 '>
-                  Contatos
-                </span>
+          <div className='lg:hidden'>
+            <Link
+              to='https://linktr.ee/guibzo'
+              target='_blank'
+              className='flex items-center gap-2 hover:cursor-pointer'
+            >
+              <span className='transition duration-75 text-sky-600 hover:text-sky-700 '>
+                Contatos
+              </span>
 
-                <LucideInfo className='mt-[3px] size-4 text-zinc-400' />
-              </div>
-            </HoverCardTrigger>
+              <LucideInfo className='mt-[3px] size-4 text-zinc-400' />
+            </Link>
+          </div>
+          <div className='hidden lg:block'>
+            <HoverCard openDelay={0}>
+              <HoverCardTrigger asChild>
+                <div className='flex items-center gap-2 hover:cursor-default'>
+                  <span className='transition duration-75 text-sky-600 hover:text-sky-700 '>
+                    Contatos
+                  </span>
 
-            <HoverCardContent className='w-80'>
-              <ul className='space-y-4'>
-                {contacts.map((contact) => {
-                  return (
-                    <li className='flex space-x-4' key={contact.name}>
-                      <Avatar>
-                        <AvatarImage src={contact.assetPath} />
-                        <AvatarFallback />
-                      </Avatar>
+                  <LucideInfo className='mt-[3px] size-4 text-zinc-400' />
+                </div>
+              </HoverCardTrigger>
 
-                      <div className='space-y-1'>
-                        <h4 className='text-sm font-semibold'>{contact.name}</h4>
-                        <Link
-                          to={contact.link}
-                          target='_blank'
-                          className='text-sm font-semibold transition duration-75 text-sky-600 hover:text-sky-700'
-                        >
-                          <p className='text-sm'>{contact.contact}</p>
-                        </Link>
-                      </div>
-                    </li>
-                  )
-                })}
-              </ul>
-            </HoverCardContent>
-          </HoverCard>
+              <HoverCardContent className='w-80'>
+                <ul className='space-y-4'>
+                  {contacts.map((contact) => {
+                    return (
+                      <li className='flex space-x-4' key={contact.name}>
+                        <Avatar className='rounded-none'>
+                          <AvatarImage src={contact.assetPath} />
+                          <AvatarFallback />
+                        </Avatar>
+
+                        <div className='space-y-1'>
+                          <h4 className='text-sm font-semibold'>{contact.name}</h4>
+                          <Link
+                            to={contact.link}
+                            target='_blank'
+                            className='text-sm font-semibold transition duration-75 text-sky-600 hover:text-sky-700'
+                          >
+                            <p className='text-sm'>{contact.contact}</p>
+                          </Link>
+                        </div>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </HoverCardContent>
+            </HoverCard>
+          </div>
         </div>
       </aside>
 
