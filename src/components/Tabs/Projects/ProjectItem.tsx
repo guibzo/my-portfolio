@@ -24,7 +24,7 @@ export const ProjectItem = ({
   return (
     <li
       className={cn(
-        'relative flex flex-col gap-3 p-2 mx-4 border rounded-lg md:p-3 border-zinc-600 transition-all',
+        'relative flex flex-col gap-3 p-2 mx-4 border rounded-lg md:p-3 border-border transition-all',
         gridSize === 1 && 'md:flex-row'
       )}
     >

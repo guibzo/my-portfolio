@@ -1,15 +1,17 @@
 import * as Tooltip from '@radix-ui/react-tooltip'
 import ProfilePicture from '/assets/profileImage4.png'
 
+import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card'
+import { contacts } from '@/constants/contacts'
 import { technologiesList } from '@/data/technologies'
-import { AiFillLinkedin } from 'react-icons/ai'
-import { BsDiscord } from 'react-icons/bs'
+import { LucideInfo } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
 
 export const Profile = () => {
   return (
     <div className='flex flex-col w-full gap-5 lg:w-3/12 md:flex-row lg:flex-col'>
-      <aside className='flex flex-col w-full p-5 border rounded-lg border-zinc-600 bg-zinc-900 lg:w-auto'>
+      <aside className='flex flex-col w-full p-5 border rounded-lg border-border bg-background lg:w-auto'>
         <div>
           <img
             src={ProfilePicture}
@@ -33,30 +35,47 @@ export const Profile = () => {
         </span>
 
         <div className='flex flex-wrap gap-3 mx-auto mt-2 lg:mx-0 md:justify-center lg:justify-start'>
-          <Link
-            to='https://discord.com/users/474056096693223425'
-            target='_blank'
-            className='inline-flex items-center gap-1 text-base transition duration-100 text-sky-600 hover:text-sky-700'
-          >
-            <i className='flex items-center'>
-              <BsDiscord size={15} />
-            </i>
-            Discord
-          </Link>
+          <HoverCard openDelay={0}>
+            <HoverCardTrigger asChild>
+              <div className='flex items-center gap-2 hover:cursor-help'>
+                <span className='transition duration-75 text-sky-600 hover:text-sky-700 '>
+                  Contatos
+                </span>
 
-          <div
-            className='inline-flex items-center gap-1 text-base text-gray-500 transition duration-100 hover:cursor-not-allowed'
-            aria-disabled='true'
-          >
-            <i>
-              <AiFillLinkedin size={15} />
-            </i>
-            LinkedIn
-          </div>
+                <LucideInfo className='mt-[3px] size-4 text-zinc-400' />
+              </div>
+            </HoverCardTrigger>
+
+            <HoverCardContent className='w-80'>
+              <ul className='space-y-4'>
+                {contacts.map((contact) => {
+                  return (
+                    <li className='flex space-x-4' key={contact.name}>
+                      <Avatar>
+                        <AvatarImage src={contact.assetPath} />
+                        <AvatarFallback />
+                      </Avatar>
+
+                      <div className='space-y-1'>
+                        <h4 className='text-sm font-semibold'>{contact.name}</h4>
+                        <Link
+                          to={contact.link}
+                          target='_blank'
+                          className='text-sm font-semibold transition duration-75 text-sky-600 hover:text-sky-700'
+                        >
+                          <p className='text-sm'>{contact.contact}</p>
+                        </Link>
+                      </div>
+                    </li>
+                  )
+                })}
+              </ul>
+            </HoverCardContent>
+          </HoverCard>
         </div>
       </aside>
 
-      <aside className='p-5 border rounded-lg border-zinc-600 bg-zinc-900 lg:w-auto'>
+      <aside className='p-5 border rounded-lg border-border bg-zinc-900 lg:w-auto'>
         <strong className='text-lg text-white'>Habilidades</strong>
         <ul className='flex flex-wrap items-center justify-center max-h-[220px] lg:max-h-[260px] pt-4 pr-4 mt-2 overflow-x-hidden overflow-y-scroll gap-4 lg:gap-y-2 lg:gap-x-3 md:p-0 lg:pr-2 lg:pt-2'>
           {technologiesList.map((item, index) => {

@@ -39,14 +39,14 @@ export const Projects = () => {
         {gridSize === 1 ? (
           <button
             onClick={() => setGridSize(2)}
-            className='p-2.5 mt-2 rounded-lg border border-zinc-600 border-dashed'
+            className='p-2.5 mt-2 rounded-lg border border-border border-dashed'
           >
             <CiGrid41 size={16} className='text-zinc-300' />
           </button>
         ) : (
           <button
             onClick={() => setGridSize(1)}
-            className='p-2.5 mt-2 rounded-lg border border-zinc-600 border-dashed'
+            className='p-2.5 mt-2 rounded-lg border border-border border-dashed'
           >
             <CiGrid2H size={16} className='text-zinc-300' />
           </button>
