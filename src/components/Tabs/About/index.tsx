@@ -26,8 +26,8 @@ export const About = () => {
           <h2 className='text-xl font-bold lg:text-2xl'>Sobre mim</h2>
           <p>
             No meu trabalho, uso principalmente <strong>React</strong> e <strong>Next.js</strong>,
-            sempre buscando construir interfaces que sejam claras e funcionais. Além disso, sempre
-            utilizo <strong>TypeScript</strong>, visando um código mais robusto e confiável.
+            sempre buscando construir interfaces claras e funcionais. Além disso, sempre utilizo{' '}
+            <strong>TypeScript</strong>, visando um código mais robusto e confiável.
           </p>
 
           <p>
