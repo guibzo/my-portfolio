@@ -17,7 +17,7 @@ export const About = () => {
           </h1>
 
           <p>
-            Sou um desenvolvedor <strong>front-end</strong> apaixonado por tecnologia e atuo no
+            Sou um desenvolvedor <strong>front-end</strong> com quase três anos de experiência em
             <strong> desenvolvimento web</strong>.
           </p>
         </div>
@@ -25,18 +25,21 @@ export const About = () => {
         <div className='flex flex-col gap-6'>
           <h2 className='text-xl font-bold lg:text-2xl'>Sobre mim</h2>
           <p>
-            Possuo experiência em <strong>React</strong> & <strong>Next.js</strong>, além de
-            trabalhar com <strong>TypeScript</strong>.
+            No meu trabalho, uso principalmente <strong>React</strong> e <strong>Next.js</strong>,
+            sempre buscando construir interfaces que sejam claras e funcionais. Além disso, sempre
+            utilizo <strong>TypeScript</strong>, visando um código mais robusto e confiável.
           </p>
 
           <p>
-            Cerca de 2 anos de experiência trabalhando com a stack acima. Tento trazer soluções e
-            apresentações <strong>simples</strong> no meu dia a dia.
+            Estou estudando <strong>Go</strong>, expandindo meus conhecimentos para explorar novas
+            possibilidades no back-end. Tenho também certa vivência em <strong>Node</strong> e{' '}
+            <strong>React Native</strong>, me permitindo atuar também no <strong>back-end</strong> e{' '}
+            <strong>mobile</strong>.
           </p>
 
           <p>
-            Atualmente estudando <strong>Go</strong>. Também possuo certa experiência com{' '}
-            <strong>Node</strong> e <strong>React Native</strong>.
+            Gosto de transformar problemas complexos em soluções <strong>simples</strong> e
+            eficientes, buscando sempre entregar um trabalho de qualidade.
           </p>
         </div>
       </div>
