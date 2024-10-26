@@ -17,7 +17,7 @@ export const Projects = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
         className={cn(
-          'py-3 px-2 max-h-[550px] lg:max-h-[640px] overflow-x-hidden overflow-y-auto transition-all flex flex-col gap-5',
+          'py-3 sm:px-2 max-h-[550px] lg:max-h-[640px] overflow-x-hidden overflow-y-auto transition-all flex flex-col gap-5',
           gridSize === 2 && 'grid grid-cols-2 gap-y-10 gap-x-7'
         )}
       >

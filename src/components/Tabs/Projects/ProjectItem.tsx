@@ -28,7 +28,7 @@ export const ProjectItem = ({
         gridSize === 1 && 'md:flex-row'
       )}
     >
-      <div className='absolute top-0 left-0 mt-[-10px] ml-[-15px]'>
+      <div className='absolute top-0 z-30 left-0 mt-[-10px] ml-[-15px]'>
         <div className='flex items-center justify-center w-10 h-10 text-xl font-bold rounded-full bg-sky-600'>
           <BsFillPinAngleFill />
         </div>

@@ -11,7 +11,7 @@ import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
 export const Profile = () => {
   return (
     <div className='flex flex-col w-full gap-5 lg:w-3/12 md:flex-row lg:flex-col'>
-      <aside className='flex flex-col w-full p-5 border rounded-lg border-border bg-background lg:w-auto'>
+      <aside className='flex flex-col w-full p-3 border rounded-lg lg:p-5 border-border bg-background lg:w-auto'>
         <div>
           <img
             src={ProfilePicture}
@@ -90,7 +90,7 @@ export const Profile = () => {
         </div>
       </aside>
 
-      <aside className='p-5 border rounded-lg border-border bg-zinc-900 lg:w-auto'>
+      <aside className='h-auto p-3 border rounded-lg lg:h-full lg:p-5 border-border bg-zinc-900 lg:w-auto'>
         <strong className='text-lg text-white'>Habilidades</strong>
         <ul className='flex flex-wrap items-center justify-center max-h-[220px] lg:max-h-[260px] pt-4 pr-4 mt-2 overflow-x-hidden overflow-y-scroll gap-4 lg:gap-y-2 lg:gap-x-3 md:p-0 lg:pr-2 lg:pt-2'>
           {technologiesList.map((item, index) => {

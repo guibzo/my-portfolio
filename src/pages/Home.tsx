@@ -55,7 +55,7 @@ export const Home = () => {
       </div>
 
       <div className='absolute bottom-0 left-[50%] translate-x-[-50%] w-full'>
-        <footer className='py-4 text-sm text-center text-gray-500'>
+        <footer className='py-4 text-sm text-center text-gray-500 break-words text-wrap'>
           &copy; Atualizado pela última vez em: 06/10/2024
         </footer>
       </div>
