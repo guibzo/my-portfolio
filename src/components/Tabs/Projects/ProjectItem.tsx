@@ -51,7 +51,7 @@ export const ProjectItem = ({
       <div className={`flex flex-col flex-1 gap-3 p-3 ${gridSize === 1 ? 'gap-3' : 'gap-6'}`}>
         <div className='flex flex-col flex-wrap gap-2'>
           <h2 className='text-xl font-bold truncate'>{title}</h2>
-          <p className='text-base text-gray-400 font-secondary'>{description}</p>
+          <p className='text-base text-muted-foreground font-secondary'>{description}</p>
         </div>
         <div className='mt-3 text-base'>
           <h4 className='text-lg font-bold'>Tecnologias utilizadas</h4>

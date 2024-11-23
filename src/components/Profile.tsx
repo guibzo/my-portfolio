@@ -19,7 +19,7 @@ export const Profile = () => {
             className='object-contain mx-auto rounded-lg lg:w-full lg:h-auto'
           />
 
-          <div className='justify-end hidden -mt-3 lg:flex'>
+          <div className='justify-end hidden -mt-2 -mr-1 lg:flex'>
             <span className='flex items-center w-3 h-3'>
               <span className='absolute inline-flex w-3 h-3 bg-green-200 rounded-full opacity-75 animate-ping' />
               <span className='inline-flex w-3 h-3 bg-green-400 rounded-full' />
@@ -30,7 +30,7 @@ export const Profile = () => {
         <strong className='mx-auto mt-2 text-xl text-white lg:mx-0 md:text-center lg:text-start'>
           Guilherme Viana
         </strong>
-        <span className='mx-auto text-sm text-gray-500 lg:mx-0 md:text-center lg:text-start'>
+        <span className='mx-auto text-sm text-muted-foreground lg:mx-0 md:text-center lg:text-start'>
           Front-end Developer
         </span>
 

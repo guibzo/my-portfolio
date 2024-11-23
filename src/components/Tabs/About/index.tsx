@@ -17,7 +17,7 @@ export const About = () => {
           </h1>
 
           <p>
-            Sou um desenvolvedor <strong>front-end</strong> com quase três anos de experiência em
+            Sou um desenvolvedor <strong>front-end</strong> com cerca de três anos de experiência em
             <strong> desenvolvimento web</strong>.
           </p>
         </div>

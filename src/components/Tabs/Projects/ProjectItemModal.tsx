@@ -35,7 +35,9 @@ export const ProjectItemModal = ({ project, gridSize }: { project: Project; grid
           <DialogHeader className='mx-auto'>
             <DialogTitle className='text-xl text-center lg:text-2xl'>{project.title}</DialogTitle>
 
-            <DialogDescription>{project.description}</DialogDescription>
+            <DialogDescription className='text-muted-foreground'>
+              {project.description}
+            </DialogDescription>
           </DialogHeader>
 
           <div className='flex items-center justify-center gap-5 pb-4'>
