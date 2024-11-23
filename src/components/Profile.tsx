@@ -1,5 +1,5 @@
 import * as Tooltip from '@radix-ui/react-tooltip'
-import ProfilePicture from '/assets/profileImage4.png'
+import ProfilePicture from '/assets/profile-picture.png'
 
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card'
 import { contacts } from '@/constants/contacts'
