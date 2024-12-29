@@ -25,16 +25,17 @@ export const About = () => {
         <div className='flex flex-col gap-6'>
           <h2 className='text-xl font-bold lg:text-2xl'>Sobre mim</h2>
           <p>
-            No meu trabalho, uso principalmente <strong>React</strong> e <strong>Next.js</strong>,
-            sempre buscando construir interfaces claras e funcionais. Além disso, sempre utilizo{' '}
-            <strong>TypeScript</strong>, visando um código mais robusto e confiável.
+            No meu trabalho, uso principalmente <strong>React</strong> e{' '}
+            <strong>React Native</strong>, com experiência em seus devidos frameworks{' '}
+            <strong>Next.js</strong> e <strong>Expo</strong>. Estou sempre buscando construir
+            interfaces claras e funcionais. Além disso, sempre utilizo <strong>TypeScript</strong>,
+            visando um código mais robusto e confiável.
           </p>
 
           <p>
-            Estou estudando <strong>Go</strong>, expandindo meus conhecimentos para explorar novas
-            possibilidades no back-end. Tenho também certa vivência em <strong>Node</strong> e{' '}
-            <strong>React Native</strong>, me permitindo atuar também no <strong>back-end</strong> e{' '}
-            <strong>mobile</strong>.
+            Estou estudando <strong>Kotlin</strong> e <strong>Angular</strong>, expandindo meus
+            conhecimentos no seguimento front-end/mobile. Tenho também certa vivência em{' '}
+            <strong>Node</strong>, me permitindo atuar também no <strong>back-end</strong>.
           </p>
 
           <p>
