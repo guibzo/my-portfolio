@@ -33,12 +33,6 @@ export const About = () => {
           </p>
 
           <p>
-            Estou estudando <strong>Kotlin</strong> e <strong>Angular</strong>, expandindo meus
-            conhecimentos no seguimento front-end/mobile. Tenho também certa vivência em{' '}
-            <strong>Node</strong>, me permitindo atuar também no <strong>back-end</strong>.
-          </p>
-
-          <p>
             Gosto de transformar problemas complexos em soluções <strong>simples</strong> e
             eficientes, buscando sempre entregar um trabalho de qualidade.
           </p>
