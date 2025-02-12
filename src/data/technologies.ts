@@ -1,13 +1,14 @@
 import * as Icon from '@/utils/iconsPath'
-// RECHARTS
 
 export const technologiesList = [
-  { name: 'React.js', iconPath: Icon.reactIconPath },
   { name: 'TypeScript', iconPath: Icon.typescriptIconPath },
   { name: 'JavaScript', iconPath: Icon.javascriptIconPath },
+  { name: 'React.js', iconPath: Icon.reactIconPath },
   { name: 'Next.js', iconPath: Icon.nextjsIconPath },
   { name: 'Node.js', iconPath: Icon.nodejsIconPath },
+  { name: 'Nest.js', iconPath: Icon.nestIconPath },
   { name: 'React Native', iconPath: Icon.reactNativeIconPath },
+  { name: 'Expo', iconPath: Icon.expoIconPath },
   { name: 'HTML 5', iconPath: Icon.htmlIconPath },
   { name: 'CSS 3', iconPath: Icon.cssIconPath },
   { name: 'TailwindCSS', iconPath: Icon.tailwindCSSIconPath },
@@ -15,7 +16,6 @@ export const technologiesList = [
   { name: 'Sass', iconPath: Icon.sassIconPath },
   { name: 'Styled Components', iconPath: Icon.styledComponentsIconPath },
   { name: 'Stitches', iconPath: Icon.stitchesIconPath },
-  { name: 'Expo', iconPath: Icon.expoIconPath },
   { name: 'shadcn/ui', iconPath: Icon.shadcnIconPath },
   { name: 'RN Reusables', iconPath: Icon.rnReusablesIconPath },
   { name: 'Aceternity UI', iconPath: Icon.aceternityUiIconPath },
@@ -28,6 +28,7 @@ export const technologiesList = [
   { name: 'Prisma', iconPath: Icon.prismaIconPath },
   { name: 'Drizzle', iconPath: Icon.drizzleORMIconPath },
   { name: 'Redux', iconPath: Icon.reduxIconPath },
+  { name: 'Redux Toolkit', iconPath: Icon.reduxToolkitIconPath },
   { name: 'Zustand', iconPath: Icon.zustandIconPath },
   { name: 'Storybook', iconPath: Icon.storybookIconPath },
   { name: 'Next Auth (Auth.js)', iconPath: Icon.authJsIconPath },
@@ -38,6 +39,9 @@ export const technologiesList = [
   { name: 'React Router Dom', iconPath: Icon.reactRouterDomIconPath },
   { name: 'Axios', iconPath: Icon.axiosIconPath },
   { name: 'Ky', iconPath: Icon.kyIconPath },
+  { name: 'Amazon S3', iconPath: Icon.amazonS3IconPath },
+  { name: 'Cloudflare', iconPath: Icon.cloudflareIconPath },
+  { name: 'Stripe', iconPath: Icon.stripeIconPath },
   { name: 'Cypress', iconPath: Icon.cypressIconPath },
   { name: 'Playwright', iconPath: Icon.playwrightIconPath },
   { name: 'Vitest', iconPath: Icon.vitestIconPath },

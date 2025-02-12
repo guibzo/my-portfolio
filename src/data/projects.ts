@@ -363,8 +363,16 @@ export const projectsList: Project[] = [
         iconPath: Icon.prismaIconPath,
       },
       {
-        name: 'PostgreSQL',
+        name: 'PostgresSQL',
         iconPath: Icon.postgresSqlIconPath,
+      },
+      {
+        name: 'Stripe',
+        iconPath: Icon.stripeIconPath,
+      },
+      {
+        name: 'Kinde',
+        iconPath: Icon.kindeAuthIconPath,
       },
       {
         name: 'Tailwind CSS',
@@ -584,7 +592,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.drizzleORMIconPath,
       },
       {
-        name: 'PostgreSQL',
+        name: 'PostgresSQL',
         iconPath: Icon.postgresSqlIconPath,
       },
       {
@@ -1006,7 +1014,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.prismaIconPath,
       },
       {
-        name: 'PostgreSQL',
+        name: 'PostgresSQL',
         iconPath: Icon.postgresSqlIconPath,
       },
       {
@@ -1212,7 +1220,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.prismaIconPath,
       },
       {
-        name: 'PostgreSQL',
+        name: 'PostgresSQL',
         iconPath: Icon.postgresSqlIconPath,
       },
       {
