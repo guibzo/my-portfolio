@@ -46,12 +46,12 @@ export const ProjectItemModal = ({ project, gridSize }: { project: Project; grid
             <CarouselContent className='max-h-[calc(100vh-200px)]'>
               {project.imagesPath.map((imagePath) => {
                 return (
-                  <CarouselItem className='h-full'>
+                  <CarouselItem className='h-full rounded-xl'>
                     <img
                       src={imagePath}
                       key={imagePath}
                       alt=''
-                      className='object-contain overflow-hidden w-full h-full max-h-[80vh] rounded-xl'
+                      className='object-contain overflow-hidden w-full h-full max-h-[70vh] rounded-xl'
                     />
                   </CarouselItem>
                 )

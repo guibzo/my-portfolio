@@ -106,6 +106,139 @@ export const projectsList: Project[] = [
     deploy: 'https://console-revamp-two.vercel.app',
     imagesPath: ['assets/projects/consol-revamp.png'],
   },
+
+  {
+    title: 'Fórum Roleplay',
+    description:
+      'Um fórum para um servidor de GTA Roleplay. Inclui uma landing page, criação e visualização de tópicos por categorias, anúncios do servidor, ranking de jogadores por categorias, perfís próprios, dentre outros.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Aceternity UI',
+        iconPath: Icon.aceternityUiIconPath,
+      },
+      {
+        name: 'Framer Motion',
+        iconPath: Icon.framerMotionIconPath,
+      },
+      {
+        name: 'Recharts',
+        iconPath: Icon.rechartsIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'OAuth',
+        iconPath: Icon.oauthIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: '',
+    deploy: 'https://forum-app-seven-chi.vercel.app/',
+    imagesPath: [
+      'assets/projects/forum-1.png',
+      'assets/projects/forum-2.png',
+      'assets/projects/forum-3.png',
+      'assets/projects/forum-4.png',
+      'assets/projects/forum-5.png',
+    ],
+  },
+
+  {
+    title: 'Fórum Roleplay API',
+    description:
+      'API para o projeto Fórum Roleplay. Completamente documentado, com testes unitários, end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID.',
+    technologies: [
+      {
+        name: 'Node.js',
+        iconPath: Icon.nodejsIconPath,
+      },
+      {
+        name: 'Fastify',
+        iconPath: Icon.fastifyIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'Prisma',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'Vitest',
+        iconPath: Icon.vitestIconPath,
+      },
+      {
+        name: 'Swagger',
+        iconPath: Icon.swaggerIconPath,
+      },
+      {
+        name: 'OAuth',
+        iconPath: Icon.oauthIconPath,
+      },
+      {
+        name: 'Amazon S3',
+        iconPath: Icon.amazonS3IconPath,
+      },
+      {
+        name: 'Docker',
+        iconPath: Icon.dockerIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: '',
+    deploy: '',
+    imagesPath: ['assets/projects/api-image-generic.svg'],
+  },
+
   {
     title: 'Chama no Var',
     description:
@@ -164,6 +297,129 @@ export const projectsList: Project[] = [
     deploy: 'https://chama-no-var.vercel.app/',
     imagesPath: ['assets/projects/chama-no-var.png', 'assets/projects/chama-no-var-2.png'],
   },
+  {
+    title: 'Cashtrade',
+    description:
+      'Um projeto de trades. Monitora as trades automaticamente e exibe gráficos detalhados, além de permitir apostas com alto controle. Inclui também gráficos analíticos, histórico de operações com gráficos detalhados, painel de perfil e conta próprio, suporte dentro da plataforma, dentre outros. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Aceternity UI',
+        iconPath: Icon.aceternityUiIconPath,
+      },
+      {
+        name: 'Recharts',
+        iconPath: Icon.rechartsIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: '',
+    deploy: '',
+    imagesPath: [
+      'assets/projects/cashtrade.png',
+      'assets/projects/cashtrade-2.png',
+      'assets/projects/cashtrade-3.png',
+      'assets/projects/cashtrade-4.png',
+    ],
+  },
+  {
+    title: 'Battle Royale',
+    description:
+      'Um sistema para um servidor de GTA em Battle Royale. Inclui uma landing page completa, painel de configurações, painel de clãs, ranking da temporada, dentre outros. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Aceternity UI',
+        iconPath: Icon.aceternityUiIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: '',
+    deploy: '',
+    imagesPath: [
+      'assets/projects/clan-1.png',
+      'assets/projects/clan-2.png',
+      'assets/projects/clan-3.png',
+      'assets/projects/clan-4.png',
+    ],
+  },
+
   {
     title: 'Thoughts',
     description: 'Um projeto pessoal de um blog simples e moderno full-stack.',
@@ -229,6 +485,50 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/thoughts.png'],
   },
+
+  {
+    title: 'Thoughts API',
+    description:
+      'API para o projeto Thoughts. Projeto documentado e seguindo padrões de desenvolvimento SOLID.',
+    technologies: [
+      {
+        name: 'Node.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Fastify',
+        iconPath: Icon.fastifyIconPath,
+      },
+      {
+        name: 'Prisma',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'Docker',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/thoughts-api',
+    deploy: '',
+    imagesPath: ['assets/projects/api-image-generic.svg'],
+  },
+
   {
     title: 'Hells Angels MW',
     description:
@@ -263,6 +563,235 @@ export const projectsList: Project[] = [
     deploy: 'https://81mc-rocket.vercel.app',
     imagesPath: ['assets/projects/hamc.png'],
   },
+  {
+    title: 'BSPlay',
+    description:
+      'Landing page de um projeto de gerenciamento de finanças. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: '',
+    deploy: '',
+    imagesPath: [
+      'assets/projects/bsplay-1.png',
+      'assets/projects/bsplay-2.png',
+      'assets/projects/bsplay-3.png',
+      'assets/projects/bsplay-4.png',
+    ],
+  },
+  {
+    title: 'Surf Valley',
+    description:
+      'Landing page para um servidor de roleplay em GTA. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: '',
+    deploy: '',
+    imagesPath: ['assets/projects/sf-1.png', 'assets/projects/sf-2.png'],
+  },
+
+  {
+    title: 'Project Teller',
+    description:
+      'Micro-SaaS de um site para criar e compartilhar suas redes sociais e projetos com um único link. Inclui uma landing page, planos premium, perfís próprios, entre outros.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Aceternity UI',
+        iconPath: Icon.aceternityUiIconPath,
+      },
+      {
+        name: 'Framer Motion',
+        iconPath: Icon.framerMotionIconPath,
+      },
+      {
+        name: 'Next Auth',
+        iconPath: Icon.authJsIconPath,
+      },
+      {
+        name: 'Firebase',
+        iconPath: Icon.firebaseIconPath,
+      },
+      {
+        name: 'Stripe',
+        iconPath: Icon.stripeIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/project-teller',
+    deploy: '',
+    imagesPath: [
+      'assets/projects/project-teller-1.png',
+      'assets/projects/project-teller-4.png',
+      'assets/projects/project-teller-2.png',
+      'assets/projects/project-teller-3.png',
+    ],
+  },
+
+  {
+    title: 'Crown Fórum API',
+    description:
+      'API completa para um fórum extenso. Adere com eficiência regras de negócios com maior complexidade. Projeto completamente documentado, além de incluir testes unitários e end-to-end para garantir maior confiabilidade. Segue os padrões de desenvolvimento SOLID e o design pattern de DDD.',
+    technologies: [
+      {
+        name: 'Nest.js',
+        iconPath: Icon.nestIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Prisma',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'PostgresSQL',
+        iconPath: Icon.postgresSqlIconPath,
+      },
+      {
+        name: 'Redis',
+        iconPath: Icon.redisIconPath,
+      },
+      {
+        name: 'Vitest',
+        iconPath: Icon.vitestIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'Amazon S3',
+        iconPath: Icon.amazonS3IconPath,
+      },
+      {
+        name: 'Cloudflare',
+        iconPath: Icon.cloudflareIconPath,
+      },
+      {
+        name: 'Swagger',
+        iconPath: Icon.swaggerIconPath,
+      },
+      {
+        name: 'Docker',
+        iconPath: Icon.dockerIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/forum-nest',
+    deploy: '',
+    imagesPath: ['assets/projects/api-image-generic.svg'],
+  },
+
   {
     title: 'Crown Labs',
     description:
@@ -400,6 +929,59 @@ export const projectsList: Project[] = [
     deploy: 'https://guibzo-sass-project.vercel.app',
     imagesPath: ['assets/projects/bozo-sass.png'],
   },
+
+  {
+    title: 'React Clean',
+    description:
+      'Um projeto voltado a ser um POC sobre abstração de formulários e criação de uma arquitetura mais escalável e reutilizável no React com Next.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'Tailwind CSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'Shadcn UI',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/react-clean',
+    deploy: '',
+    imagesPath: ['assets/projects/react-clean-1.png', 'assets/projects/react-clean-2.png'],
+  },
+
   {
     title: 'Ignite Teams',
     description: 'App voltado para gerenciamento de grupos e times de qualquer cunho.',
@@ -479,6 +1061,7 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/space-gym-1.png'],
   },
+
   {
     title: 'Easy Transfer',
     description:
@@ -533,6 +1116,97 @@ export const projectsList: Project[] = [
     deploy: 'https://easy-transfer.vercel.app/',
     imagesPath: ['assets/projects/easy-transfer-2.png', 'assets/projects/easy-transfer.png'],
   },
+
+  {
+    title: 'Academy API',
+    description:
+      'API para uma academia. Adere com eficiência regras de negócios com maior complexidade. Projeto inclui testes unitários e end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID.',
+    technologies: [
+      {
+        name: 'Node.js',
+        iconPath: Icon.nodejsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Fastify',
+        iconPath: Icon.fastifyIconPath,
+      },
+      {
+        name: 'Prisma',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'Vitest',
+        iconPath: Icon.vitestIconPath,
+      },
+      {
+        name: 'Docker',
+        iconPath: Icon.dockerIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/academy-api-solid',
+    deploy: '',
+    imagesPath: ['assets/projects/api-image-generic.svg'],
+  },
+
+  {
+    title: 'Find a Friend API',
+    description:
+      'API para um projeto de adoção de pets. Projeto inclui testes unitários e end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID.',
+    technologies: [
+      {
+        name: 'Node.js',
+        iconPath: Icon.nodejsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Fastify',
+        iconPath: Icon.fastifyIconPath,
+      },
+      {
+        name: 'Prisma',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'Vitest',
+        iconPath: Icon.vitestIconPath,
+      },
+      {
+        name: 'Docker',
+        iconPath: Icon.dockerIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/find-a-friend-api',
+    deploy: '',
+    imagesPath: ['assets/projects/api-image-generic.svg'],
+  },
+
   {
     title: 'Constancy',
     description:
@@ -573,7 +1247,7 @@ export const projectsList: Project[] = [
   },
   {
     title: 'Constancy API',
-    description: 'API do app de metas pessoais (Constancy).',
+    description: 'API do app de metas pessoais (Constancy). Projeto completamente documentado.',
     technologies: [
       {
         name: 'Node.js',
@@ -594,6 +1268,14 @@ export const projectsList: Project[] = [
       {
         name: 'PostgresSQL',
         iconPath: Icon.postgresSqlIconPath,
+      },
+      {
+        name: 'Swagger',
+        iconPath: Icon.swaggerIconPath,
+      },
+      {
+        name: 'Docker',
+        iconPath: Icon.dockerIconPath,
       },
       {
         name: 'Zod',
