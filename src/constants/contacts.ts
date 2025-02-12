@@ -27,7 +27,7 @@ export const contacts: Contact[] = [
   {
     assetPath: '/assets/logos/discord.webp',
     name: 'Discord',
-    contact: '@guibzo',
+    contact: '@guibzo777',
     link: 'https://discord.com/users/474056096693223425',
   },
 ]

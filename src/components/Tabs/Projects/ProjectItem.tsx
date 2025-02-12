@@ -5,7 +5,9 @@ import { Project } from '@/@types/Project'
 import { AiFillGithub, AiOutlineRightCircle } from 'react-icons/ai'
 import { BsFillPinAngleFill } from 'react-icons/bs'
 
+import { Button } from '@/components/ui/button'
 import { cn } from '@/libs/cn'
+import { useEffect, useRef, useState } from 'react'
 import { ProjectItemModal } from './ProjectItemModal'
 
 interface ProjectItemProps extends Project {
@@ -21,6 +23,18 @@ export const ProjectItem = ({
   title,
   gridSize,
 }: ProjectItemProps) => {
+  const [expanded, setExpanded] = useState(false)
+  const [isClamped, setIsClamped] = useState(false)
+  const textRef = useRef<HTMLParagraphElement>(null)
+
+  useEffect(() => {
+    if (textRef.current) {
+      const lineHeight = parseFloat(getComputedStyle(textRef.current).lineHeight)
+      const maxHeight = lineHeight * 3
+      setIsClamped(textRef.current.scrollHeight > maxHeight)
+    }
+  }, [description])
+
   return (
     <li
       className={cn(
@@ -34,7 +48,7 @@ export const ProjectItem = ({
         </div>
       </div>
 
-      <div className='flex items-center justify-center flex-1'>
+      <div className={cn('flex justify-center', gridSize === 1 && 'flex-1')}>
         <ProjectItemModal
           gridSize={gridSize}
           project={{
@@ -48,11 +62,45 @@ export const ProjectItem = ({
         />
       </div>
 
-      <div className={`flex flex-col flex-1 gap-3 p-3 ${gridSize === 1 ? 'gap-3' : 'gap-6'}`}>
+      <div className={cn('flex flex-col flex-1 gap-3 p-3', gridSize === 2 && 'gap-6')}>
         <div className='flex flex-col flex-wrap gap-2'>
           <h2 className='text-xl font-bold truncate'>{title}</h2>
-          <p className='text-base text-muted-foreground font-secondary'>{description}</p>
+
+          <div className='relative'>
+            <p
+              ref={textRef}
+              className={cn(
+                'text-base text-muted-foreground font-secondary line-clamp-3',
+                expanded && 'line-clamp-none'
+              )}
+            >
+              {description}
+            </p>
+
+            {isClamped && !expanded && (
+              <Button
+                variant='link'
+                size='fit'
+                onClick={() => setExpanded(true)}
+                className='mt-1 text-base text-blue-500 hover:underline'
+              >
+                Ler mais
+              </Button>
+            )}
+
+            {expanded && (
+              <Button
+                variant='link'
+                size='fit'
+                onClick={() => setExpanded(false)}
+                className='mt-1 text-base text-blue-500 hover:underline'
+              >
+                Ler menos
+              </Button>
+            )}
+          </div>
         </div>
+
         <div className='mt-3 text-base'>
           <h4 className='text-lg font-bold'>Tecnologias utilizadas</h4>
           <ul className='flex flex-wrap gap-2 pt-2'>
@@ -78,24 +126,19 @@ export const ProjectItem = ({
           </ul>
         </div>
 
-        <span className='flex flex-wrap gap-3 pt-5 mt-auto'>
-          {/* If deploy or repository isn't available its link is an empty string */}
+        <span className='flex flex-wrap gap-3 pt-5 '>
           {repository.trim() ? (
             <Link
               to={repository}
               target='_blank'
               className='inline-flex items-center gap-1 text-base transition duration-100 text-sky-600 hover:text-sky-700'
             >
-              <i>
-                <AiFillGithub size={20} />
-              </i>
+              <AiFillGithub size={20} />
               Repositório
             </Link>
           ) : (
             <span className='inline-flex items-center gap-1 text-base text-gray-500 cursor-not-allowed select-none'>
-              <i>
-                <AiFillGithub size={20} />
-              </i>
+              <AiFillGithub size={20} />
               Repositório
             </span>
           )}
@@ -113,9 +156,7 @@ export const ProjectItem = ({
             </Link>
           ) : (
             <span className='inline-flex items-center gap-1 text-base text-gray-500 cursor-not-allowed select-none'>
-              <i>
-                <AiOutlineRightCircle size={20} />
-              </i>
+              <AiOutlineRightCircle size={20} />
               Deploy
             </span>
           )}

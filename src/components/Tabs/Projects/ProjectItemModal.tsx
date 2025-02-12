@@ -18,7 +18,7 @@ import { cn } from '@/libs/cn'
 
 export const ProjectItemModal = ({ project, gridSize }: { project: Project; gridSize: number }) => {
   return (
-    <Carousel>
+    <Carousel className='w-fit h-fit'>
       <Dialog>
         <DialogTrigger asChild>
           <img
@@ -31,11 +31,11 @@ export const ProjectItemModal = ({ project, gridSize }: { project: Project; grid
           />
         </DialogTrigger>
 
-        <DialogContent size='full-screen'>
+        <DialogContent size='full-screen' className='overflow-y-auto'>
           <DialogHeader className='mx-auto'>
             <DialogTitle className='text-xl text-center lg:text-2xl'>{project.title}</DialogTitle>
 
-            <DialogDescription className='text-muted-foreground'>
+            <DialogDescription className='max-w-4xl text-center text-muted-foreground'>
               {project.description}
             </DialogDescription>
           </DialogHeader>

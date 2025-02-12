@@ -1,11 +1,11 @@
 import { Project } from '@/@types/Project'
 import * as Icon from '@/utils/iconsPath'
-// i[magePath: 'assets/projects/api-image-generic.png'],
+// imagePath: 'assets/projects/api-image-generic.svg'],
 
 export const projectsList: Project[] = [
   {
     title: 'Portfólio',
-    description: 'Meu portfólio como desenvolvedor front-end.',
+    description: 'Meu portfólio como desenvolvedor.',
     technologies: [
       {
         name: 'React.js',
@@ -54,7 +54,8 @@ export const projectsList: Project[] = [
   },
   {
     title: 'Console Revamp',
-    description: 'Um console para operações internas de uma equipe de um servidor de Roleplay.',
+    description:
+      'Um console para operações internas de uma equipe de um servidor de Roleplay. Contém métricas e analíticas do servidor, ferramentas de gerenciamento dos usuários e membros da equipe, além de um dashboard com gráficos ilustrativos.',
     technologies: [
       {
         name: 'Next.js',
@@ -67,6 +68,14 @@ export const projectsList: Project[] = [
       {
         name: 'shadcn/ui',
         iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'Recharts',
+        iconPath: Icon.rechartsIconPath,
       },
       {
         name: 'HTML 5',
@@ -98,9 +107,166 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/consol-revamp.png'],
   },
   {
-    title: 'Boilerplate SaaS Next + Node ',
+    title: 'Chama no Var',
     description:
-      'Boilerplate setup de um multi-tenant SaaS, com RBAC, autorização e etc feito em Next (v15, R19) + Node (Monorepo).',
+      'Um desafio de recriação, adaptação e melhoria de uma página inspirada na landing page da Varsel Agency.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Aceternity UI',
+        iconPath: Icon.aceternityUiIconPath,
+      },
+      {
+        name: 'Framer Motion',
+        iconPath: Icon.framerMotionIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/chama-no-var',
+    deploy: 'https://chama-no-var.vercel.app/',
+    imagesPath: ['assets/projects/chama-no-var.png', 'assets/projects/chama-no-var-2.png'],
+  },
+  {
+    title: 'Thoughts',
+    description: 'Um projeto pessoal de um blog simples e moderno full-stack.',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Aceternity UI',
+        iconPath: Icon.aceternityUiIconPath,
+      },
+      {
+        name: 'Kinde Auth',
+        iconPath: Icon.kindeAuthIconPath,
+      },
+      {
+        name: 'Prisma',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'TanStack Query',
+        iconPath: Icon.reactQueryIconPath,
+      },
+      {
+        name: 'Axios',
+        iconPath: Icon.axiosIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/thoughts',
+    deploy: '',
+    imagesPath: ['assets/projects/thoughts.png'],
+  },
+  {
+    title: 'Hells Angels MW',
+    description:
+      'Um site de apresentação para um motoclube fictício de um servidor de um jogo em roleplay.',
+    technologies: [
+      {
+        name: 'React.js',
+        iconPath: Icon.reactIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'Styled Components',
+        iconPath: Icon.styledComponentsIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: '',
+    deploy: 'https://81mc-rocket.vercel.app',
+    imagesPath: ['assets/projects/hamc.png'],
+  },
+  {
+    title: 'Crown Labs',
+    description:
+      'Um projeto SaaS de gerenciamento de organizações e projetos, oferecendo recursos robustos para a administração eficiente de equipes e iniciativas. Permite a criação e gestão de organizações, incluindo a inclusão e gerenciamento de membros. Também suporta a criação e administração de múltiplos projetos, trazendo maior flexibilidade e controle para empresas e times.',
     technologies: [
       {
         name: 'Next.js',
@@ -176,9 +342,9 @@ export const projectsList: Project[] = [
     ],
   },
   {
-    title: 'Template SaaS',
+    title: 'BozoSaaS',
     description:
-      'Projeto boilerplate de microserviços SaaS. Sistemas de gerenciamento de notas com um plano de inscrição, tema configurável e mais.',
+      'Boilerplate para microserviços SaaS, projetado para um sistema de gerenciamento de notas. Inclui um plano de inscrição, suporte a temas configuráveis e outros recursos essenciais para personalização e escalabilidade.',
     technologies: [
       {
         name: 'Next.js',
@@ -198,7 +364,7 @@ export const projectsList: Project[] = [
       },
       {
         name: 'PostgreSQL',
-        iconPath: Icon.postgreSqlIconPath,
+        iconPath: Icon.postgresSqlIconPath,
       },
       {
         name: 'Tailwind CSS',
@@ -227,52 +393,28 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/bozo-sass.png'],
   },
   {
-    title: 'Thoughts',
-    description: 'Um projeto pessoal de um blog simples e moderno full-stack. (Em desenvolvimento)',
+    title: 'Ignite Teams',
+    description: 'App voltado para gerenciamento de grupos e times de qualquer cunho.',
     technologies: [
       {
-        name: 'Next.js',
-        iconPath: Icon.nextjsIconPath,
+        name: 'React Native',
+        iconPath: Icon.reactNativeIconPath,
       },
       {
         name: 'TypeScript',
         iconPath: Icon.typescriptIconPath,
       },
       {
-        name: 'HTML 5',
-        iconPath: Icon.htmlIconPath,
+        name: 'Expo',
+        iconPath: Icon.expoIconPath,
       },
       {
-        name: 'TailwindCSS',
-        iconPath: Icon.tailwindCSSIconPath,
+        name: 'Native Wind',
+        iconPath: Icon.nativeWindIconPath,
       },
       {
-        name: 'shadcn/ui',
-        iconPath: Icon.shadcnIconPath,
-      },
-      {
-        name: 'Aceternity UI',
-        iconPath: Icon.aceternityUiIconPath,
-      },
-      {
-        name: 'Kinde Auth',
-        iconPath: Icon.kindeAuthIconPath,
-      },
-      {
-        name: 'Prisma',
-        iconPath: Icon.prismaIconPath,
-      },
-      {
-        name: 'Zod',
-        iconPath: Icon.zodIconPath,
-      },
-      {
-        name: 'TanStack Query',
-        iconPath: Icon.reactQueryIconPath,
-      },
-      {
-        name: 'Axios',
-        iconPath: Icon.axiosIconPath,
+        name: 'RN Reusables',
+        iconPath: Icon.rnReusablesIconPath,
       },
       {
         name: 'Git',
@@ -282,73 +424,10 @@ export const projectsList: Project[] = [
         name: 'GitHub',
         iconPath: Icon.githubIconPath,
       },
-      {
-        name: 'Responsividade',
-        iconPath: Icon.responsiveIconPath,
-      },
     ],
-    repository: 'https://github.com/guibzo/thoughts',
+    repository: 'https://github.com/guibzo/ignite-teams',
     deploy: '',
-    imagesPath: ['assets/projects/thoughts.png'],
-  },
-
-  {
-    title: 'Chama no Var',
-    description:
-      'Um challenge de recriar e adaptar uma página inspirada na landing page da Varsel Agency.',
-    technologies: [
-      {
-        name: 'Next.js',
-        iconPath: Icon.nextjsIconPath,
-      },
-      {
-        name: 'TypeScript',
-        iconPath: Icon.typescriptIconPath,
-      },
-      {
-        name: 'HTML 5',
-        iconPath: Icon.htmlIconPath,
-      },
-      {
-        name: 'TailwindCSS',
-        iconPath: Icon.tailwindCSSIconPath,
-      },
-      {
-        name: 'shadcn/ui',
-        iconPath: Icon.shadcnIconPath,
-      },
-      {
-        name: 'Aceternity UI',
-        iconPath: Icon.aceternityUiIconPath,
-      },
-      {
-        name: 'Framer Motion',
-        iconPath: Icon.framerMotionIconPath,
-      },
-      {
-        name: 'Zod',
-        iconPath: Icon.zodIconPath,
-      },
-      {
-        name: 'React Hook Form',
-        iconPath: Icon.reactHookFormIconPath,
-      },
-      {
-        name: 'Git',
-        iconPath: Icon.gitIconPath,
-      },
-      {
-        name: 'GitHub',
-        iconPath: Icon.githubIconPath,
-      },
-      {
-        name: 'Responsividade',
-        iconPath: Icon.responsiveIconPath,
-      },
-    ],
-    repository: 'https://github.com/guibzo/chama-no-var',
-    deploy: 'https://chama-no-var.vercel.app/',
-    imagesPath: ['assets/projects/chama-no-var.png', 'assets/projects/chama-no-var-2.png'],
+    imagesPath: ['assets/projects/ignite-teams.png'],
   },
   {
     title: 'Space Gym',
@@ -395,7 +474,7 @@ export const projectsList: Project[] = [
   {
     title: 'Easy Transfer',
     description:
-      'Freelance de uma landing page com contato sob demanda feito para empresa Easy Transfer. (Deploy de preview não integrado)',
+      'Freelance de uma landing page com contato sob demanda feito para empresa Easy Transfer.',
     technologies: [
       {
         name: 'React',
@@ -448,7 +527,8 @@ export const projectsList: Project[] = [
   },
   {
     title: 'Constancy',
-    description: 'Um app de metas pessoais.',
+    description:
+      'Um app de metas pessoais. Permite rastrear e criar suas metas por períodos, além de ser um sistema gameficado para incentivar os usuários a cumpri-las, com recompensas e apelos visuais.',
     technologies: [
       {
         name: 'Next.js',
@@ -505,7 +585,7 @@ export const projectsList: Project[] = [
       },
       {
         name: 'PostgreSQL',
-        iconPath: Icon.postgreSqlIconPath,
+        iconPath: Icon.postgresSqlIconPath,
       },
       {
         name: 'Zod',
@@ -522,45 +602,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/constancy-api',
     deploy: '',
-    imagesPath: ['assets/projects/api-image-generic.png'],
-  },
-
-  {
-    title: 'Ignite Teams',
-    description: 'App voltado para gerenciamento de grupos e times.',
-    technologies: [
-      {
-        name: 'React Native',
-        iconPath: Icon.reactNativeIconPath,
-      },
-      {
-        name: 'TypeScript',
-        iconPath: Icon.typescriptIconPath,
-      },
-      {
-        name: 'Expo',
-        iconPath: Icon.expoIconPath,
-      },
-      {
-        name: 'Native Wind',
-        iconPath: Icon.nativeWindIconPath,
-      },
-      {
-        name: 'RN Reusables',
-        iconPath: Icon.rnReusablesIconPath,
-      },
-      {
-        name: 'Git',
-        iconPath: Icon.gitIconPath,
-      },
-      {
-        name: 'GitHub',
-        iconPath: Icon.githubIconPath,
-      },
-    ],
-    repository: 'https://github.com/guibzo/ignite-teams',
-    deploy: '',
-    imagesPath: ['assets/projects/ignite-teams.png'],
+    imagesPath: ['assets/projects/api-image-generic.svg'],
   },
   {
     title: 'Bookwise',
@@ -646,42 +688,13 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/gespol-system',
     deploy: 'https://gespol-system.vercel.app',
-    imagesPath: ['assets/projects/gespol.png'],
-  },
-  {
-    title: 'Hells Angels MW',
-    description:
-      'Um site de apresentação para um grupo fictício de um determinado servidor de um jogo em roleplay.',
-    technologies: [
-      {
-        name: 'React.js',
-        iconPath: Icon.reactIconPath,
-      },
-      {
-        name: 'TypeScript',
-        iconPath: Icon.typescriptIconPath,
-      },
-      {
-        name: 'HTML 5',
-        iconPath: Icon.htmlIconPath,
-      },
-      {
-        name: 'Styled Components',
-        iconPath: Icon.styledComponentsIconPath,
-      },
-      {
-        name: 'Git',
-        iconPath: Icon.gitIconPath,
-      },
-      {
-        name: 'Responsividade',
-        iconPath: Icon.responsiveIconPath,
-      },
+    imagesPath: [
+      'assets/projects/gespol.png',
+      'assets/projects/gespol2.png',
+      'assets/projects/gespol3.png',
     ],
-    repository: '',
-    deploy: 'https://81mc-rocket.vercel.app',
-    imagesPath: ['assets/projects/hamc.png'],
   },
+
   {
     title: 'Pizza Shop',
     description:
@@ -706,6 +719,10 @@ export const projectsList: Project[] = [
       {
         name: 'Shadcn UI',
         iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Recharts',
+        iconPath: Icon.rechartsIconPath,
       },
       {
         name: 'Git',
@@ -769,6 +786,10 @@ export const projectsList: Project[] = [
       {
         name: 'Redux',
         iconPath: Icon.reduxIconPath,
+      },
+      {
+        name: 'Redux Toolkit',
+        iconPath: Icon.reduxToolkitIconPath,
       },
       {
         name: 'Zustand',
@@ -848,7 +869,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/diet-api',
     deploy: '',
-    imagesPath: ['assets/projects/api-image-generic.png'],
+    imagesPath: ['assets/projects/api-image-generic.svg'],
   },
   {
     title: 'Coffee Delivery',
@@ -986,7 +1007,7 @@ export const projectsList: Project[] = [
       },
       {
         name: 'PostgreSQL',
-        iconPath: Icon.postgreSqlIconPath,
+        iconPath: Icon.postgresSqlIconPath,
       },
       {
         name: 'TanStack Query',
@@ -1041,7 +1062,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/rocket-notes-api',
     deploy: '',
-    imagesPath: ['assets/projects/api-image-generic.png'],
+    imagesPath: ['assets/projects/api-image-generic.svg'],
   },
   {
     title: 'Rocket Notes',
@@ -1192,7 +1213,7 @@ export const projectsList: Project[] = [
       },
       {
         name: 'PostgreSQL',
-        iconPath: Icon.postgreSqlIconPath,
+        iconPath: Icon.postgresSqlIconPath,
       },
       {
         name: 'Redis',
@@ -1213,7 +1234,7 @@ export const projectsList: Project[] = [
     ],
     repository: 'https://github.com/guibzo/polls',
     deploy: '',
-    imagesPath: ['assets/projects/api-image-generic.png'],
+    imagesPath: ['assets/projects/api-image-generic.svg'],
   },
   {
     title: 'Ignite Feed',
@@ -1547,19 +1568,6 @@ export const projectsList: Project[] = [
     repository: 'https://github.com/guibzo/qr-code',
     deploy: '',
     imagesPath: ['assets/projects/qrCodeComponent.png'],
-  },
-  {
-    title: 'Jogo de Sorteio',
-    description: 'Um jogo de sorteio extremamente simples de terminal.',
-    technologies: [
-      {
-        name: 'Go',
-        iconPath: Icon.goLangIconPath,
-      },
-    ],
-    repository: 'https://github.com/guibzo/first-go',
-    deploy: '',
-    imagesPath: ['assets/projects/terminal-go.png'],
   },
   {
     title: 'Urna Eletrônica',

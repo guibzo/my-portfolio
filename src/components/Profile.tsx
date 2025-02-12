@@ -31,7 +31,7 @@ export const Profile = () => {
           Guilherme Viana
         </strong>
         <span className='mx-auto text-sm text-muted-foreground lg:mx-0 md:text-center lg:text-start'>
-          Front-end Developer
+          Desenvolvedor Front-end/Mobile
         </span>
 
         <div className='flex flex-wrap gap-3 mx-auto mt-2 lg:mx-0 md:justify-center lg:justify-start'>

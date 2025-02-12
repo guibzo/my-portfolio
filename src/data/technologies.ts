@@ -21,6 +21,7 @@ export const technologiesList = [
   { name: 'Aceternity UI', iconPath: Icon.aceternityUiIconPath },
   { name: 'Framer Motion', iconPath: Icon.framerMotionIconPath },
   { name: 'Radix UI', iconPath: Icon.radixIconPath },
+  { name: 'Recharts', iconPath: Icon.rechartsIconPath },
   { name: 'Git', iconPath: Icon.gitIconPath },
   { name: 'GitHub', iconPath: Icon.githubIconPath },
   { name: 'Fastify', iconPath: Icon.fastifyIconPath },

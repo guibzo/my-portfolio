@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 
 import { projectsList } from '@/data/projects'
 
+import { Button } from '@/components/ui/button'
 import { cn } from '@/libs/cn'
 import { useState } from 'react'
 import { CiGrid2H, CiGrid41 } from 'react-icons/ci'
@@ -37,19 +38,23 @@ export const Projects = () => {
 
       <div className='w-full text-end'>
         {gridSize === 1 ? (
-          <button
+          <Button
+            variant='ghost'
+            size='icon'
             onClick={() => setGridSize(2)}
-            className='p-2.5 mt-2 rounded-lg border border-border border-dashed'
+            className='p-2.5 mt-2 rounded-lg border border-border border-dashed hover:bg-transparent hover:brightness-75'
           >
             <CiGrid41 size={16} className='text-zinc-300' />
-          </button>
+          </Button>
         ) : (
-          <button
+          <Button
+            variant='ghost'
+            size='icon'
             onClick={() => setGridSize(1)}
-            className='p-2.5 mt-2 rounded-lg border border-border border-dashed'
+            className='p-2.5 mt-2 rounded-lg border border-border border-dashed hover:bg-transparent hover:brightness-75'
           >
             <CiGrid2H size={16} className='text-zinc-300' />
-          </button>
+          </Button>
         )}
       </div>
     </>

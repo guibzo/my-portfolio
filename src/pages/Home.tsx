@@ -18,7 +18,7 @@ export const Home = () => {
           <main className='flex flex-col gap-5 lg:flex-row'>
             <Profile />
             <section className='flex-1 p-3 bg-center bg-no-repeat border rounded-lg md:p-4 border-border bg-background'>
-              <header className='flex gap-2 text-xl jusify-between'>
+              <header className='flex h-full gap-2 text-xl'>
                 <Tabs.Root defaultValue='tab1'>
                   <div className='flex items-center justify-between gap-2'>
                     <Tabs.List className='flex gap-3 uppercase'>
@@ -40,7 +40,7 @@ export const Home = () => {
                     </Tabs.List>
                   </div>
 
-                  <Tabs.Content value='tab1' className='mt-6 bg-[url("/assets/circlesBG.png")] '>
+                  <Tabs.Content value='tab1' className='h-[calc(100%-46px)] mt-6'>
                     <About />
                   </Tabs.Content>
 
