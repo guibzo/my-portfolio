@@ -931,58 +931,6 @@ export const projectsList: Project[] = [
   },
 
   {
-    title: 'React Clean',
-    description:
-      'Um projeto voltado a ser um POC sobre abstração de formulários e criação de uma arquitetura mais escalável e reutilizável no React com Next.',
-    technologies: [
-      {
-        name: 'Next.js',
-        iconPath: Icon.nextjsIconPath,
-      },
-      {
-        name: 'TypeScript',
-        iconPath: Icon.typescriptIconPath,
-      },
-      {
-        name: 'HTML 5',
-        iconPath: Icon.htmlIconPath,
-      },
-      {
-        name: 'Tailwind CSS',
-        iconPath: Icon.tailwindCSSIconPath,
-      },
-      {
-        name: 'Shadcn UI',
-        iconPath: Icon.shadcnIconPath,
-      },
-      {
-        name: 'Zod',
-        iconPath: Icon.zodIconPath,
-      },
-      {
-        name: 'React Hook Form',
-        iconPath: Icon.reactHookFormIconPath,
-      },
-      {
-        name: 'Git',
-        iconPath: Icon.gitIconPath,
-      },
-      {
-        name: 'GitHub',
-        iconPath: Icon.githubIconPath,
-      },
-
-      {
-        name: 'Responsividade',
-        iconPath: Icon.responsiveIconPath,
-      },
-    ],
-    repository: 'https://github.com/guibzo/react-clean',
-    deploy: '',
-    imagesPath: ['assets/projects/react-clean-1.png', 'assets/projects/react-clean-2.png'],
-  },
-
-  {
     title: 'Ignite Teams',
     description: 'App voltado para gerenciamento de grupos e times de qualquer cunho.',
     technologies: [
