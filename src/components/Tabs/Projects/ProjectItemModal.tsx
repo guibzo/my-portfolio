@@ -41,7 +41,7 @@ export const ProjectItemModal = ({ project, gridSize }: { project: Project; grid
           </DialogHeader>
 
           <div className='flex items-center justify-center gap-5 pb-4'>
-            <CarouselPrevious className='static shrink-0 grow-0' />
+            <CarouselPrevious className='static bg-white shrink-0 grow-0' />
 
             <CarouselContent className='max-h-[calc(100vh-200px)]'>
               {project.imagesPath.map((imagePath) => {
@@ -58,7 +58,7 @@ export const ProjectItemModal = ({ project, gridSize }: { project: Project; grid
               })}
             </CarouselContent>
 
-            <CarouselNext className='static shrink-0 grow-0' />
+            <CarouselNext className='static bg-white shrink-0 grow-0' />
           </div>
         </DialogContent>
       </Dialog>

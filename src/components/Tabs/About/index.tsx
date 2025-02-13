@@ -20,7 +20,7 @@ export const About = () => {
             <p>
               Sou um desenvolvedor <strong>front-end</strong> com cerca de três anos de experiência
               em
-              <strong> desenvolvimento web</strong>e aproximadamente 2 anos em{' '}
+              <strong> desenvolvimento web</strong> e aproximadamente 2 anos em{' '}
               <strong>desenvolvimento mobile.</strong>.
             </p>
           </div>

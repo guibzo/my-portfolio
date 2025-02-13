@@ -4,55 +4,6 @@ import * as Icon from '@/utils/iconsPath'
 
 export const projectsList: Project[] = [
   {
-    title: 'Portfólio',
-    description: 'Meu portfólio como desenvolvedor.',
-    technologies: [
-      {
-        name: 'React.js',
-        iconPath: Icon.reactIconPath,
-      },
-      {
-        name: 'TypeScript',
-        iconPath: Icon.typescriptIconPath,
-      },
-      {
-        name: 'HTML 5',
-        iconPath: Icon.htmlIconPath,
-      },
-      {
-        name: 'TailwindCSS',
-        iconPath: Icon.tailwindCSSIconPath,
-      },
-      {
-        name: 'shadcn/ui',
-        iconPath: Icon.shadcnIconPath,
-      },
-      {
-        name: 'Framer Motion',
-        iconPath: Icon.framerMotionIconPath,
-      },
-      {
-        name: 'Git',
-        iconPath: Icon.gitIconPath,
-      },
-      {
-        name: 'GitHub',
-        iconPath: Icon.githubIconPath,
-      },
-      {
-        name: 'Radix UI',
-        iconPath: Icon.radixIconPath,
-      },
-      {
-        name: 'Responsividade',
-        iconPath: Icon.responsiveIconPath,
-      },
-    ],
-    repository: 'https://github.com/guibzo/my-portfolio',
-    deploy: 'https://portfolio-guilherme-viana.vercel.app',
-    imagesPath: ['assets/projects/portfolio.png'],
-  },
-  {
     title: 'Console Revamp',
     description:
       'Um console para operações internas de uma equipe de um servidor de Roleplay. Contém métricas e analíticas do servidor, ferramentas de gerenciamento dos usuários e membros da equipe, além de um dashboard com gráficos ilustrativos.',
@@ -562,6 +513,55 @@ export const projectsList: Project[] = [
     repository: '',
     deploy: 'https://81mc-rocket.vercel.app',
     imagesPath: ['assets/projects/hamc.png'],
+  },
+  {
+    title: 'Portfólio',
+    description: 'Meu portfólio como desenvolvedor.',
+    technologies: [
+      {
+        name: 'React.js',
+        iconPath: Icon.reactIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Framer Motion',
+        iconPath: Icon.framerMotionIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'Radix UI',
+        iconPath: Icon.radixIconPath,
+      },
+      {
+        name: 'Responsividade',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/my-portfolio',
+    deploy: 'https://portfolio-guilherme-viana.vercel.app',
+    imagesPath: ['assets/projects/portfolio.png'],
   },
   {
     title: 'BSPlay',

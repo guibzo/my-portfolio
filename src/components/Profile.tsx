@@ -4,12 +4,10 @@ import ProfilePicture from '/assets/profile-picture.png'
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card'
 import { contacts } from '@/constants/contacts'
 import { technologiesList } from '@/data/technologies'
-import { changeLanguage } from 'i18next'
 import { LucideInfo } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
-import { Button } from './ui/button'
 
 export const Profile = () => {
   const { t } = useTranslation()
@@ -37,18 +35,8 @@ export const Profile = () => {
         </strong>
         <span className='mx-auto text-sm text-muted-foreground lg:mx-0 md:text-center lg:text-start'>
           {/* Desenvolvedor Front-end/Mobile */}
-          {t('title')}
+          {t('profile.title')}
         </span>
-
-        <div className='flex items-center gap-2'>
-          <Button className='text-black' onClick={() => changeLanguage('pt-BR')}>
-            PT
-          </Button>
-
-          <Button className='text-black' onClick={() => changeLanguage('en-US')}>
-            EN
-          </Button>
-        </div>
 
         <div className='flex flex-wrap gap-3 mx-auto mt-2 lg:mx-0 md:justify-center lg:justify-start'>
           <div className='lg:hidden'>
