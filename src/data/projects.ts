@@ -4,9 +4,8 @@ import * as Icon from '@/utils/iconsPath'
 
 export const projectsList: Project[] = [
   {
-    title: 'Console Revamp',
-    description:
-      'Um console para operações internas de uma equipe de um servidor de Roleplay. Contém métricas e analíticas do servidor, ferramentas de gerenciamento dos usuários e membros da equipe, além de um dashboard com gráficos ilustrativos.',
+    title: 'projects.consoleRevamp.title',
+    description: 'projects.consoleRevamp.description',
     technologies: [
       {
         name: 'Next.js',
@@ -57,11 +56,9 @@ export const projectsList: Project[] = [
     deploy: 'https://console-revamp-two.vercel.app',
     imagesPath: ['assets/projects/consol-revamp.png'],
   },
-
   {
-    title: 'Fórum Roleplay',
-    description:
-      'Um fórum para um servidor de GTA Roleplay. Inclui uma landing page, criação e visualização de tópicos por categorias, anúncios do servidor, ranking de jogadores por categorias, perfís próprios, dentre outros.',
+    title: 'projects.forumRoleplay.title',
+    description: 'projects.forumRoleplay.description',
     technologies: [
       {
         name: 'Next.js',
@@ -130,11 +127,9 @@ export const projectsList: Project[] = [
       'assets/projects/forum-5.png',
     ],
   },
-
   {
-    title: 'Fórum Roleplay API',
-    description:
-      'API para o projeto Fórum Roleplay. Completamente documentado, com testes unitários, end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID.',
+    title: 'projects.forumRoleplayAPI.title',
+    description: 'projects.forumRoleplayAPI.description',
     technologies: [
       {
         name: 'Node.js',
@@ -189,11 +184,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/api-image-generic.svg'],
   },
-
   {
-    title: 'Chama no Var',
-    description:
-      'Um desafio de recriação, adaptação e melhoria de uma página inspirada na landing page da Varsel Agency.',
+    title: 'projects.chamaNoVar.title',
+    description: 'projects.chamaNoVar.description',
     technologies: [
       {
         name: 'Next.js',
@@ -249,9 +242,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/chama-no-var.png', 'assets/projects/chama-no-var-2.png'],
   },
   {
-    title: 'Cashtrade',
-    description:
-      'Um projeto de trades. Monitora as trades automaticamente e exibe gráficos detalhados, além de permitir apostas com alto controle. Inclui também gráficos analíticos, histórico de operações com gráficos detalhados, painel de perfil e conta próprio, suporte dentro da plataforma, dentre outros. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados.',
+    title: 'projects.cashtrade.title',
+    description: 'projects.cashtrade.description',
     technologies: [
       {
         name: 'Next.js',
@@ -312,9 +304,8 @@ export const projectsList: Project[] = [
     ],
   },
   {
-    title: 'Battle Royale',
-    description:
-      'Um sistema para um servidor de GTA em Battle Royale. Inclui uma landing page completa, painel de configurações, painel de clãs, ranking da temporada, dentre outros. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados.',
+    title: 'projects.battleRoyale.title',
+    description: 'projects.battleRoyale.description',
     technologies: [
       {
         name: 'Next.js',
@@ -370,10 +361,9 @@ export const projectsList: Project[] = [
       'assets/projects/clan-4.png',
     ],
   },
-
   {
-    title: 'Thoughts',
-    description: 'Um projeto pessoal de um blog simples e moderno full-stack.',
+    title: 'projects.thoughts.title',
+    description: 'projects.thoughts.description',
     technologies: [
       {
         name: 'Next.js',
@@ -436,11 +426,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/thoughts.png'],
   },
-
   {
-    title: 'Thoughts API',
-    description:
-      'API para o projeto Thoughts. Projeto documentado e seguindo padrões de desenvolvimento SOLID.',
+    title: 'projects.thoughtsAPI.title',
+    description: 'projects.thoughtsAPI.description',
     technologies: [
       {
         name: 'Node.js',
@@ -479,11 +467,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/api-image-generic.svg'],
   },
-
   {
-    title: 'Hells Angels MW',
-    description:
-      'Um site de apresentação para um motoclube fictício de um servidor de um jogo em roleplay.',
+    title: 'projects.hellsAngels.title',
+    description: 'projects.hellsAngels.description',
     technologies: [
       {
         name: 'React.js',
@@ -515,8 +501,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/hamc.png'],
   },
   {
-    title: 'Portfólio',
-    description: 'Meu portfólio como desenvolvedor.',
+    title: 'projects.portfolio.title',
+    description: 'projects.portfolio.description',
     technologies: [
       {
         name: 'React.js',
@@ -564,9 +550,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/portfolio.png'],
   },
   {
-    title: 'BSPlay',
-    description:
-      'Landing page de um projeto de gerenciamento de finanças. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados.',
+    title: 'projects.bsplay.title',
+    description: 'projects.bsplay.description',
     technologies: [
       {
         name: 'Next.js',
@@ -611,9 +596,8 @@ export const projectsList: Project[] = [
     ],
   },
   {
-    title: 'Surf Valley',
-    description:
-      'Landing page para um servidor de roleplay em GTA. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados.',
+    title: 'projects.surfValley.title',
+    description: 'projects.surfValley.description',
     technologies: [
       {
         name: 'Next.js',
@@ -652,11 +636,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/sf-1.png', 'assets/projects/sf-2.png'],
   },
-
   {
-    title: 'Project Teller',
-    description:
-      'Micro-SaaS de um site para criar e compartilhar suas redes sociais e projetos com um único link. Inclui uma landing page, planos premium, perfís próprios, entre outros.',
+    title: 'projects.projectTeller.title',
+    description: 'projects.projectTeller.description',
     technologies: [
       {
         name: 'Next.js',
@@ -728,11 +710,9 @@ export const projectsList: Project[] = [
       'assets/projects/project-teller-3.png',
     ],
   },
-
   {
-    title: 'Crown Fórum API',
-    description:
-      'API completa para um fórum extenso. Adere com eficiência regras de negócios com maior complexidade. Projeto completamente documentado, além de incluir testes unitários e end-to-end para garantir maior confiabilidade. Segue os padrões de desenvolvimento SOLID e o design pattern de DDD.',
+    title: 'projects.crownForumAPI.title',
+    description: 'projects.crownForumAPI.description',
     technologies: [
       {
         name: 'Nest.js',
@@ -791,11 +771,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/api-image-generic.svg'],
   },
-
   {
-    title: 'Crown Labs',
-    description:
-      'Um projeto SaaS de gerenciamento de organizações e projetos, oferecendo recursos robustos para a administração eficiente de equipes e iniciativas. Permite a criação e gestão de organizações, incluindo a inclusão e gerenciamento de membros. Também suporta a criação e administração de múltiplos projetos, trazendo maior flexibilidade e controle para empresas e times.',
+    title: 'projects.crownLabs.title',
+    description: 'projects.crownLabs.description',
     technologies: [
       {
         name: 'Next.js',
@@ -871,9 +849,8 @@ export const projectsList: Project[] = [
     ],
   },
   {
-    title: 'BozoSaaS',
-    description:
-      'Boilerplate para microserviços SaaS, projetado para um sistema de gerenciamento de notas. Inclui um plano de inscrição, suporte a temas configuráveis e outros recursos essenciais para personalização e escalabilidade.',
+    title: 'projects.bozoSaaS.title',
+    description: 'projects.bozoSaaS.description',
     technologies: [
       {
         name: 'Next.js',
@@ -929,10 +906,9 @@ export const projectsList: Project[] = [
     deploy: 'https://guibzo-sass-project.vercel.app',
     imagesPath: ['assets/projects/bozo-sass.png'],
   },
-
   {
-    title: 'Ignite Teams',
-    description: 'App voltado para gerenciamento de grupos e times de qualquer cunho.',
+    title: 'projects.igniteTeams.title',
+    description: 'projects.igniteTeams.description',
     technologies: [
       {
         name: 'React Native',
@@ -968,9 +944,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/ignite-teams.png'],
   },
   {
-    title: 'Space Gym',
-    description:
-      'Um projeto voltado para academia e musculação. Conta com listagem de exercícios com imagens, vídeos e gifs, histórico de exercícios, perfís próprios, etc.',
+    title: 'projects.spaceGym.title',
+    description: 'projects.spaceGym.description',
     technologies: [
       {
         name: 'React Native',
@@ -1009,11 +984,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/space-gym-1.png'],
   },
-
   {
-    title: 'Easy Transfer',
-    description:
-      'Freelance de uma landing page com contato sob demanda feito para empresa Easy Transfer.',
+    title: 'projects.easyTransfer.title',
+    description: 'projects.easyTransfer.description',
     technologies: [
       {
         name: 'React',
@@ -1064,11 +1037,9 @@ export const projectsList: Project[] = [
     deploy: 'https://easy-transfer.vercel.app/',
     imagesPath: ['assets/projects/easy-transfer-2.png', 'assets/projects/easy-transfer.png'],
   },
-
   {
-    title: 'Academy API',
-    description:
-      'API para uma academia. Adere com eficiência regras de negócios com maior complexidade. Projeto inclui testes unitários e end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID.',
+    title: 'projects.academyAPI.title',
+    description: 'projects.academyAPI.description',
     technologies: [
       {
         name: 'Node.js',
@@ -1111,11 +1082,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/api-image-generic.svg'],
   },
-
   {
-    title: 'Find a Friend API',
-    description:
-      'API para um projeto de adoção de pets. Projeto inclui testes unitários e end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID.',
+    title: 'projects.findAFriendAPI.title',
+    description: 'projects.findAFriendAPI.description',
     technologies: [
       {
         name: 'Node.js',
@@ -1154,11 +1123,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/api-image-generic.svg'],
   },
-
   {
-    title: 'Constancy',
-    description:
-      'Um app de metas pessoais. Permite rastrear e criar suas metas por períodos, além de ser um sistema gameficado para incentivar os usuários a cumpri-las, com recompensas e apelos visuais.',
+    title: 'projects.constancy.title',
+    description: 'projects.constancy.description',
     technologies: [
       {
         name: 'Next.js',
@@ -1194,8 +1161,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/constancy-1.png', 'assets/projects/constancy-2.png'],
   },
   {
-    title: 'Constancy API',
-    description: 'API do app de metas pessoais (Constancy). Projeto completamente documentado.',
+    title: 'projects.constancyAPI.title',
+    description: 'projects.constancyAPI.description',
     technologies: [
       {
         name: 'Node.js',
@@ -1243,8 +1210,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/api-image-generic.svg'],
   },
   {
-    title: 'Bookwise',
-    description: 'Uma plataforma para avaliação de livros. Challenge de uma aplicação full-stack.',
+    title: 'projects.bookwise.title',
+    description: 'projects.bookwise.description',
     technologies: [
       {
         name: 'Next.js',
@@ -1300,8 +1267,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/bookwise.png'],
   },
   {
-    title: 'Gespol',
-    description: 'Sistema de gerenciamento policial para internos da corporação.',
+    title: 'projects.gespol.title',
+    description: 'projects.gespol.description',
     technologies: [
       {
         name: 'React.js',
@@ -1332,11 +1299,9 @@ export const projectsList: Project[] = [
       'assets/projects/gespol3.png',
     ],
   },
-
   {
-    title: 'Pizza Shop',
-    description:
-      'Uma loja de pizzas com tabela de pedidos, manipulação de status dos pedidos, gráficos da loja e mais.',
+    title: 'projects.pizzaShop.title',
+    description: 'projects.pizzaShop.description',
     technologies: [
       {
         name: 'React.js',
@@ -1395,11 +1360,9 @@ export const projectsList: Project[] = [
     deploy: '',
     imagesPath: ['assets/projects/pizza-shop.png'],
   },
-
   {
-    title: 'Course Player',
-    description:
-      'Um video player para vídeos de algum curso. Feito com Redux, Zustand e outros conceitos avançados.',
+    title: 'projects.coursePlayer.title',
+    description: 'projects.coursePlayer.description',
     technologies: [
       {
         name: 'React.js',
@@ -1443,9 +1406,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/coursePlayer.png'],
   },
   {
-    title: 'GitHub Blog',
-    description:
-      'Projeto focado em exibir as issues de um repositório do GitHub em formato de blog. Construído consumindo a GitHub API.',
+    title: 'projects.githubBlog.title',
+    description: 'projects.githubBlog.description',
     technologies: [
       {
         name: 'React.js',
@@ -1477,8 +1439,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/githubBlog2.png'],
   },
   {
-    title: 'Diet API',
-    description: 'Challenge de criação de uma API para gerenciamento de dietas.',
+    title: 'projects.dietAPI.title',
+    description: 'projects.dietAPI.description',
     technologies: [
       {
         name: 'Node.js',
@@ -1510,9 +1472,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/api-image-generic.svg'],
   },
   {
-    title: 'Coffee Delivery',
-    description:
-      'Projeto de uma loja de cafés virtual, desde a seleção do café até o checkout e a confirmação do pedido.',
+    title: 'projects.coffeeDelivery.title',
+    description: 'projects.coffeeDelivery.description',
     technologies: [
       {
         name: 'React.js',
@@ -1544,9 +1505,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/coffeeDelivery.png'],
   },
   {
-    title: 'Design System',
-    description:
-      'Um design system com padrão de elementos, cores, tipografia, etc. Criado usando Storybook.',
+    title: 'projects.designSystem.title',
+    description: 'projects.designSystem.description',
     technologies: [
       {
         name: 'React.js',
@@ -1586,8 +1546,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/storybook project.png'],
   },
   {
-    title: 'Tabela de transações',
-    description: 'Um challenge simples de criação de uma tabela com transações.',
+    title: 'projects.tabelaTransacoes.title',
+    description: 'projects.tabelaTransacoes.description',
     technologies: [
       {
         name: 'Nex.tjs',
@@ -1615,9 +1575,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/challenge-transactions.png'],
   },
   {
-    title: 'Ignite Call',
-    description:
-      'Sistema de agendamentos integrado com o Google Calendar para prestadores de serviços.',
+    title: 'projects.igniteCall.title',
+    description: 'projects.igniteCall.description',
     technologies: [
       {
         name: 'Next.js',
@@ -1681,31 +1640,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/ignite-call.png'],
   },
   {
-    title: 'Rocket Notes API',
-    description:
-      'Back-end em Node da aplicação Rocket Notes. Abrange fluxo de autenticação e armazenamento em banco de notas, usuários e suas configurações.',
-    technologies: [
-      {
-        name: 'Node.js',
-        iconPath: Icon.nodejsIconPath,
-      },
-      {
-        name: 'JavaScript',
-        iconPath: Icon.javascriptIconPath,
-      },
-      {
-        name: 'SQLite',
-        iconPath: Icon.sqliteIconPath,
-      },
-    ],
-    repository: 'https://github.com/guibzo/rocket-notes-api',
-    deploy: '',
-    imagesPath: ['assets/projects/api-image-generic.svg'],
-  },
-  {
-    title: 'Rocket Notes',
-    description:
-      'Projeto de uma plataforma de anotações, com perfis individuais, manipulação das anotações, etc.',
+    title: 'projects.rocketNotes.title',
+    description: 'projects.rocketNotes.description',
     technologies: [
       {
         name: 'React.js',
@@ -1733,8 +1669,30 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/rocketNotes.png'],
   },
   {
-    title: 'Pomodoro',
-    description: 'Um timer em estilo Pomodoro, com histórico.',
+    title: 'projects.rocketNotesAPI.title',
+    description: 'projects.rocketNotesAPI.description',
+    technologies: [
+      {
+        name: 'Node.js',
+        iconPath: Icon.nodejsIconPath,
+      },
+      {
+        name: 'JavaScript',
+        iconPath: Icon.javascriptIconPath,
+      },
+      {
+        name: 'SQLite',
+        iconPath: Icon.sqliteIconPath,
+      },
+    ],
+    repository: 'https://github.com/guibzo/rocket-notes-api',
+    deploy: '',
+    imagesPath: ['assets/projects/api-image-generic.svg'],
+  },
+
+  {
+    title: 'projects.pomodoro.title',
+    description: 'projects.pomodoro.description',
     technologies: [
       {
         name: 'React.js',
@@ -1762,9 +1720,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/pomodoro.png'],
   },
   {
-    title: 'devstore',
-    description:
-      'Um mini e-commerce de roupas. Projeto atualmente superficial e sem integração de pagamentos.',
+    title: 'projects.devstore.title',
+    description: 'projects.devstore.description',
     technologies: [
       {
         name: 'Next.js',
@@ -1800,8 +1757,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/devstore.png'],
   },
   {
-    title: 'Expert Notes',
-    description: 'Uma aplicação de manipulação de notas com opção de Text-to-Speech.',
+    title: 'projects.expertNotes.title',
+    description: 'projects.expertNotes.description',
     technologies: [
       {
         name: 'React.js',
@@ -1833,9 +1790,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/expert-notes.png'],
   },
   {
-    title: 'Polls API',
-    description:
-      'Back-end de um sistema de enquetes. Permite a votação em opções de enquetes e consulta dos votos.',
+    title: 'projects.pollsAPI.title',
+    description: 'projects.pollsAPI.description',
     technologies: [
       {
         name: 'Node.js',
@@ -1875,8 +1831,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/api-image-generic.svg'],
   },
   {
-    title: 'Ignite Feed',
-    description: 'Um projeto de uma rede social, com feed e perfis individuais.',
+    title: 'projects.igniteFeed.title',
+    description: 'projects.igniteFeed.description',
     technologies: [
       {
         name: 'React.js',
@@ -1900,9 +1856,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/igniteFeed.png'],
   },
   {
-    title: 'Ignite Shop',
-    description:
-      'Projeto de um E-Commerce de roupas, com integração ao Stripe, página de checkout e confirmação de compra.',
+    title: 'projects.igniteShop.title',
+    description: 'projects.igniteShop.description',
     technologies: [
       {
         name: 'Next.js',
@@ -1930,8 +1885,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/igniteShop.png'],
   },
   {
-    title: 'DT Money',
-    description: 'Um banco de transações, com histórico de operações.',
+    title: 'projects.dtMoney.title',
+    description: 'projects.dtMoney.description',
     technologies: [
       {
         name: 'React.js',
@@ -1959,8 +1914,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/dtMoney.png'],
   },
   {
-    title: 'Pizza Shop',
-    description: 'Uma loja de pizzas virtual, com carrinho e seleção de pizzas.',
+    title: 'projects.pizzaStore.title',
+    description: 'projects.pizzaStore.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -1980,9 +1935,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/pizzas.png'],
   },
   {
-    title: 'BMI Calculator',
-    description:
-      'Um calculador de IMC, onde permite o usuário inserir a altura e o peso e indica um resultado com feedback.',
+    title: 'projects.bmiCalculator.title',
+    description: 'projects.bmiCalculator.description',
     technologies: [
       {
         name: 'React.js',
@@ -2006,8 +1960,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/bmiCalculator.png'],
   },
   {
-    title: 'Cardastro',
-    description: 'Um painel de cadastro de veículos, com processo de CRUD completo.',
+    title: 'projects.cardastro.title',
+    description: 'projects.cardastro.description',
     technologies: [
       {
         name: 'React.js',
@@ -2031,9 +1985,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/cardastro.png'],
   },
   {
-    title: 'Dev Memory',
-    description:
-      'Um jogo da memória com diferentes cards e sempre com rodadas e posições aleatórias.',
+    title: 'projects.devMemory.title',
+    description: 'projects.devMemory.description',
     technologies: [
       {
         name: 'React.js',
@@ -2057,9 +2010,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/devmemory.png'],
   },
   {
-    title: 'To-do List',
-    description:
-      'Uma lista em formato "to-do", com suas tarefas. Permite adicionar novas tarefas, marcar atuais como concluídas, etc.',
+    title: 'projects.todoList.title',
+    description: 'projects.todoList.description',
     technologies: [
       {
         name: 'React.js',
@@ -2087,8 +2039,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/todoList.png'],
   },
   {
-    title: 'To-do List 2',
-    description: 'Outro projeto de uma lista "to-do" distinto.',
+    title: 'projects.todoList2.title',
+    description: 'projects.todoList2.description',
     technologies: [
       {
         name: 'Next.js',
@@ -2116,8 +2068,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/todoList2.png'],
   },
   {
-    title: 'Post List',
-    description: 'Uma simples lista de posts, que permite a manipulação dos posts em formato CRUD.',
+    title: 'projects.postList.title',
+    description: 'projects.postList.description',
     technologies: [
       {
         name: 'Next.js',
@@ -2145,8 +2097,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/postList.png'],
   },
   {
-    title: 'Train Me',
-    description: 'Uma landing page de uma academia.',
+    title: 'projects.trainMe.title',
+    description: 'projects.trainMe.description',
     technologies: [
       {
         name: 'HTML 5',
@@ -2162,8 +2114,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/trainme2.png'],
   },
   {
-    title: 'Newsletter Form',
-    description: 'Um interface com formulário para receber notificações de uma newsletter.',
+    title: 'projects.newsletterForm.title',
+    description: 'projects.newsletterForm.description',
     technologies: [
       {
         name: 'React.js',
@@ -2191,8 +2143,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/newsletterForm.png'],
   },
   {
-    title: 'QR Code Component',
-    description: 'Uma simples interface com um QR Code.',
+    title: 'projects.qrCodeComponent.title',
+    description: 'projects.qrCodeComponent.description',
     technologies: [
       {
         name: 'HTML 5',
@@ -2208,8 +2160,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/qrCodeComponent.png'],
   },
   {
-    title: 'Urna Eletrônica',
-    description: 'Uma urna digital falsa.',
+    title: 'projects.urnaEletronica.title',
+    description: 'projects.urnaEletronica.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -2229,8 +2181,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/urna.png'],
   },
   {
-    title: 'Login Panel',
-    description: 'Interface de um painel de login (apenas visual).',
+    title: 'projects.loginPanel.title',
+    description: 'projects.loginPanel.description',
     technologies: [
       {
         name: 'HTML 5',
@@ -2246,8 +2198,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/loginInterface.png'],
   },
   {
-    title: 'RPG Game',
-    description: 'Um jogo de RPG local simples.',
+    title: 'projects.rpgGame.title',
+    description: 'projects.rpgGame.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -2267,8 +2219,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/rpgGame.png'],
   },
   {
-    title: 'Simple Chat',
-    description: 'Um chat que permite definir o nome de usuário e enviar mensagens localmente.',
+    title: 'projects.simpleChat.title',
+    description: 'projects.simpleChat.description',
     technologies: [
       {
         name: 'Next.js',
@@ -2296,9 +2248,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/simpleChat1.png'],
   },
   {
-    title: 'Clime Visualizer',
-    description:
-      'Um visualizador do clima, que usa uma API e permite o usuário inserir o local que deseja ver o clima.',
+    title: 'projects.climeVisualizer.title',
+    description: 'projects.climeVisualizer.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -2318,8 +2269,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/clime.png'],
   },
   {
-    title: 'Tic Tac Toe',
-    description: 'Um jogo da velha onde os jogadores podem jogar localmente.',
+    title: 'projects.ticTacToe.title',
+    description: 'projects.ticTacToe.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -2339,8 +2290,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/ticTacToe.png'],
   },
   {
-    title: 'Canvas Screen',
-    description: 'Uma tela de desenho canvas funcional.',
+    title: 'projects.canvasScreen.title',
+    description: 'projects.canvasScreen.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -2360,9 +2311,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/canvas.png'],
   },
   {
-    title: 'Quiz Game',
-    description:
-      'Um jogo quiz, com perguntas e respostas pré-definidas e com um feedback do resultado no final do jogo.',
+    title: 'projects.quizGame.title',
+    description: 'projects.quizGame.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -2382,9 +2332,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/quiz.png'],
   },
   {
-    title: 'Battery Play',
-    description:
-      'Um tocador de bateria funcional, com áudios, sequência de sons, ativação por teclado, etc.',
+    title: 'projects.batteryPlay.title',
+    description: 'projects.batteryPlay.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -2404,9 +2353,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/battery.png'],
   },
   {
-    title: 'Drag & Drop',
-    description:
-      'Um projeto de drag and drop (arrastar e soltar), que permite arrastar objetos do ponto X para o ponto Y.',
+    title: 'projects.dragAndDrop.title',
+    description: 'projects.dragAndDrop.description',
     technologies: [
       {
         name: 'JavaScript',
@@ -2426,8 +2374,8 @@ export const projectsList: Project[] = [
     imagesPath: ['assets/projects/dragdrop.png'],
   },
   {
-    title: 'Analogical Watch',
-    description: 'Um relógio analógico funcional e com ponteiros dinâmicos.',
+    title: 'projects.analogicalWatch.title',
+    description: 'projects.analogicalWatch.description',
     technologies: [
       {
         name: 'JavaScript',

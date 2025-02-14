@@ -8,6 +8,7 @@ import { BsFillPinAngleFill } from 'react-icons/bs'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/libs/cn'
 import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { ProjectItemModal } from './ProjectItemModal'
 
 interface ProjectItemProps extends Project {
@@ -27,6 +28,8 @@ export const ProjectItem = ({
   const [isClamped, setIsClamped] = useState(false)
   const textRef = useRef<HTMLParagraphElement>(null)
 
+  const { t } = useTranslation()
+
   useEffect(() => {
     if (textRef.current) {
       const lineHeight = parseFloat(getComputedStyle(textRef.current).lineHeight)
@@ -34,6 +37,9 @@ export const ProjectItem = ({
       setIsClamped(textRef.current.scrollHeight > maxHeight)
     }
   }, [description])
+
+  console.log('título:', title)
+  console.log('descrição', description)
 
   return (
     <li
@@ -64,7 +70,7 @@ export const ProjectItem = ({
 
       <div className={cn('flex flex-col flex-1 gap-3 p-3', gridSize === 2 && 'gap-6')}>
         <div className='flex flex-col flex-wrap gap-2'>
-          <h2 className='text-xl font-bold truncate'>{title}</h2>
+          <h2 className='text-xl font-bold truncate'>{t(title)}</h2>
 
           <div className='relative'>
             <p
@@ -74,7 +80,7 @@ export const ProjectItem = ({
                 expanded && 'line-clamp-none'
               )}
             >
-              {description}
+              {t(description)}
             </p>
 
             {isClamped && !expanded && (

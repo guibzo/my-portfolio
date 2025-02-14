@@ -23,16 +23,7 @@ export const Projects = () => {
         )}
       >
         {projectsList.map((project, index) => (
-          <ProjectItem
-            key={index}
-            title={project.title}
-            description={project.description}
-            technologies={project.technologies}
-            repository={project.repository}
-            deploy={project.deploy}
-            imagesPath={project.imagesPath}
-            gridSize={gridSize}
-          />
+          <ProjectItem key={index} gridSize={gridSize} {...project} />
         ))}
       </motion.ul>
 

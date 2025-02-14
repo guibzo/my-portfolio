@@ -1,7 +1,291 @@
 {
   "translation": {
     "profile": {
-      "title": "Front-end/Mobile Developer"
+      "title": "Front-end/Mobile Developer",
+      "contacts": "Contacts",
+      "habilities": "Skills",
+      "about": {
+        "title": "Hello, my name is Guilherme Viana!",
+        "aboutMe": "About me",
+        "textOne": "I am a",
+        "strongOne": "front-end",
+        "textTwo": "developer with about three years of experience in",
+        "strongTwo": "web development",
+        "textThree": "and about 1,5 years in",
+        "strongThree": "mobile development",
+        "textFour": "In my work, I mainly use",
+        "strongFour": "React",
+        "textFive": "and",
+        "strongFive": "React Native",
+        "textSix": "with experience in their respective frameworks",
+        "strongSix": "Next.js",
+        "textSeven": "and",
+        "strongSeven": "Expo",
+        "textEight": "I am always looking to build clear and functional interfaces",
+        "textEleven": "Additionally, I always use",
+        "strongEleven": "TypeScript",
+        "textTwelve": ", aiming for more robust and reliable code.",
+        "textThirteen": "I enjoy turning complex problems into",
+        "strongThirteen": "simple",
+        "textFourteen": "and efficient solutions, always striving to deliver high-quality work."
+      }
+    },
+    "projects": {
+      "consoleRevamp": {
+        "title": "Console Revamp",
+        "description": "A console for internal operations of a Roleplay server team. It includes server metrics and analytics, user and team member management tools, and a dashboard with illustrative charts."
+      },
+      "forumRoleplay": {
+        "title": "Roleplay Forum",
+        "description": "A forum for a GTA Roleplay server. It includes a landing page, topic creation and viewing by categories, server announcements, player rankings by categories, custom profiles, and more."
+      },
+      "forumRoleplayAPI": {
+        "title": "Roleplay Forum API",
+        "description": "API for the Roleplay Forum project. Fully documented, with unit and end-to-end tests to ensure greater reliability, following SOLID development principles and the Clean Architecture as main architecture."
+      },
+      "chamaNoVar": {
+        "title": "Chama no Var",
+        "description": "A challenge involving the recreation, adaptation, and improvement of a page inspired by the Varsel Agency landing page."
+      },
+      "cashtrade": {
+        "title": "Cashtrade",
+        "description": "A trading project. It automatically monitors trades and displays detailed charts, allowing high-control betting. It also includes analytical charts, a trade history with detailed graphs, a personal profile and account panel, in-platform support, and more. Outsourced freelance - © 2024 Varsel Agency. All rights reserved."
+      },
+      "battleRoyale": {
+        "title": "Battle Royale",
+        "description": "A system for a GTA Battle Royale server. It includes a complete landing page, settings panel, clan panel, season ranking, and more. Outsourced freelance - © 2024 Varsel Agency. All rights reserved."
+      },
+      "thoughts": {
+        "title": "Thoughts",
+        "description": "A personal project of a simple and modern full-stack blog."
+      },
+      "thoughtsAPI": {
+        "title": "Thoughts API",
+        "description": "API for the Thoughts project. Fully documented and following SOLID development principles and the Clean Architecture as main architecture."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "My portfolio as a developer."
+      },
+      "hellsAngels": {
+        "title": "Hells Angels MW",
+        "description": "A presentation website for a fictional motorcycle club in a roleplay game server."
+      },
+      "bsplay": {
+        "title": "BSPlay",
+        "description": "Landing page for a financial management project. Outsourced freelance - © 2024 Varsel Agency. All rights reserved."
+      },
+      "surfValley": {
+        "title": "Surf Valley",
+        "description": "Landing page for a GTA Roleplay server. Outsourced freelance - © 2024 Varsel Agency. All rights reserved."
+      },
+      "projectTeller": {
+        "title": "Project Teller",
+        "description": "A micro-SaaS platform for creating and sharing social media and projects with a single link. It includes a landing page, premium plans, custom profiles, and more."
+      },
+      "crownForumAPI": {
+        "title": "Crown Forum API",
+        "description": "A complete API for an extensive forum. Efficiently adheres to complex business rules. Fully documented, including unit and end-to-end tests to ensure greater reliability. Follows SOLID development principles, the DDD design pattern and the Clean Architecture as main architecture."
+      },
+      "crownLabs": {
+        "title": "Crown Labs",
+        "description": "A SaaS project for organization and project management, offering robust features for efficient team and initiative administration. It allows the creation and management of organizations, including adding and managing members. It also supports multiple project creation and administration, bringing greater flexibility and control for companies and teams."
+      },
+      "bozoSaaS": {
+        "title": "BozoSaaS",
+        "description": "A boilerplate for SaaS microservices, designed for a note management system. It includes a subscription plan, support for configurable themes, and other essential features for customization and scalability."
+      },
+      "igniteTeams": {
+        "title": "Ignite Teams",
+        "description": "An app focused on managing groups and teams of any kind."
+      },
+      "spaceGym": {
+        "title": "Space Gym",
+        "description": "A project focused on fitness and bodybuilding. It includes an exercise listing with images, videos, and GIFs, exercise history, custom profiles, and more."
+      },
+
+      "easyTransfer": {
+        "title": "Easy Transfer",
+        "description": "Freelance project for a landing page with on-demand contact, made for the company Easy Transfer."
+      },
+      "academyAPI": {
+        "title": "Academy API",
+        "description": "API for a gym. Efficiently adheres to complex business rules. The project includes unit and end-to-end tests to ensure greater reliability, following SOLID development principles and the Clean Architecture as main architecture."
+      },
+      "findAFriendAPI": {
+        "title": "Find a Friend API",
+        "description": "API for a pet adoption project. The project includes unit and end-to-end tests to ensure greater reliability, following SOLID development principles and the Clean Architecture as main architecture."
+      },
+      "constancy": {
+        "title": "Constancy App",
+        "description": "A personal goals app. Allows users to track and create goals over different periods. It is a gamified system designed to encourage users to complete their goals with rewards and visual appeal."
+      },
+      "constancyAPI": {
+        "title": "Constancy API",
+        "description": "API for the personal goals app (Constancy). Fully documented project."
+      },
+      "bookwise": {
+        "title": "Bookwise",
+        "description": "A platform for book reviews. Full-stack application challenge."
+      },
+      "gespol": {
+        "title": "Gespol",
+        "description": "A police management system for internal use within the corporation."
+      },
+      "pizzaShop": {
+        "title": "Pizza Shop",
+        "description": "A virtual pizza store with a cart and pizza selection."
+      },
+      "coursePlayer": {
+        "title": "Course Player",
+        "description": "A video player for course videos. Built using Redux, Zustand, and other advanced concepts."
+      },
+      "githubBlog": {
+        "title": "GitHub Blog",
+        "description": "A project focused on displaying GitHub repository issues in a blog format. Built using the GitHub API."
+      },
+      "dietAPI": {
+        "title": "Diet API",
+        "description": "Challenge for creating an API to manage diets."
+      },
+      "coffeeDelivery": {
+        "title": "Coffee Delivery",
+        "description": "A virtual coffee shop project, from coffee selection to checkout and order confirmation."
+      },
+      "designSystem": {
+        "title": "Design System",
+        "description": "A design system with standardized elements, colors, typography, and more. Created using Storybook."
+      },
+      "tabelaTransacoes": {
+        "title": "Transaction Table",
+        "description": "A simple challenge to create a table with transactions."
+      },
+      "igniteCall": {
+        "title": "Ignite Call",
+        "description": "A scheduling system integrated with Google Calendar for service providers."
+      },
+      "rocketNotes": {
+        "title": "Rocket Notes",
+        "description": "A note-taking platform project with individual profiles, note management, and more."
+      },
+      "rocketNotesAPI": {
+        "title": "Rocket Notes API",
+        "description": "Node.js back-end for the Rocket Notes application. Covers authentication flow and database storage for notes, users, and their settings."
+      },
+
+      "pomodoro": {
+        "title": "Pomodoro",
+        "description": "A Pomodoro-style timer with history."
+      },
+      "devstore": {
+        "title": "Dev Store",
+        "description": "A mini clothing e-commerce. Currently a basic project with no payment integration."
+      },
+      "expertNotes": {
+        "title": "Expert Notes",
+        "description": "A note-taking application with a Text-to-Speech option."
+      },
+      "pollsAPI": {
+        "title": "Polls API",
+        "description": "Back-end for a polling system. Allows voting on poll options and retrieving vote results."
+      },
+      "igniteFeed": {
+        "title": "Ignite Feed",
+        "description": "A social network project with a feed and individual profiles."
+      },
+      "igniteShop": {
+        "title": "Ignite Shop",
+        "description": "A clothing e-commerce project with Stripe integration, a checkout page, and purchase confirmation."
+      },
+      "dtMoney": {
+        "title": "DT Money",
+        "description": "A transaction management system with an operation history."
+      },
+      "pizzaStore": {
+        "title": "Pizza Store",
+        "description": "A virtual pizza store with a cart and pizza selection."
+      },
+      "bmiCalculator": {
+        "title": "BMI Calculator",
+        "description": "A BMI calculator where users can enter their height and weight to receive a result with feedback."
+      },
+      "cardastro": {
+        "title": "Cardastro",
+        "description": "A vehicle registration panel with a complete CRUD process."
+      },
+      "devMemory": {
+        "title": "Dev Memory",
+        "description": "A memory game with different cards and always randomized rounds and positions."
+      },
+      "todoList": {
+        "title": "To-do List",
+        "description": "A to-do list where users can add new tasks, mark them as completed, etc."
+      },
+      "todoList2": {
+        "title": "To-do List 2",
+        "description": "Another distinct to-do list project."
+      },
+      "postList": {
+        "title": "Post List",
+        "description": "A simple post list that allows CRUD operations on posts."
+      },
+      "trainMe": {
+        "title": "Train Me",
+        "description": "A landing page for a gym."
+      },
+      "newsletterForm": {
+        "title": "Newsletter Form",
+        "description": "An interface with a form to receive newsletter notifications."
+      },
+      "qrCodeComponent": {
+        "title": "QR Code Component",
+        "description": "A simple interface with a QR Code."
+      },
+      "urnaEletronica": {
+        "title": "Electronic Voting Machine",
+        "description": "A fake digital voting machine."
+      },
+      "loginPanel": {
+        "title": "Login Panel",
+        "description": "A login panel interface (visual only)."
+      },
+      "rpgGame": {
+        "title": "RPG Game",
+        "description": "A simple local RPG game."
+      },
+      "simpleChat": {
+        "title": "Simple Chat",
+        "description": "A chat app that allows users to set a username and send messages locally."
+      },
+      "climeVisualizer": {
+        "title": "Clime Visualizer",
+        "description": "A weather visualizer that uses an API and allows users to enter a location to check the weather."
+      },
+
+      "ticTacToe": {
+        "title": "Tic Tac Toe",
+        "description": "A tic-tac-toe game where players can play locally."
+      },
+      "canvasScreen": {
+        "title": "Canvas Screen",
+        "description": "A functional canvas drawing screen."
+      },
+      "quizGame": {
+        "title": "Quiz Game",
+        "description": "A quiz game with predefined questions and answers, providing feedback on the final result."
+      },
+      "batteryPlay": {
+        "title": "Battery Play",
+        "description": "A functional drum player with sounds, sound sequences, keyboard activation, etc."
+      },
+      "dragAndDrop": {
+        "title": "Drag & Drop",
+        "description": "A drag-and-drop project that allows dragging objects from point X to point Y."
+      },
+      "analogicalWatch": {
+        "title": "Analog Watch",
+        "description": "A functional analog watch with dynamic hands."
+      }
     }
   }
 }

@@ -11,7 +11,7 @@
         "strongOne": "front-end",
         "textTwo": "com cerca de três anos de experiência em",
         "strongTwo": "desenvolvimento web",
-        "textThree": "e aproximadamente 2 anos em",
+        "textThree": "e aproximadamente 1,5 anos em",
         "strongThree": "desenvolvimento mobile",
         "textFour": "No meu trabalho, uso principalmente",
         "strongFour": "React",
@@ -28,6 +28,263 @@
         "textThirteen": "Gosto de transformar problemas complexos em soluções",
         "strongThirteen": "simples",
         "textFourteen": "e eficientes, buscando sempre entregar um trabalho de qualidade."
+      }
+    },
+    "projects": {
+      "consoleRevamp": {
+        "title": "Console Revamp",
+        "description": "Um console para operações internas de uma equipe de um servidor de Roleplay. Contém métricas e analíticas do servidor, ferramentas de gerenciamento dos usuários e membros da equipe, além de um dashboard com gráficos ilustrativos."
+      },
+      "forumRoleplay": {
+        "title": "Fórum Roleplay",
+        "description": "Um fórum para um servidor de GTA Roleplay. Inclui uma landing page, criação e visualização de tópicos por categorias, anúncios do servidor, ranking de jogadores por categorias, perfís próprios, dentre outros."
+      },
+      "forumRoleplayAPI": {
+        "title": "Fórum Roleplay API",
+        "description": "API para o projeto Fórum Roleplay. Completamente documentado, com testes unitários, end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID e a arquitetura da Clean Architecture."
+      },
+      "chamaNoVar": {
+        "title": "Chama no Var",
+        "description": "Um desafio de recriação, adaptação e melhoria de uma página inspirada na landing page da Varsel Agency."
+      },
+      "cashtrade": {
+        "title": "Cashtrade",
+        "description": "Um projeto de trades. Monitora as trades automaticamente e exibe gráficos detalhados, além de permitir apostas com alto controle. Inclui também gráficos analíticos, histórico de operações com gráficos detalhados, painel de perfil e conta próprio, suporte dentro da plataforma, dentre outros. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados."
+      },
+      "battleRoyale": {
+        "title": "Battle Royale",
+        "description": "Um sistema para um servidor de GTA em Battle Royale. Inclui uma landing page completa, painel de configurações, painel de clãs, ranking da temporada, dentre outros. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados."
+      },
+      "thoughts": {
+        "title": "Thoughts",
+        "description": "Um projeto pessoal de um blog simples e moderno full-stack."
+      },
+      "thoughtsAPI": {
+        "title": "Thoughts API",
+        "description": "API para o projeto Thoughts. Projeto documentado e seguindo padrões de desenvolvimento SOLID e a arquitetura da Clean Architecture."
+      },
+      "portfolio": {
+        "title": "Portfólio",
+        "description": "Meu portfólio como desenvolvedor."
+      },
+      "bsplay": {
+        "title": "BSPlay",
+        "description": "Landing page de um projeto de gerenciamento de finanças. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados."
+      },
+      "surfValley": {
+        "title": "Surf Valley",
+        "description": "Landing page para um servidor de roleplay em GTA. Freelance terceirizado - © 2024 Varsel Agency. Todos os direitos reservados."
+      },
+      "projectTeller": {
+        "title": "Project Teller",
+        "description": "Micro-SaaS de um site para criar e compartilhar suas redes sociais e projetos com um único link. Inclui uma landing page, planos premium, perfís próprios, entre outros."
+      },
+      "crownForumAPI": {
+        "title": "Crown Fórum API",
+        "description": "API completa para um fórum extenso. Adere com eficiência regras de negócios com maior complexidade. Projeto completamente documentado, além de incluir testes unitários e end-to-end para garantir maior confiabilidade. Segue os padrões de desenvolvimento SOLID, o design pattern de DDD e a arquitetura da Clean Architecture."
+      },
+      "crownLabs": {
+        "title": "Crown Labs",
+        "description": "Um projeto SaaS de gerenciamento de organizações e projetos, oferecendo recursos robustos para a administração eficiente de equipes e iniciativas. Permite a criação e gestão de organizações, incluindo a inclusão e gerenciamento de membros. Também suporta a criação e administração de múltiplos projetos, trazendo maior flexibilidade e controle para empresas e times."
+      },
+      "bozoSaaS": {
+        "title": "BozoSaaS",
+        "description": "Boilerplate para microserviços SaaS, projetado para um sistema de gerenciamento de notas. Inclui um plano de inscrição, suporte a temas configuráveis e outros recursos essenciais para personalização e escalabilidade."
+      },
+      "igniteTeams": {
+        "title": "Ignite Teams",
+        "description": "App voltado para gerenciamento de grupos e times de qualquer cunho."
+      },
+      "spaceGym": {
+        "title": "Space Gym",
+        "description": "Um projeto voltado para academia e musculação. Conta com listagem de exercícios com imagens, vídeos e gifs, histórico de exercícios, perfís próprios, etc."
+      },
+      "hellsAngels": {
+        "title": "Hells Angels MW",
+        "description": "Um site de apresentação para um motoclube fictício de um servidor de um jogo em roleplay."
+      },
+
+      "easyTransfer": {
+        "title": "Easy Transfer",
+        "description": "Freelance de uma landing page com contato sob demanda feito para empresa Easy Transfer."
+      },
+      "academyAPI": {
+        "title": "Academy API",
+        "description": "API para uma academia. Adere com eficiência regras de negócios com maior complexidade. Projeto inclui testes unitários e end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID e a arquitetura da Clean Architecture."
+      },
+      "findAFriendAPI": {
+        "title": "Find a Friend API",
+        "description": "API para um projeto de adoção de pets. Projeto inclui testes unitários e end-to-end para garantir maior confiabilidade, além de seguir os padrões de desenvolvimento SOLID e a arquitetura da Clean Architecture."
+      },
+      "constancy": {
+        "title": "Constancy App",
+        "description": "Um app de metas pessoais. Permite rastrear e criar suas metas por períodos, além de ser um sistema gameficado para incentivar os usuários a cumpri-las, com recompensas e apelos visuais."
+      },
+      "constancyAPI": {
+        "title": "Constancy API",
+        "description": "API do app de metas pessoais (Constancy). Projeto completamente documentado."
+      },
+      "bookwise": {
+        "title": "Bookwise",
+        "description": "Uma plataforma para avaliação de livros. Challenge de uma aplicação full-stack."
+      },
+      "gespol": {
+        "title": "Gespol",
+        "description": "Sistema de gerenciamento policial para internos da corporação."
+      },
+      "pizzaShop": {
+        "title": "Pizza Shop",
+        "description": "Uma loja de pizzas virtual, com carrinho e seleção de pizzas."
+      },
+      "coursePlayer": {
+        "title": "Course Player",
+        "description": "Um video player para vídeos de algum curso. Feito com Redux, Zustand e outros conceitos avançados."
+      },
+      "githubBlog": {
+        "title": "GitHub Blog",
+        "description": "Projeto focado em exibir as issues de um repositório do GitHub em formato de blog. Construído consumindo a GitHub API."
+      },
+      "dietAPI": {
+        "title": "Diet API",
+        "description": "Challenge de criação de uma API para gerenciamento de dietas."
+      },
+      "coffeeDelivery": {
+        "title": "Coffee Delivery",
+        "description": "Projeto de uma loja de cafés virtual, desde a seleção do café até o checkout e a confirmação do pedido."
+      },
+      "designSystem": {
+        "title": "Design System",
+        "description": "Um design system com padrão de elementos, cores, tipografia, etc. Criado usando Storybook."
+      },
+      "tabelaTransacoes": {
+        "title": "Tabela de transações",
+        "description": "Um challenge simples de criação de uma tabela com transações."
+      },
+      "igniteCall": {
+        "title": "Ignite Call",
+        "description": "Sistema de agendamentos integrado com o Google Calendar para prestadores de serviços."
+      },
+      "rocketNotes": {
+        "title": "Rocket Notes",
+        "description": "Projeto de uma plataforma de anotações, com perfis individuais, manipulação das anotações, etc."
+      },
+      "rocketNotesAPI": {
+        "title": "Rocket Notes API",
+        "description": "Back-end em Node da aplicação Rocket Notes. Abrange fluxo de autenticação e armazenamento em banco de notas, usuários e suas configurações."
+      },
+
+      "pomodoro": {
+        "title": "Pomodoro",
+        "description": "Um timer em estilo Pomodoro, com histórico."
+      },
+      "devstore": {
+        "title": "Dev Store",
+        "description": "Um mini e-commerce de roupas. Projeto atualmente superficial e sem integração de pagamentos."
+      },
+      "expertNotes": {
+        "title": "Expert Notes",
+        "description": "Uma aplicação de manipulação de notas com opção de Text-to-Speech."
+      },
+      "pollsAPI": {
+        "title": "Polls API",
+        "description": "Back-end de um sistema de enquetes. Permite a votação em opções de enquetes e consulta dos votos."
+      },
+      "igniteFeed": {
+        "title": "Ignite Feed",
+        "description": "Um projeto de uma rede social, com feed e perfis individuais."
+      },
+      "igniteShop": {
+        "title": "Ignite Shop",
+        "description": "Projeto de um E-Commerce de roupas, com integração ao Stripe, página de checkout e confirmação de compra."
+      },
+      "dtMoney": {
+        "title": "DT Money",
+        "description": "Um banco de transações, com histórico de operações."
+      },
+      "pizzaStore": {
+        "title": "Pizza Store",
+        "description": "Uma loja de pizzas virtual, com carrinho e seleção de pizzas."
+      },
+      "bmiCalculator": {
+        "title": "BMI Calculator",
+        "description": "Um calculador de IMC, onde permite o usuário inserir a altura e o peso e indica um resultado com feedback."
+      },
+      "cardastro": {
+        "title": "Cardastro",
+        "description": "Um painel de cadastro de veículos, com processo de CRUD completo."
+      },
+      "devMemory": {
+        "title": "Dev Memory",
+        "description": "Um jogo da memória com diferentes cards e sempre com rodadas e posições aleatórias."
+      },
+      "todoList": {
+        "title": "To-do List",
+        "description": "Uma lista em formato \"to-do\", com suas tarefas. Permite adicionar novas tarefas, marcar atuais como concluídas, etc."
+      },
+      "todoList2": {
+        "title": "To-do List 2",
+        "description": "Outro projeto de uma lista \"to-do\" distinto."
+      },
+      "postList": {
+        "title": "Post List",
+        "description": "Uma simples lista de posts, que permite a manipulação dos posts em formato CRUD."
+      },
+      "trainMe": {
+        "title": "Train Me",
+        "description": "Uma landing page de uma academia."
+      },
+      "newsletterForm": {
+        "title": "Newsletter Form",
+        "description": "Um interface com formulário para receber notificações de uma newsletter."
+      },
+      "qrCodeComponent": {
+        "title": "QR Code Component",
+        "description": "Uma simples interface com um QR Code."
+      },
+      "urnaEletronica": {
+        "title": "Urna Eletrônica",
+        "description": "Uma urna digital falsa."
+      },
+      "loginPanel": {
+        "title": "Login Panel",
+        "description": "Interface de um painel de login (apenas visual)."
+      },
+      "rpgGame": {
+        "title": "RPG Game",
+        "description": "Um jogo de RPG local simples."
+      },
+      "simpleChat": {
+        "title": "Simple Chat",
+        "description": "Um chat que permite definir o nome de usuário e enviar mensagens localmente."
+      },
+      "climeVisualizer": {
+        "title": "Clime Visualizer",
+        "description": "Um visualizador do clima, que usa uma API e permite o usuário inserir o local que deseja ver o clima."
+      },
+
+      "ticTacToe": {
+        "title": "Tic Tac Toe",
+        "description": "Um jogo da velha onde os jogadores podem jogar localmente."
+      },
+      "canvasScreen": {
+        "title": "Canvas Screen",
+        "description": "Uma tela de desenho canvas funcional."
+      },
+      "quizGame": {
+        "title": "Quiz Game",
+        "description": "Um jogo quiz, com perguntas e respostas pré-definidas e com um feedback do resultado no final do jogo."
+      },
+      "batteryPlay": {
+        "title": "Battery Play",
+        "description": "Um tocador de bateria funcional, com áudios, sequência de sons, ativação por teclado, etc."
+      },
+      "dragAndDrop": {
+        "title": "Drag & Drop",
+        "description": "Um projeto de drag and drop (arrastar e soltar), que permite arrastar objetos do ponto X para o ponto Y."
+      },
+      "analogicalWatch": {
+        "title": "Analogical Watch",
+        "description": "Um relógio analógico funcional e com ponteiros dinâmicos."
       }
     }
   }
