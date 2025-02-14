@@ -1,14 +1,14 @@
 {
   "translation": {
+    "tabs": {
+      "about": "Sobre",
+      "projects": "Projetos"
+    },
+    "footer": "© Atualizado pela última vez em: 13/02/2025",
     "profile": {
       "title": "Desenvolvedor Front-end/Mobile",
       "contacts": "Contatos",
       "habilities": "Habilidades",
-      "footer": "© Atualizado pela última vez em: 13/02/2025",
-      "tabs": {
-        "about": "Sobre",
-        "projects": "Projetos"
-      },
       "about": {
         "title": "Olá, meu nome é Guilherme Viana!",
         "aboutMe": "Sobre mim",
