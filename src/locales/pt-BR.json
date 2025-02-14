@@ -4,6 +4,11 @@
       "title": "Desenvolvedor Front-end/Mobile",
       "contacts": "Contatos",
       "habilities": "Habilidades",
+      "footer": "© Atualizado pela última vez em: 13/02/2025",
+      "tabs": {
+        "about": "Sobre",
+        "projects": "Projetos"
+      },
       "about": {
         "title": "Olá, meu nome é Guilherme Viana!",
         "aboutMe": "Sobre mim",
@@ -31,6 +36,12 @@
       }
     },
     "projects": {
+      "technologiesUsed": "Tecnologias utilizadas",
+      "repository": "Repositório",
+      "deploy": "Deploy",
+      "readMore": "Ler mais",
+      "readLess": "Ler menos",
+
       "consoleRevamp": {
         "title": "Console Revamp",
         "description": "Um console para operações internas de uma equipe de um servidor de Roleplay. Contém métricas e analíticas do servidor, ferramentas de gerenciamento dos usuários e membros da equipe, além de um dashboard com gráficos ilustrativos."

@@ -24,7 +24,7 @@ const enUSLanguage = {
 }
 
 export const Header = () => {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
   const [language, setLanguage] = useState(() => {
     const storedLanguage = localStorage.getItem('language')
     return storedLanguage ? storedLanguage : i18n.language
@@ -51,7 +51,7 @@ export const Header = () => {
                 className='text-sm font-semibold text-gray-300 uppercase border-b-2 border-transparent transition duration-100 font-secondary hover:border-sky-500
         data-[state=active]:border-sky-500 data-[state=active]:hover:border-sky-600 data-[state=active]:hover:text-sky-600 data-[state=active]:text-sky-500'
               >
-                Sobre
+                {t('tabs.about')}
               </Tabs.Trigger>
 
               <Tabs.Trigger
@@ -59,7 +59,7 @@ export const Header = () => {
                 className='text-sm font-semibold text-gray-300 uppercase border-b-2 border-transparent transition duration-100 font-secondary hover:border-sky-500
         data-[state=active]:border-sky-500 data-[state=active]:hover:border-sky-600 data-[state=active]:hover:text-sky-600 data-[state=active]:text-sky-500'
               >
-                Projetos
+                {t('tabs.projects')}
               </Tabs.Trigger>
             </Tabs.List>
 

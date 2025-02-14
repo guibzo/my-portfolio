@@ -38,9 +38,6 @@ export const ProjectItem = ({
     }
   }, [description])
 
-  console.log('título:', title)
-  console.log('descrição', description)
-
   return (
     <li
       className={cn(
@@ -90,7 +87,7 @@ export const ProjectItem = ({
                 onClick={() => setExpanded(true)}
                 className='mt-1 text-base text-blue-500 hover:underline'
               >
-                Ler mais
+                {t('projects.readMore')}
               </Button>
             )}
 
@@ -101,14 +98,14 @@ export const ProjectItem = ({
                 onClick={() => setExpanded(false)}
                 className='mt-1 text-base text-blue-500 hover:underline'
               >
-                Ler menos
+                {t('projects.readLess')}
               </Button>
             )}
           </div>
         </div>
 
         <div className='mt-3 text-base'>
-          <h4 className='text-lg font-bold'>Tecnologias utilizadas</h4>
+          <h4 className='text-lg font-bold'>{t('projects.technologiesUsed')}</h4>
           <ul className='flex flex-wrap gap-2 pt-2'>
             {technologies.map((item, index) => (
               <Tooltip.Provider delayDuration={0} key={index}>
@@ -140,12 +137,12 @@ export const ProjectItem = ({
               className='inline-flex items-center gap-1 text-base transition duration-100 text-sky-600 hover:text-sky-700'
             >
               <AiFillGithub size={20} />
-              Repositório
+              {t('projects.repository')}
             </Link>
           ) : (
             <span className='inline-flex items-center gap-1 text-base text-gray-500 cursor-not-allowed select-none'>
               <AiFillGithub size={20} />
-              Repositório
+              {t('projects.repository')}
             </span>
           )}
 
@@ -158,12 +155,12 @@ export const ProjectItem = ({
               <i>
                 <AiOutlineRightCircle size={20} />
               </i>
-              Deploy
+              {t('projects.deploy')}
             </Link>
           ) : (
             <span className='inline-flex items-center gap-1 text-base text-gray-500 cursor-not-allowed select-none'>
               <AiOutlineRightCircle size={20} />
-              Deploy
+              {t('projects.deploy')}
             </span>
           )}
         </span>

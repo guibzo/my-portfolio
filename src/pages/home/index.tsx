@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion'
 
 import { Profile } from '@/components/Profile'
+import { useTranslation } from 'react-i18next'
 import { Header } from './header'
 
 export const Home = () => {
+  const { t } = useTranslation()
+
   return (
     <div className='flex relative  justify-center flex-col bg-[url("/assets/spaceBG.png")] w-full bg-cover min-h-screen'>
       <div className='flex items-center w-full px-4 py-12 mx-auto'>
@@ -24,7 +27,7 @@ export const Home = () => {
 
       <div className='absolute bottom-0 left-[50%] translate-x-[-50%] w-full'>
         <footer className='py-4 text-sm text-center text-gray-500 break-words text-wrap'>
-          &copy; Atualizado pela última vez em: 12/02/2025
+          {t('footer')}
         </footer>
       </div>
     </div>
