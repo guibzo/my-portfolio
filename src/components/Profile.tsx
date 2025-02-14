@@ -18,7 +18,7 @@ export const Profile = () => {
         <div>
           <img
             src={ProfilePicture}
-            alt='Foto de perfil'
+            alt={'Guilherme Viana'}
             className='object-contain mx-auto rounded-lg lg:w-full lg:h-auto'
           />
 
@@ -34,7 +34,6 @@ export const Profile = () => {
           Guilherme Viana
         </strong>
         <span className='mx-auto text-sm text-muted-foreground lg:mx-0 md:text-center lg:text-start'>
-          {/* Desenvolvedor Front-end/Mobile */}
           {t('profile.title')}
         </span>
 
@@ -46,7 +45,7 @@ export const Profile = () => {
               className='flex items-center gap-2 hover:cursor-pointer'
             >
               <span className='transition duration-75 text-sky-600 hover:text-sky-700 '>
-                Contatos
+                {t('profile.contacts')}
               </span>
 
               <LucideInfo className='mt-[3px] size-4 text-zinc-400' />
@@ -57,7 +56,7 @@ export const Profile = () => {
               <HoverCardTrigger asChild>
                 <div className='flex items-center gap-2 hover:cursor-default'>
                   <span className='transition duration-75 text-sky-600 hover:text-sky-700 '>
-                    Contatos
+                    {t('profile.contacts')}
                   </span>
 
                   <LucideInfo className='mt-[3px] size-4 text-zinc-400' />
@@ -95,7 +94,7 @@ export const Profile = () => {
       </aside>
 
       <aside className='h-auto p-3 border rounded-lg lg:h-full lg:p-5 border-border bg-zinc-900 lg:w-auto'>
-        <strong className='text-lg text-white'>Habilidades</strong>
+        <strong className='text-lg text-white'>{t('profile.habilities')}</strong>
         <ul className='flex flex-wrap items-center justify-center max-h-[220px] lg:max-h-[260px] pt-4 pr-4 mt-2 overflow-x-hidden overflow-y-scroll gap-4 lg:gap-y-2 lg:gap-x-3 md:p-0 lg:pr-2 lg:pt-2'>
           {technologiesList.map((item, index) => {
             return (

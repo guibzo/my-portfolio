@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import './style.css'
 
 export const About = () => {
+  const { t } = useTranslation()
+
   return (
     <motion.div
       initial={{ opacity: 0, x: -15 }}
@@ -11,34 +14,36 @@ export const About = () => {
     >
       <div className='flex flex-col flex-1'>
         <div className='flex flex-col overflow-hidden flex-1 gap-10 p-2 bg-[url("/assets/circlesBG.png")] text-base lg:gap-20 md:text-lg'>
-          <div className='space-y-4'>
+          <div className='space-y-6'>
             <h1 className='flex gap-2 text-xl font-bold lg:text-2xl'>
               <span className='waving'>👋</span>
-              Olá, meu nome é Guilherme Viana!
+              {t('profile.about.title')}
             </h1>
 
             <p>
-              Sou um desenvolvedor <strong>front-end</strong> com cerca de três anos de experiência
-              em
-              <strong> desenvolvimento web</strong> e aproximadamente 2 anos em{' '}
-              <strong>desenvolvimento mobile.</strong>.
-            </p>
-          </div>
-
-          <div className='space-y-6'>
-            <h2 className='text-xl font-bold lg:text-2xl'>Sobre mim</h2>
-            <p>
-              No meu trabalho, uso principalmente <strong>React</strong> e{' '}
-              <strong>React Native</strong>, com experiência em seus devidos frameworks{' '}
-              <strong>Next.js</strong> e <strong>Expo</strong>. Estou sempre buscando construir
-              interfaces claras e funcionais. Além disso, sempre utilizo <strong>TypeScript</strong>
-              , visando um código mais robusto e confiável.
+              {t('profile.about.textOne')} <strong>{t('profile.about.strongOne')}</strong>{' '}
+              {t('profile.about.textTwo')} <strong>{t('profile.about.strongTwo')}</strong>{' '}
+              {t('profile.about.textThree')} <strong>{t('profile.about.strongThree')}</strong>.
             </p>
 
-            <p>
-              Gosto de transformar problemas complexos em soluções <strong>simples</strong> e
-              eficientes, buscando sempre entregar um trabalho de qualidade.
-            </p>
+            <div className='space-y-6'>
+              <h2 className='text-xl font-bold lg:text-2xl'>{t('profile.about.aboutMe')}</h2>
+
+              <p>
+                {t('profile.about.textFour')} <strong>{t('profile.about.strongFour')}</strong>{' '}
+                {t('profile.about.textFive')} <strong>{t('profile.about.strongFive')}</strong>,{' '}
+                {t('profile.about.textSix')} <strong>{t('profile.about.strongSix')}</strong>{' '}
+                {t('profile.about.textSeven')} <strong>{t('profile.about.strongSeven')}</strong>.{' '}
+                {t('profile.about.textEight')}. {t('profile.about.textEleven')}{' '}
+                <strong>{t('profile.about.strongEleven')}</strong> {t('profile.about.textTwelve')}
+              </p>
+
+              <p>
+                {t('profile.about.textThirteen')}{' '}
+                <strong>{t('profile.about.strongThirteen')}</strong>{' '}
+                {t('profile.about.textFourteen')}
+              </p>
+            </div>
           </div>
         </div>
       </div>

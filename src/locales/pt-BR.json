@@ -1,7 +1,34 @@
 {
   "translation": {
     "profile": {
-      "title": "Desenvolvedor Front-end/Mobile"
+      "title": "Desenvolvedor Front-end/Mobile",
+      "contacts": "Contatos",
+      "habilities": "Habilidades",
+      "about": {
+        "title": "Olá, meu nome é Guilherme Viana!",
+        "aboutMe": "Sobre mim",
+        "textOne": "Sou um desenvolvedor",
+        "strongOne": "front-end",
+        "textTwo": "com cerca de três anos de experiência em",
+        "strongTwo": "desenvolvimento web",
+        "textThree": "e aproximadamente 2 anos em",
+        "strongThree": "desenvolvimento mobile",
+        "textFour": "No meu trabalho, uso principalmente",
+        "strongFour": "React",
+        "textFive": "e",
+        "strongFive": "React Native",
+        "textSix": "com experiência em seus devidos frameworks",
+        "strongSix": "Next.js",
+        "textSeven": "e",
+        "strongSeven": "Expo",
+        "textEight": "Estou sempre buscando construir interfaces claras e funcionais",
+        "textEleven": "Além disso, sempre utilizo",
+        "strongEleven": "TypeScript",
+        "textTwelve": ", visando um código mais robusto e confiável.",
+        "textThirteen": "Gosto de transformar problemas complexos em soluções",
+        "strongThirteen": "simples",
+        "textFourteen": "e eficientes, buscando sempre entregar um trabalho de qualidade."
+      }
     }
   }
 }

@@ -41,9 +41,9 @@ export const Header = () => {
   }
 
   return (
-    <header className='flex items-center justify-between w-full'>
-      <div className='flex items-center gap-2 text-xl'>
-        <Tabs.Root defaultValue='tab1'>
+    <header className='flex w-full h-full'>
+      <div className='flex items-start h-full gap-2 text-xl'>
+        <Tabs.Root defaultValue='tab1' className='flex flex-col justify-start h-full gap-0'>
           <div className='flex items-center justify-between gap-2'>
             <Tabs.List className='flex gap-3 uppercase'>
               <Tabs.Trigger
