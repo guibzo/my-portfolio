@@ -35,6 +35,9 @@
         "textFourteen": "e eficientes, buscando sempre entregar um trabalho de qualidade."
       }
     },
+    "technologies": {
+      "responsivity": "Responsividade"
+    },
     "projects": {
       "technologiesUsed": "Tecnologias utilizadas",
       "repository": "Repositório",
@@ -145,7 +148,7 @@
       },
       "pizzaShop": {
         "title": "Pizza Shop",
-        "description": "Uma loja de pizzas virtual, com carrinho e seleção de pizzas."
+        "description": "Uma loja de pizzas com tabela de pedidos, manipulação de status dos pedidos, gráficos da loja, multi tema e mais."
       },
       "coursePlayer": {
         "title": "Course Player",

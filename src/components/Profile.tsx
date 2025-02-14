@@ -103,13 +103,13 @@ export const Profile = () => {
                   <Tooltip.Trigger asChild>
                     <li>
                       <i key={index} className='flex items-center w-7 h-7 lg:w-9 lg:h-9'>
-                        <img src={item.iconPath} alt={item.name} />
+                        <img src={item.iconPath} alt={t(item.name)} />
                       </i>
                     </li>
                   </Tooltip.Trigger>
                   <Tooltip.Portal>
                     <Tooltip.Content className='px-3 py-1 font-medium text-gray-800 bg-white rounded select-none'>
-                      {item.name}
+                      {t(item.name)}
                       <Tooltip.Arrow className='mb-2 fill-white' />
                     </Tooltip.Content>
                   </Tooltip.Portal>

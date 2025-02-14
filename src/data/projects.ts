@@ -48,7 +48,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.zodIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -113,7 +113,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -233,7 +233,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -290,7 +290,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -348,7 +348,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -418,7 +418,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -492,7 +492,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.gitIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -541,7 +541,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.radixIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -582,7 +582,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -628,7 +628,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -697,7 +697,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -898,7 +898,7 @@ export const projectsList: Project[] = [
       },
 
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -1258,7 +1258,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.githubIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],
@@ -1352,7 +1352,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.playwrightIconPath,
       },
       {
-        name: 'Responsividade',
+        name: 'technologies.responsivity',
         iconPath: Icon.responsiveIconPath,
       },
     ],

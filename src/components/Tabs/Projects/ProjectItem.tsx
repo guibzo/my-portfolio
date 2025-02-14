@@ -113,13 +113,13 @@ export const ProjectItem = ({
                   <Tooltip.Trigger asChild>
                     <li className='flex items-center justify-center w-8 h-8'>
                       <i key={index}>
-                        <img src={item.iconPath} alt={item.name} className='w-full' />
+                        <img src={item.iconPath} alt={t(item.name)} className='w-full' />
                       </i>
                     </li>
                   </Tooltip.Trigger>
                   <Tooltip.Portal>
                     <Tooltip.Content className='px-3 py-1 font-medium text-gray-800 bg-white rounded select-none'>
-                      {item.name}
+                      {t(item.name)}
                       <Tooltip.Arrow className='mb-2 fill-white' />
                     </Tooltip.Content>
                   </Tooltip.Portal>

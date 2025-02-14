@@ -52,5 +52,5 @@ export const technologiesList = [
   { name: 'Docker', iconPath: Icon.dockerIconPath },
   { name: 'VSCode', iconPath: Icon.vscodeIconPath },
   { name: 'npm', iconPath: Icon.npmIconPath },
-  { name: 'Responsividade', iconPath: Icon.responsiveIconPath },
+  { name: 'technologies.responsivity', iconPath: Icon.responsiveIconPath },
 ]

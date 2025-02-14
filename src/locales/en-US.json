@@ -35,6 +35,9 @@
         "textFourteen": "and efficient solutions, always striving to deliver high-quality work."
       }
     },
+    "technologies": {
+      "responsivity": "Responsivity"
+    },
     "projects": {
       "technologiesUsed": "Used technologies",
       "repository": "Repository",
@@ -145,7 +148,7 @@
       },
       "pizzaShop": {
         "title": "Pizza Shop",
-        "description": "A virtual pizza store with a cart and pizza selection."
+        "description": "A pizza shop with an order table, order status management, store charts, multi-theme support, and more."
       },
       "coursePlayer": {
         "title": "Course Player",
