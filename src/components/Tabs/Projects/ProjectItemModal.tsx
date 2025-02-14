@@ -15,8 +15,11 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog'
 import { cn } from '@/libs/cn'
+import { useTranslation } from 'react-i18next'
 
 export const ProjectItemModal = ({ project, gridSize }: { project: Project; gridSize: number }) => {
+  const { t } = useTranslation()
+
   return (
     <Carousel className='w-fit h-fit'>
       <Dialog>
@@ -33,10 +36,12 @@ export const ProjectItemModal = ({ project, gridSize }: { project: Project; grid
 
         <DialogContent size='full-screen' className='overflow-y-auto'>
           <DialogHeader className='mx-auto'>
-            <DialogTitle className='text-xl text-center lg:text-2xl'>{project.title}</DialogTitle>
+            <DialogTitle className='text-xl text-center lg:text-2xl'>
+              {t(project.title)}
+            </DialogTitle>
 
             <DialogDescription className='max-w-4xl text-center text-muted-foreground'>
-              {project.description}
+              {t(project.description)}
             </DialogDescription>
           </DialogHeader>
 
