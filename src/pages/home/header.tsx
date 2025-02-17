@@ -70,6 +70,8 @@ export const Header = () => {
                     src={currentLanguage.flagURL}
                     className='h-[24px]'
                     alt={`Bandeira representando: ${currentLanguage.name}`}
+                    width={32}
+                    height={24}
                   />
 
                   {currentLanguage.name}

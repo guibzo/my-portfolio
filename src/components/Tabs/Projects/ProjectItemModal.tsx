@@ -31,6 +31,8 @@ export const ProjectItemModal = ({ project, gridSize }: { project: Project; grid
               'rounded-xl my-4 object-contain max-h-[300px] mx-auto hover:cursor-zoom-in',
               gridSize === 1 && ''
             )}
+            width={420}
+            height={200}
           />
         </DialogTrigger>
 
@@ -55,6 +57,8 @@ export const ProjectItemModal = ({ project, gridSize }: { project: Project; grid
                     <img
                       src={imagePath}
                       key={imagePath}
+                      width={1200}
+                      height={580}
                       alt=''
                       className='object-contain overflow-hidden w-full h-full max-h-[70vh] rounded-xl'
                     />

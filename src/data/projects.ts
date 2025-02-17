@@ -54,7 +54,7 @@ export const projectsList: Project[] = [
     ],
     repository: '',
     deploy: 'https://console-revamp-two.vercel.app',
-    imagesPath: ['assets/projects/consol-revamp.png'],
+    imagesPath: ['assets/projects/consol-revamp.webp'],
   },
   {
     title: 'projects.forumRoleplay.title',

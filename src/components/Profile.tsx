@@ -1,5 +1,5 @@
 import * as Tooltip from '@radix-ui/react-tooltip'
-import ProfilePicture from '/assets/profile-picture.png'
+import ProfilePicture from '/assets/profile-picture.webp'
 
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '@/components/ui/hover-card'
 import { contacts } from '@/constants/contacts'
@@ -20,6 +20,8 @@ export const Profile = () => {
             src={ProfilePicture}
             alt={'Guilherme Viana'}
             className='object-contain mx-auto rounded-lg lg:w-full lg:h-auto'
+            width={292}
+            height={292}
           />
 
           <div className='justify-end hidden -mt-2 -mr-1 lg:flex'>
@@ -103,7 +105,7 @@ export const Profile = () => {
                   <Tooltip.Trigger asChild>
                     <li>
                       <i key={index} className='flex items-center w-7 h-7 lg:w-9 lg:h-9'>
-                        <img src={item.iconPath} alt={t(item.name)} />
+                        <img width={32} height={32} src={item.iconPath} alt={t(item.name)} />
                       </i>
                     </li>
                   </Tooltip.Trigger>
