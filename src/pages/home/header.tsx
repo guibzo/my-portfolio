@@ -11,6 +11,7 @@ import {
 } from '@/components/ui/dropdown-menu'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useSearchParams } from 'react-router-dom'
 
 const ptBRLanguage = {
   name: 'Português',
@@ -25,8 +26,9 @@ const enUSLanguage = {
 
 export const Header = () => {
   const { i18n, t } = useTranslation()
+  const [searchParams, setSearchParams] = useSearchParams()
   const [language, setLanguage] = useState(() => {
-    const storedLanguage = localStorage.getItem('language')
+    const storedLanguage = searchParams.get('locale')
     return storedLanguage ? storedLanguage : i18n.language
   })
 
@@ -36,7 +38,7 @@ export const Header = () => {
   const changeToLanguage = (language: string) => {
     i18n.changeLanguage(language)
 
-    localStorage.setItem('language', language)
+    setSearchParams({ locale: language })
     setLanguage(language)
   }
 
