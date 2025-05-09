@@ -4,7 +4,7 @@
       "about": "About",
       "projects": "Projects"
     },
-    "footer": "© Last updated at: 02/13/2025",
+    "footer": "© Last updated at: 05/09/2025",
     "profile": {
       "title": "Front-end/Mobile Developer",
       "contacts": "Contacts",
@@ -60,6 +60,18 @@
       "chamaNoVar": {
         "title": "Chama no Var",
         "description": "A challenge involving the recreation, adaptation, and improvement of a page inspired by the Varsel Agency landing page."
+      },
+      "lowPixel": {
+        "title": "LowPixel",
+        "description": "A platform built for a GTA roleplay server, including a landing page, online store, account settings panel, and other features."
+      },
+      "ginteChallenge": {
+        "title": "Ginte Challenge",
+        "description": "A full-stack challenge focused on building a modern, efficient, and scalable CRUD. Includes loading states, URL-based pagination, filters, search, real-time editing, caching, and more."
+      },
+      "gameInventory": {
+        "title": "Game Inventory",
+        "description": "A game inventory system with item categorization, advanced filtering, player trading system, and password-protected chests."
       },
       "cashtrade": {
         "title": "Cashtrade",

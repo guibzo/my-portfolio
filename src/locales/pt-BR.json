@@ -4,7 +4,7 @@
       "about": "Sobre",
       "projects": "Projetos"
     },
-    "footer": "© Atualizado pela última vez em: 13/02/2025",
+    "footer": "© Atualizado pela última vez em: 09/05/2025",
     "profile": {
       "title": "Desenvolvedor Front-end/Mobile",
       "contacts": "Contatos",
@@ -44,7 +44,6 @@
       "deploy": "Deploy",
       "readMore": "Ler mais",
       "readLess": "Ler menos",
-
       "consoleRevamp": {
         "title": "Console Revamp",
         "description": "Um console para operações internas de uma equipe de um servidor de Roleplay. Contém métricas e analíticas do servidor, ferramentas de gerenciamento dos usuários e membros da equipe, além de um dashboard com gráficos ilustrativos."
@@ -60,6 +59,20 @@
       "chamaNoVar": {
         "title": "Chama no Var",
         "description": "Um desafio de recriação, adaptação e melhoria de uma página inspirada na landing page da Varsel Agency."
+      },
+      "lowPixel": {
+        "title": "LowPixel",
+        "description": "Plataforma desenvolvida para um servidor de roleplay de GTA, incluindo landing page, loja virtual, painel de configurações de conta e outras funcionalidades."
+      },
+
+      "ginteChallenge": {
+        "title": "Ginte Challenge",
+        "description": "Desafio full-stack com foco em um CRUD moderno, eficiente e escalável. Conta com estados de carregamento, paginação via URL, filtros, busca, edição em tempo real, cache e mais."
+      },
+
+      "gameInventory": {
+        "title": "Game Inventory",
+        "description": "Sistema de inventário de um jogo com categorização, filtros avançados, sistema de trocas entre jogadores e baús protegidos por senha."
       },
       "cashtrade": {
         "title": "Cashtrade",

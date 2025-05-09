@@ -362,6 +362,71 @@ export const projectsList: Project[] = [
     ],
   },
   {
+    title: 'projects.lowPixel.title',
+    description: 'projects.lowPixel.description',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Aceternity UI',
+        iconPath: Icon.aceternityUiIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'GitHub',
+        iconPath: Icon.githubIconPath,
+      },
+      {
+        name: 'technologies.responsivity',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: '',
+    deploy: '',
+    imagesPath: [
+      'assets/projects/lowpixel-lp-1.webp',
+      'assets/projects/lowpixel-lp-2.webp',
+      'assets/projects/lowpixel-lp-3.webp',
+      'assets/projects/lowpixel-lp-4.webp',
+      'assets/projects/lowpixel-lp-5.webp',
+      'assets/projects/lowpixel-lp-6.webp',
+      'assets/projects/lowpixel-lp-7.webp',
+      'assets/projects/lowpixel-lp-8.webp',
+      'assets/projects/lowpixel-lp-9.webp',
+      'assets/projects/lowpixel-lp-10.webp',
+      'assets/projects/lowpixel-lp-11.webp',
+    ],
+  },
+  {
     title: 'projects.thoughts.title',
     description: 'projects.thoughts.description',
     technologies: [
@@ -499,6 +564,113 @@ export const projectsList: Project[] = [
     repository: '',
     deploy: 'https://81mc-rocket.vercel.app',
     imagesPath: ['assets/projects/hamc.webp'],
+  },
+  {
+    title: 'projects.gameInventory.title',
+    description: 'projects.gameInventory.description',
+    technologies: [
+      {
+        name: 'React',
+        iconPath: Icon.reactIconPath,
+      },
+      {
+        name: 'Vite',
+        iconPath: Icon.viteIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'MobX',
+        iconPath: Icon.mobxIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+    ],
+    repository: '',
+    deploy: '',
+    imagesPath: [
+      'assets/projects/inventory-1.webp',
+      'assets/projects/inventory-2.webp',
+      'assets/projects/inventory-3.webp',
+    ],
+  },
+  {
+    title: 'projects.ginteChallenge.title',
+    description: 'projects.ginteChallenge.description',
+    technologies: [
+      {
+        name: 'Next.js',
+        iconPath: Icon.nextjsIconPath,
+      },
+      {
+        name: 'TypeScript',
+        iconPath: Icon.typescriptIconPath,
+      },
+      {
+        name: 'Prisma',
+        iconPath: Icon.prismaIconPath,
+      },
+      {
+        name: 'SQLite',
+        iconPath: Icon.sqliteIconPath,
+      },
+      {
+        name: 'Zod',
+        iconPath: Icon.zodIconPath,
+      },
+      {
+        name: 'React Hook Form',
+        iconPath: Icon.reactHookFormIconPath,
+      },
+      {
+        name: 'TailwindCSS',
+        iconPath: Icon.tailwindCSSIconPath,
+      },
+      {
+        name: 'shadcn/ui',
+        iconPath: Icon.shadcnIconPath,
+      },
+      {
+        name: 'Origin UI',
+        iconPath: Icon.originUiIconPath,
+      },
+      {
+        name: 'HTML 5',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'Git',
+        iconPath: Icon.gitIconPath,
+      },
+      {
+        name: 'technologies.responsivity',
+        iconPath: Icon.responsiveIconPath,
+      },
+    ],
+    repository: '',
+    deploy: '',
+    imagesPath: [
+      'assets/projects/ginte-1.webp',
+      'assets/projects/ginte-2.webp',
+      'assets/projects/ginte-3.webp',
+      'assets/projects/ginte-4.webp',
+    ],
   },
   {
     title: 'projects.portfolio.title',
