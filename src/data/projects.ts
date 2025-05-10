@@ -663,7 +663,7 @@ export const projectsList: Project[] = [
         iconPath: Icon.responsiveIconPath,
       },
     ],
-    repository: '',
+    repository: 'https://github.com/guibzo/ginte-challenge',
     deploy: '',
     imagesPath: [
       'assets/projects/ginte-1.webp',
